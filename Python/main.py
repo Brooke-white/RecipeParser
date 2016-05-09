@@ -30,6 +30,14 @@ class RecipeParse(object):
             self.title, self.url, self.img_url, ingredients_table, instruction_list
         )
 
+    def seperate_recipes(self):
+        """
+        for each url in url list (rename self.url to self.urls and make it a list)
+
+        seprate each type of recipes and return a list, then call respective sub class and generate .md for each
+        :return:
+        """
+
     def lets_get_soup(self):
         """
         Gets BeautifulSoup object from url
@@ -104,14 +112,14 @@ class RecipeParse(object):
         :return:
         """
 
-    def make_markup(contents, title):
+    def make_markup(self):
         try:
-            title = ''.join(c for c in title if 0 < ord(c) < 127)
+            self.title = ''.join(c for c in self.title if 0 < ord(c) < 127)
             x = str(os.path.dirname(os.path.dirname(__file__)) +
-                    "/Recipes/" + title + ".md")
+                    "/Recipes/" + self.title + ".md")
             file = open(x, "w")
-            file.write(contents)
-        except IOError as e:
+            file.write(self.__str__())
+        except IOError:
             raise IOError
         file.close()
         return True
