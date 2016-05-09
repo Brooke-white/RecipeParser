@@ -4,14 +4,40 @@ from urllib import request
 import os.path
 
 
-def lets_get_soup(url):
+class RecipeParse(object):
+    def __init__(self, url):
+        self.url = url
+        self.soup = self.lets_get_soup()
+        self.title = ''
+        self.img_url = ''
+        self.recipe_yield = ''
+        self.ingredients = {}
+        self.instructions = []
+
+    def __str__(self):
+        ingredients_table = ''
+        instruction_list = ''
+
+        for ingredient, amount in self.ingredients.items():
+            ingredients_table += "|" + ''.join(amount) + "|" + \
+                                 ingredient + "|\n"
+
+        for step in self.instructions:
+            instruction_list += "\n\n* " + step
+
+        return "#[{}]({})\n![alt text]({})\n###Ingredients\n|Quantity|Ingredient|" \
+               "\n----------:|:-------\n{}\n###Instructions{}".format(
+            self.title, self.url, self.img_url, ingredients_table, instruction_list
+        )
+
+    def lets_get_soup(self):
         """
         Gets BeautifulSoup object from url
         :return: False or BeautifulSoup object
         """
         try:
             # pretend to be Firefox
-            req = urllib.request.Request(url,
+            req = urllib.request.Request(self.url,
                                          headers={'User-Agent': 'Mozilla/5.0'})
             with urllib.request.urlopen(req) as url_file:
                 url_byte = url_file.read()
@@ -42,32 +68,58 @@ def lets_get_soup(url):
             return False
         return BeautifulSoup.BeautifulSoup(url_string, "html.parser")
 
+    def set_recipe_title(self):
+        """
+        Gets recipe title from recipe
+        :return: None
+        """
 
-class Food52Parse:
+    def set_recipe_img(self):
+        """
+        Sets recipe image using url
+        :return: None
+        """
+
+    def set_recipe_yield(self):
+        """
+        Gets recipe yield (serving size) from Food52 recipe
+        :return: None
+        """
+
+    def set_ingredients(self):
+        """
+        Sets ingredient dict from Food52.com {"ingredient": "quantity"}
+        :return: None
+        """
+
+    def set_instructions(self):
+        """
+        Sets instructions for Food52.com recipe
+        :return:
+        """
+
+    def set_recipe_contents(self):
+        """
+        Sets all recipe elements
+        :return:
+        """
+
+    def make_markup(contents, title):
+        try:
+            title = ''.join(c for c in title if 0 < ord(c) < 127)
+            x = str(os.path.dirname(os.path.dirname(__file__)) +
+                    "/Recipes/" + title + ".md")
+            file = open(x, "w")
+            file.write(contents)
+        except IOError as e:
+            raise IOError
+        file.close()
+        return True
+
+
+class Food52Parse(RecipeParse):
     def __init__(self, url):
-        self.url = url
-        self.soup = lets_get_soup(url)
-        self.title = ''
-        self.img_url = ''
-        self.recipe_yield = ''
-        self.ingredients = {}
-        self.instructions = []
-
-    def __str__(self):
-        ingredients_table = ''
-        instruction_list = ''
-
-        for ingredient, amount in self.ingredients.items():
-            ingredients_table += "|" + ''.join(amount) + "|" + \
-                                 ingredient + "|\n"
-
-        for step in self.instructions:
-            instruction_list += "\n\n* " + step
-
-        return "#[{}]({})\n![alt text]({})\n###Ingredients\n|Quantity|Ingredient|" \
-               "\n----------:|:-------\n{}\n###Instructions{}".format(
-            self.title, self.url, self.img_url, ingredients_table, instruction_list
-        )
+        super(Food52Parse, self).__init__(url)
 
     def set_recipe_title(self):
         """
@@ -142,26 +194,89 @@ class Food52Parse:
         self.set_instructions()
 
 
-def make_markup(contents, title):
-    try:
-        title = ''.join(c for c in title if 0 < ord(c) < 127)
-        x = str(os.path.dirname(os.path.dirname(__file__)) +
-                "/Recipes/" + title + ".md")
-        file = open(x, "w")
-        file.write(contents)
-    except IOError as e:
-        raise IOError
-    file.close()
-    return True
+class AllRecipesParse(RecipeParse):
+    def __init__(self, url):
+        super(AllRecipesParse, self).__init__(url)
+        self.ingredients = []
 
-file = "/Users/brooke/Desktop/recipes.txt"
-with open(file, 'r') as f:
-    content = f.read().splitlines()
+    def __str__(self):
+            ingredients_table = ''
+            instruction_list = ''
 
-for url in content:
-    thisrecipe = Food52Parse(url)
-    thisrecipe.set_recipe_contents()
-    try:
-        make_markup(thisrecipe.__str__(), thisrecipe.title)
-    except IOError as e:
-        print(thisrecipe.title, "\tFILE NOT CREATED:\t", e.__str__())
+            for ingredient in self.ingredients:
+                ingredients_table += "|" + ''.join(ingredient) +  "|\n"
+
+            for step in self.instructions:
+                instruction_list += "\n\n* " + step
+
+            return "#[{}]({})\n![alt text]({})\n###Ingredients\n|Ingredient|" \
+                   "\n|:-------|\n{}\n###Instructions{}".format(
+                self.title, self.url, self.img_url, ingredients_table, instruction_list
+            )
+
+    def set_recipe_title(self):
+        """
+        Gets recipe title from Food52.com recipe
+        :return: None
+        """
+        self.title = self.soup.find(
+            "h1", {"class": "recipe-summary__h1"}).text.strip()
+
+    def set_recipe_img(self):
+        """
+        Sets recipe image using url
+        :return: None
+        """
+        self.img_url = self.soup.find(
+            "img", {"class": "rec-photo"})['src']
+
+    def set_ingredients(self):
+        """
+        Sets ingredient dict from Food52.com {"ingredient": "quantity"}
+        :return: None
+        """
+        # find all for multi-part recipes
+        self.ingredients = [
+            ingredient.text.strip() for ingredient in self.soup.findAll(
+                "span", {"class": "recipe-ingred_txt added"})
+                ]
+
+    def set_instructions(self):
+        """
+        Sets instructions for Food52.com recipe
+        :return:
+        """
+        self.instructions = [
+            step.text for step in self.soup.findAll(
+                "span", {"class": "recipe-directions__list--item"}) if step.text
+            ]
+
+    def set_recipe_contents(self):
+        """
+        Sets all class variables.
+        :return: None
+        """
+        self.set_recipe_title()
+        self.set_recipe_img()
+        self.set_ingredients()
+        self.set_instructions()
+
+
+link = "http://allrecipes.com/recipe/7958/pumpkin-chocolate-chip-muffins/"
+
+thisrecipe = AllRecipesParse(link)
+thisrecipe.set_recipe_contents()
+print(thisrecipe.__str__())
+
+#file = "/Users/brooke/Desktop/recipes.txt"
+#with open(file, 'r') as f:
+#    content = f.read().splitlines()
+
+#for url in content:
+#    thisrecipe = Food52Parse(url)
+#    thisrecipe.set_recipe_contents()
+#    try:
+#        thisrecipe.make_markup(thisrecipe.__str__(), thisrecipe.title)
+#    except IOError as e:
+#        print(thisrecipe.title, "\tFILE NOT CREATED:\t", e.__str__())
+
