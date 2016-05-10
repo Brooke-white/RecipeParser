@@ -102,10 +102,14 @@ class RecipeParse(object):
         :return: True or IOError is raised
         """
         file = ''
+        directory = os.path.dirname(os.path.dirname(__file__)) + "/Recipes1/"
+
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+
         try:
             self.title = ''.join(c for c in self.title if 0 < ord(c) < 127)
-            x = str(os.path.dirname(os.path.dirname(__file__)) +
-                    "/Recipes1/" + self.title + ".md")
+            x = str(directory + self.title + ".md")
             file = open(x, "w")
             file.write(self.__str__())
         except IOError:
