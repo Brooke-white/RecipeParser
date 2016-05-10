@@ -1,4 +1,4 @@
-import bs4 as BeautifulSoup
+import bs4 as bs
 import urllib
 from urllib import request
 import os.path
@@ -6,6 +6,11 @@ import os.path
 
 class RecipeParse(object):
     def __init__(self, url):
+        """
+        Generates generic RecipeParse object
+        :param url: Input url
+        :return: None
+        """
         self.url = url
         self.soup = self.lets_get_soup()
         self.title = ''
@@ -15,27 +20,9 @@ class RecipeParse(object):
         self.instructions = []
 
     def __str__(self):
-        ingredients_table = ''
-        instruction_list = ''
-
-        for ingredient, amount in self.ingredients.items():
-            ingredients_table += "|" + ''.join(amount) + "|" + \
-                                 ingredient + "|\n"
-
-        for step in self.instructions:
-            instruction_list += "\n\n* " + step
-
-        return "#[{}]({})\n![alt text]({})\n###Ingredients\n|Quantity|Ingredient|" \
-               "\n----------:|:-------\n{}\n###Instructions{}".format(
-            self.title, self.url, self.img_url, ingredients_table, instruction_list
-        )
-
-    def seperate_recipes(self):
         """
-        for each url in url list (rename self.url to self.urls and make it a list)
-
-        seprate each type of recipes and return a list, then call respective sub class and generate .md for each
-        :return:
+        Generates markup styled string
+        :return: None
         """
 
     def lets_get_soup(self):
@@ -55,11 +42,7 @@ class RecipeParse(object):
         except urllib.request.URLError as e:  # General Error
             print(e.__str__())
             return False
-        except urllib.error.ContentTooShortError as e:
-            # not all data retrieved
-            print(e.__str__())
-            return False
-        except OSError as e:  # Vauge Error
+        except OSError as e:  # Vague Error
             print(e.__str__())
             return False
         except Exception as e:  # Anything
@@ -67,14 +50,15 @@ class RecipeParse(object):
             return False
 
         try:
-            url_string = url_byte.decode('UTF-8')
+            url_string = url_byte.decode(encoding='latin1').encode(
+                encoding='utf-8')
         except UnicodeDecodeError as e:
             print(e.__str__())
             return False
         except Exception as e:
             print(e.__str__())
             return False
-        return BeautifulSoup.BeautifulSoup(url_string, "html.parser")
+        return bs.BeautifulSoup(url_string, "html.parser")
 
     def set_recipe_title(self):
         """
@@ -113,28 +97,69 @@ class RecipeParse(object):
         """
 
     def make_markup(self):
+        """
+        Creates and writes markup styled recipe to a file
+        :return: True or IOError is raised
+        """
+        file = ''
         try:
             self.title = ''.join(c for c in self.title if 0 < ord(c) < 127)
             x = str(os.path.dirname(os.path.dirname(__file__)) +
-                    "/Recipes/" + self.title + ".md")
+                    "/Recipes1/" + self.title + ".md")
             file = open(x, "w")
             file.write(self.__str__())
         except IOError:
             raise IOError
-        file.close()
+        except:
+            raise Exception
+        finally:
+            if file:
+                try:
+                    file.close()
+                except IOError:
+                    raise IOError
+                except Exception:
+                    raise Exception
         return True
 
 
 class Food52Parse(RecipeParse):
     def __init__(self, url):
+        """
+        Generates Food52Parse object
+        :param url: Input String of form 52food.com/recipes/xxx
+        :return: None
+        """
         super(Food52Parse, self).__init__(url)
+
+    def __str__(self):
+        """
+        Generates markup styled string
+        :return: None
+        """
+        ingredients_table = ''
+        instruction_list = ''
+
+        for ingredient, amount in self.ingredients.items():
+            ingredients_table += "|" + ''.join(amount) + "|" + \
+                                 ingredient + "|\n"
+
+        for step in self.instructions:
+            instruction_list += "\n\n* " + step
+
+        return "#[{}]({})\n![alt text]({})\n###Ingredients\n|Quantity|" \
+               "Ingredient|\n----------:|:-------\n{}\n###Instructions{}" \
+               "".format(self.title, self.url, self.img_url, ingredients_table,
+                         instruction_list)
 
     def set_recipe_title(self):
         """
         Gets recipe title from Food52.com recipe
         :return: None
         """
-        self.title = self.soup.find("h1", {"class": "article-header-title"}).text.strip()
+        self.title = self.soup.find(
+            "h1", {"class": "article-header-title"}
+        ).text.strip()
 
     def set_recipe_img(self):
         """
@@ -149,7 +174,7 @@ class Food52Parse(RecipeParse):
         Gets recipe yield (serving size) from Food52 recipe
         :return: None
         """
-        self.recipe_yield =self.soup.find("p", itemprop="recipeYield")
+        self.recipe_yield = self.soup.find("p", itemprop="recipeYield")
 
     def set_ingredients(self):
         """
@@ -195,32 +220,48 @@ class Food52Parse(RecipeParse):
             ]
 
     def set_recipe_contents(self):
-        self.set_recipe_title()
-        self.set_recipe_img()
-        self.set_recipe_yield()
-        self.set_ingredients()
-        self.set_instructions()
+        """
+        Sets all class variables in prep for make_markup()
+        :return: None
+        """
+        if self.soup:
+            self.set_recipe_title()
+            self.set_recipe_img()
+            self.set_recipe_yield()
+            self.set_ingredients()
+            self.set_instructions()
+        else:
+            raise Exception("Unset class variables")
 
 
 class AllRecipesParse(RecipeParse):
     def __init__(self, url):
+        """
+        Generates AllRecipesParse object
+        :param url: Input String of form allrecipes.com/recipe/xxx
+        :return: None
+        """
         super(AllRecipesParse, self).__init__(url)
         self.ingredients = []
 
     def __str__(self):
-            ingredients_table = ''
-            instruction_list = ''
+        """
+        Generates markup styled string
+        :return: None
+        """
+        ingredients_table = ''
+        instruction_list = ''
 
-            for ingredient in self.ingredients:
-                ingredients_table += "|" + ''.join(ingredient) +  "|\n"
+        for ingredient in self.ingredients:
+            ingredients_table += "|" + ''.join(ingredient) + "|\n"
 
-            for step in self.instructions:
-                instruction_list += "\n\n* " + step
+        for step in self.instructions:
+            instruction_list += "\n\n* " + step
 
-            return "#[{}]({})\n![alt text]({})\n###Ingredients\n|Ingredient|" \
-                   "\n|:-------|\n{}\n###Instructions{}".format(
-                self.title, self.url, self.img_url, ingredients_table, instruction_list
-            )
+        return "#[{}]({})\n![alt text]({})\n###Ingredients\n|Ingredient|" \
+               "\n|:-------|\n{}\n###Instructions{}".format(
+                self.title, self.url, self.img_url, ingredients_table,
+                instruction_list)
 
     def set_recipe_title(self):
         """
@@ -252,39 +293,77 @@ class AllRecipesParse(RecipeParse):
     def set_instructions(self):
         """
         Sets instructions for Food52.com recipe
-        :return:
+        :return: None
         """
         self.instructions = [
             step.text for step in self.soup.findAll(
-                "span", {"class": "recipe-directions__list--item"}) if step.text
+                "span", {"class": "recipe-directions__list--item"}
+            ) if step.text
             ]
 
     def set_recipe_contents(self):
         """
-        Sets all class variables.
+        Sets all class variables in prep for make_markup()
         :return: None
         """
-        self.set_recipe_title()
-        self.set_recipe_img()
-        self.set_ingredients()
-        self.set_instructions()
+        if self.soup:
+            self.set_recipe_title()
+            self.set_recipe_img()
+            self.set_ingredients()
+            self.set_instructions()
+        else:
+            raise Exception("Unset class variables")
 
 
-link = "http://allrecipes.com/recipe/7958/pumpkin-chocolate-chip-muffins/"
+def read_input_file(file):
+    content = []
+    try:
+        with open(file, 'r') as f:
+            content = f.read().splitlines()
+    except IOError:
+        raise IOError
+    return content
 
-thisrecipe = AllRecipesParse(link)
-thisrecipe.set_recipe_contents()
-print(thisrecipe.__str__())
 
-#file = "/Users/brooke/Desktop/recipes.txt"
-#with open(file, 'r') as f:
-#    content = f.read().splitlines()
+def main(file):
+    try:
+        content = read_input_file(file=file)
+    except IOError as e:
+        print("UNABLE TO OPEN FILE: ", e)
 
-#for url in content:
-#    thisrecipe = Food52Parse(url)
-#    thisrecipe.set_recipe_contents()
-#    try:
-#        thisrecipe.make_markup(thisrecipe.__str__(), thisrecipe.title)
-#    except IOError as e:
-#        print(thisrecipe.title, "\tFILE NOT CREATED:\t", e.__str__())
+    count = 0
 
+    for url in content:
+        if "food52" in url:
+            thisrecipe = Food52Parse(url)
+            thisrecipe.set_recipe_contents()
+            try:
+                thisrecipe.make_markup()
+                count += 1
+            except IOError as e:
+                print(thisrecipe.title, "\tFILE NOT CREATED:\t", e.__str__())
+            except Exception as e:
+                print(thisrecipe.title, "\tFILE NOT CREATED:\t", e.__str__())
+
+        if "allrecipes" in url:
+            thatrecipe = AllRecipesParse(url)
+            thatrecipe.set_recipe_contents()
+            try:
+                thatrecipe.make_markup()
+                count += 1
+            except IOError as e:
+                print(thatrecipe.title, "\tFILE NOT CREATED:\t", e.__str__())
+            except Exception as e:
+                print(thatrecipe.title, "\tFILE NOT CREATED:\t", e.__str__())
+
+    if count == len(content):
+        return True
+    else:
+        return False
+
+file = "/Users/brooke/Desktop/recipes.txt"
+
+if main(file):
+    print("Success")
+else:
+    print("Not all markup files were generated")
