@@ -445,35 +445,21 @@ def main(file):
         if "food52" in url:
             thisrecipe = Food52Parse(url)
             thisrecipe.set_recipe_contents()
-            try:
-                thisrecipe.make_markup()
-                count += 1
-            except IOError as e:
-                print(thisrecipe.title, "\tFILE NOT CREATED:\t", e.__str__())
-            except Exception as e:
-                print(thisrecipe.title, "\tFILE NOT CREATED:\t", e.__str__())
 
         if "allrecipes" in url:
-            thatrecipe = AllRecipesParse(url)
-            thatrecipe.set_recipe_contents()
-            try:
-                thatrecipe.make_markup()
-                count += 1
-            except IOError as e:
-                print(thatrecipe.title, "\tFILE NOT CREATED:\t", e.__str__())
-            except Exception as e:
-                print(thatrecipe.title, "\tFILE NOT CREATED:\t", e.__str__())
+            thisrecipe = AllRecipesParse(url)
+            thisrecipe.set_recipe_contents()
 
         if "food.com" in url:
-            therecipe = FoodDotComParse(url)
-            therecipe.set_recipe_contents()
-            try:
-                therecipe.make_markup()
-                count += 1
-            except IOError as e:
-                print(thatrecipe.title, "\tFILE NOT CREATED:\t", e.__str__())
-            except Exception as e:
-                print(thatrecipe.title, "\tFILE NOT CREATED:\t", e.__str__())
+            thisrecipe = FoodDotComParse(url)
+            thisrecipe.set_recipe_contents()
+        try:
+            thisrecipe.make_markup()
+            count += 1
+        except IOError as e:
+            print(thisrecipe.title, "\tFILE NOT CREATED:\t", e.__str__())
+        except Exception as e:
+            print(thisrecipe.title, "\tFILE NOT CREATED:\t", e.__str__())
 
     if count == len(content):
         return True
