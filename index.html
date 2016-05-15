@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>RecipeParser by Brooke-white</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/Brooke-white/RecipeParser">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>RecipeParser</h1>
+            <h2>Organize your favorite recipes in a markup recipe book!</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/Brooke-white/RecipeParser/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/Brooke-white/RecipeParser/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a id="my-recipes" class="anchor" href="#my-recipes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>[My Recipes]</h1>
+
+<h2>
+<a id="about" class="anchor" href="#about" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About</h2>
+
+<p>A python script that parses recipe websites to create markup files with essential recipe information, like ingredients, instructions, and a photo of course! I made this so I can keep all of my favorite recipes organized in a psuedo recipe book. </p>
+
+<h2>
+<a id="dependencies" class="anchor" href="#dependencies" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Dependencies</h2>
+
+<p>BeautifulSoup4 (pip install bs4)</p>
+
+<h2>
+<a id="supported-recipe-websites" class="anchor" href="#supported-recipe-websites" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Supported Recipe Websites</h2>
+
+<ul>
+<li><p><a href="https://www.Food52.com/">Food52</a></p></li>
+<li><p><a href="https://www.allrecipes.com/">AllRecipes</a></p></li>
+<li><p><a href="http://www.food.com/">Food.com</a></p></li>
+</ul>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>file: A text file containing recipe urls from the supported websites</p>
+
+<pre><code>file = "/Users/you/anywhere/recipes.txt"
+main(file)
+</code></pre>
+
+<p>If generating the markup files is a success you will see a success message, otherwise you'll see which markup files weren't generated and the corresponding error messages.</p>
+
+<h4>
+<a id="recipestxt" class="anchor" href="#recipestxt" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>recipes.txt</h4>
+
+<pre><code>http://food52.com/recipes/31276-oatmeal-cream-pies#comments
+http://www.food.com/recipe/tsr-version-of-benihana-japanese-onion-soup-by-todd-wilbur-391952
+http://allrecipes.com/recipe/41460/sweet-corn-tomalito/
+</code></pre>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/Brooke-white">Brooke-white</a> can be found on <a href="https://github.com/Brooke-white/RecipeParser">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
