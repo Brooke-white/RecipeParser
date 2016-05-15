@@ -453,13 +453,16 @@ def main(file):
         if "food.com" in url:
             thisrecipe = FoodDotComParse(url)
             thisrecipe.set_recipe_contents()
-        try:
-            thisrecipe.make_markup()
-            count += 1
-        except IOError as e:
-            print(thisrecipe.title, "\tFILE NOT CREATED:\t", e.__str__())
-        except Exception as e:
-            print(thisrecipe.title, "\tFILE NOT CREATED:\t", e.__str__())
+        if thisrecipe:
+            try:
+                thisrecipe.make_markup()
+                count += 1
+            except IOError as e:
+                print(thisrecipe.title, "\tFILE NOT CREATED:\t", e.__str__())
+            except Exception as e:
+                print(thisrecipe.title, "\tFILE NOT CREATED:\t", e.__str__())
+        else:
+            print("UNSUPPORTED URL:\t", url)
 
     if count == len(content):
         return True
