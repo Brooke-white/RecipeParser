@@ -364,7 +364,7 @@ class FoodDotComParse(RecipeParse):
 
     def set_ingredients(self):
         """
-        Sets ingredient dict from Food52.com {"ingredient": "quantity"}
+        Sets ingredient list from Food52.com
         :return: None
         """
         self.ingredients = ast.literal_eval(self.soup.find("input", {
@@ -376,8 +376,8 @@ class FoodDotComParse(RecipeParse):
         :return:
         """
         self.instructions = [
-            str(step.string) for step in self.soup.find("ol")
-            if str(step.string.replace('\n', ''))
+            step.string for step in self.soup.find("ol")
+            if step.string.replace('\n', '')
             ]
 
     def set_recipe_contents(self):
@@ -391,6 +391,8 @@ class FoodDotComParse(RecipeParse):
             self.set_recipe_yield()
             self.set_ingredients()
             self.set_instructions()
+        else:
+            raise Exception("Unset class variables")
 
     def make_markup(self):
         """
@@ -423,6 +425,88 @@ class FoodDotComParse(RecipeParse):
         return True
 
 
+class CookingNYTimesParse(RecipeParse):
+    def __init__(self, url):
+        """
+        Generates CookingNYTimesParse object
+        :param url: Input String of form 52food.com/recipes/xxx
+        :return: None
+        """
+        super(CookingNYTimesParse, self).__init__(url)
+        self.ingredients = []
+
+    def __str__(self):
+        """
+        Generates markup styled string
+        :return: None
+        """
+        ingredients_table = ''
+        instruction_list = ''
+
+        for ingredient in self.ingredients:
+            ingredients_table += "|" + ingredient + "|\n"
+
+        for step in self.instructions:
+            instruction_list += "\n\n* " + step
+
+        return "#[{}]({})\n![alt text]({})\n###Ingredients\n|Ingredient|" \
+               "\n|:-------\n{}\n###Instructions{}" \
+               "".format(self.title, self.url, self.img_url, ingredients_table,
+                         instruction_list)
+
+    def set_recipe_title(self):
+        """
+        Gets recipe title from Food52.com recipe
+        :return: None
+        """
+        self.title = self.soup.find(
+            "h1", {"class": "recipe-title title name"}
+        ).text.strip()
+
+    def set_recipe_img(self):
+        """
+        Sets recipe image using url
+        :return: None
+        """
+        self.img_url = self.soup.find(
+            "meta", itemprop="thumbnailUrl")['content']
+
+    def set_ingredients(self):
+        """
+        Sets ingredient dict from Food52.com {"ingredient": "quantity"}
+        :return: None
+        """
+        self.ingredients = [
+            x.text.replace("\n", ' ') for x in self.soup.findAll(
+                "li", itemprop="recipeIngredient")
+            ]
+
+    def set_instructions(self):
+        """
+        Sets instructions for Food52.com recipe
+        :return:
+        """
+        self.instructions = [
+            x.string.replace("\n", '') for x in self.soup.find(
+                "ol", itemprop="recipeInstructions")
+            if x.string.replace("\n", '')
+            ]
+
+    def set_recipe_contents(self):
+        """
+        Sets all class variables in prep for make_markup()
+        :return: None
+        """
+        if self.soup:
+            self.set_recipe_title()
+            self.set_recipe_img()
+            self.set_recipe_yield()
+            self.set_ingredients()
+            self.set_instructions()
+        else:
+            raise Exception("Unset class variables")
+
+
 def read_input_file(file):
     content = []
     try:
@@ -453,6 +537,11 @@ def main(file):
         if "food.com" in url:
             thisrecipe = FoodDotComParse(url)
             thisrecipe.set_recipe_contents()
+
+        if "nytimes" in url:
+            thisrecipe = CookingNYTimesParse(url)
+            thisrecipe.set_recipe_contents()
+
         if thisrecipe:
             try:
                 thisrecipe.make_markup()
