@@ -2,6 +2,7 @@ import bs4 as bs
 import urllib
 from urllib import request
 import os.path
+import ast
 
 
 class RecipeParse(object):
@@ -102,7 +103,7 @@ class RecipeParse(object):
         :return: True or IOError is raised
         """
         file = ''
-        directory = os.path.dirname(os.path.dirname(__file__)) + "/Recipes1/"
+        directory = os.path.dirname(os.path.dirname(__file__)) + "/Recipes/"
 
         if not os.path.exists(directory):
             os.makedirs(directory)
@@ -319,6 +320,109 @@ class AllRecipesParse(RecipeParse):
             raise Exception("Unset class variables")
 
 
+class FoodDotComParse(RecipeParse):
+    def __init__(self, url):
+        super(FoodDotComParse, self).__init__(url)
+        self.ingredients = []
+
+    def __str__(self):
+        """
+        Generates markup styled string
+        :return: None
+        """
+
+        ingredients_table = ''
+        instruction_list = ''
+
+        for ingredient in self.ingredients:
+            ingredients_table += "|" + ''.join(ingredient) + "|\n"
+
+        for step in self.instructions:
+            instruction_list += "\n\n* " + step
+
+        return "#[{}]({})\n![alt text]\n({})\n###Ingredients\n" \
+               "|Ingredient|\n|:-------|\n{}\n###Instructions{}".format(
+                self.title, self.url, self.img_url,
+                ingredients_table, instruction_list
+        )
+
+    def set_recipe_title(self):
+        """
+        Gets recipe title from recipe
+        :return: None
+        """
+        self.title = self.soup.find(
+            "h1", {"class": "fd-recipe-title"}).text.strip()
+
+    def set_recipe_img(self):
+        """
+        Sets recipe image using url
+        :return: None
+        """
+        self.img_url = self.soup.find(
+            "img", {"class": "slide-photo"})['data-src']
+
+    def set_ingredients(self):
+        """
+        Sets ingredient dict from Food52.com {"ingredient": "quantity"}
+        :return: None
+        """
+        self.ingredients = ast.literal_eval(self.soup.find("input", {
+            "name": "ingredient"})['value'])
+
+    def set_instructions(self):
+        """
+        Sets instructions for Food52.com recipe
+        :return:
+        """
+        self.instructions = [
+            str(step.string) for step in self.soup.find("ol")
+            if str(step.string.replace('\n', ''))
+            ]
+
+    def set_recipe_contents(self):
+        """
+        Sets all recipe elements
+        :return:
+        """
+        if self.soup:
+            self.set_recipe_title()
+            self.set_recipe_img()
+            self.set_recipe_yield()
+            self.set_ingredients()
+            self.set_instructions()
+
+    def make_markup(self):
+        """
+        Creates and writes markup styled recipe to a file
+        :return: True or IOError is raised
+        """
+        file = ''
+        directory = os.path.dirname(os.path.dirname(__file__)) + "/Recipes/"
+
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+
+        try:
+            self.title = ''.join(c for c in self.title if 0 < ord(c) < 127)
+            x = str(directory + self.title + ".md")
+            file = open(x, "w")
+            file.write(self.__str__())
+        except IOError:
+            raise IOError
+        except:
+            raise Exception
+        finally:
+            if file:
+                try:
+                    file.close()
+                except IOError:
+                    raise IOError
+                except Exception:
+                    raise Exception
+        return True
+
+
 def read_input_file(file):
     content = []
     try:
@@ -354,6 +458,17 @@ def main(file):
             thatrecipe.set_recipe_contents()
             try:
                 thatrecipe.make_markup()
+                count += 1
+            except IOError as e:
+                print(thatrecipe.title, "\tFILE NOT CREATED:\t", e.__str__())
+            except Exception as e:
+                print(thatrecipe.title, "\tFILE NOT CREATED:\t", e.__str__())
+
+        if "food.com" in url:
+            therecipe = FoodDotComParse(url)
+            therecipe.set_recipe_contents()
+            try:
+                therecipe.make_markup()
                 count += 1
             except IOError as e:
                 print(thatrecipe.title, "\tFILE NOT CREATED:\t", e.__str__())
