@@ -3,25 +3,25 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
+|1/3|cup water|
+|8|ounces pad thai rice noodles|
+|1|tablespoon tamarind paste|
+|1/4|cup lime juice|
+|1|tablespoon olive oil|
+|2|teaspoons toasted sesame oil, divided|
 |1 1/2|tablespoons sriracha (or to taste)|
 |1|tablespoon grated ginger|
-|1|large carrot, cut into thin strips|
-|1 1/2|cups mung bean sprouts|
-|2|teaspoons toasted sesame oil, divided|
-|3|tablespoons tamari, divided into 2 tablespoons and 1 tablespoon|
-|1|tablespoon olive oil|
-|8|ounces pad thai rice noodles|
-|1/4|cup peanuts, chopped|
-||Lime slices, for garnish|
-|1|14- to 16-ounce block of extra firm tofu, drained|
-|1|tablespoon tamarind paste|
-|1|clove garlic, minced|
-|4|green onions, halved lengthwise and cut into 1-inch pieces|
 |6|tablespoons almond butter|
-|1/4|cup lime juice|
-|1/3|cup water|
+|3|tablespoons tamari, divided into 2 tablespoons and 1 tablespoon|
+|1|clove garlic, minced|
+|1|large carrot, cut into thin strips|
+|4|green onions, halved lengthwise and cut into 1-inch pieces|
+|1/4|cup peanuts, chopped|
 |2|tablespoons maple syrup|
+||Lime slices, for garnish|
+|1 1/2|cups mung bean sprouts|
 |1/2|cup cilantro, chopped|
+|1|14- to 16-ounce block of extra firm tofu, drained|
 
 ###Instructions
 

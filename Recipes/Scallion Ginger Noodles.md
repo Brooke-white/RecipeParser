@@ -3,23 +3,23 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|1|tablespoon Bragg's Liquid Aminos (or tamari)|
-|One|12-ounce package of fresh yakisoba noodles|
-|1|teaspoon cracked black pepper|
-|1|tablespoon toasted sesame oil|
-|1|block extra-firm tofu|
-|2|tablespoons ponzu sauce|
-||Salt to taste|
-|2|tablespoons cilantro, chopped|
-|1|tablespoon agave or honey|
-|1|tablespoon black sesame seeds|
-|2|teaspoons rice vinegar|
-|4|tablespoons freshly grated ginger|
-|1|tablespoon hoisin sauce|
-|1|bunch scallions, sliced|
-|1|bell pepper, sliced|
 ||Juice of one lime|
+|2|teaspoons rice vinegar|
+|One|12-ounce package of fresh yakisoba noodles|
+||Salt to taste|
 |2|tablespoons neutral-tasting oil (I used Camelina)|
+|1|tablespoon hoisin sauce|
+|1|bell pepper, sliced|
+|1|tablespoon toasted sesame oil|
+|1|teaspoon cracked black pepper|
+|1|bunch scallions, sliced|
+|2|tablespoons cilantro, chopped|
+|2|tablespoons ponzu sauce|
+|4|tablespoons freshly grated ginger|
+|1|block extra-firm tofu|
+|1|tablespoon black sesame seeds|
+|1|tablespoon Bragg's Liquid Aminos (or tamari)|
+|1|tablespoon agave or honey|
 
 ###Instructions
 

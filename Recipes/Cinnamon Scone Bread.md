@@ -3,21 +3,21 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|1|large egg|
-|1/2|cup currants|
-|4|tablespoons all-purpose flour|
 |4|tablespoons granulated sugar|
+|6|tablespoons chilled unsalted butter, cut into cubes|
+|1/4|cup granulated sugar, plus more for sprinkling on top of loaf|
+|2 1/2|cups (11 1/4 ounces or 319 grams) all-purpose unbleached flour|
+|4|tablespoons brown sugar|
+|4|tablespoons all-purpose flour|
+|1/2|cup currants|
+|3/4|teaspoon kosher salt|
 |1|cup heavy cream, plus more for brushing on dough|
+|2|teaspoons cinnamon|
+|1/2|teaspoon cinnamon, cocoa powder, or espresso powder|
+|1 1/2|teaspoons pure vanilla extract|
 |1|tablespoon baking powder|
 |1|tablespoon heavy cream|
-|1/2|teaspoon cinnamon, cocoa powder, or espresso powder|
-|4|tablespoons brown sugar|
-|2|teaspoons cinnamon|
-|2 1/2|cups (11 1/4 ounces or 319 grams) all-purpose unbleached flour|
-|3/4|teaspoon kosher salt|
-|1/4|cup granulated sugar, plus more for sprinkling on top of loaf|
-|1 1/2|teaspoons pure vanilla extract|
-|6|tablespoons chilled unsalted butter, cut into cubes|
+|1|large egg|
 
 ###Instructions
 

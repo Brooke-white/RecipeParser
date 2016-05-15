@@ -3,21 +3,21 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
+|4|cups vegetable and/or miso broth (I used a combination of both)|
+|1|large piece (3 to 4 centimeters) ginger, peeled|
+|3|garlic cloves, finely chopped|
+|2|spring onions, finely sliced|
+|3 to 5|(depending on size) dried shiitake|
 |22|tablespoons soy sauce|
-|2|spring onions, finely chopped|
-||Sriracha hot sauce, chili powder, soy sauce, sesame, vinegar and other condiments – to taste  other additions, like ramen noodles, extra shiitake, carrots (julienned), spinach leaves or snap peas|
-|1|packet gyoza or wonton skins|
 |1|teaspoon Sriracha hot sauce or other chili sauce|
+|2|spring onions, finely chopped|
+|1|packet gyoza or wonton skins|
+||Sriracha hot sauce, chili powder, soy sauce, sesame, vinegar and other condiments – to taste  other additions, like ramen noodles, extra shiitake, carrots (julienned), spinach leaves or snap peas|
+|2|carrots, peeled and julienned|
 |1|piece (2 centimeters) ginger, peeled and grated|
 |1|cup shiitake mushrooms, finely chopped|
-|4|cups vegetable and/or miso broth (I used a combination of both)|
-|1|cup baby spinach leaves, washed|
-|2|spring onions, finely sliced|
-|2|carrots, peeled and julienned|
-|3 to 5|(depending on size) dried shiitake|
 |2|bok choy|
-|3|garlic cloves, finely chopped|
-|1|large piece (3 to 4 centimeters) ginger, peeled|
+|1|cup baby spinach leaves, washed|
 
 ###Instructions
 

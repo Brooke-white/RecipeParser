@@ -3,11 +3,11 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|1|large egg|
-|2|slices soft bread, like white or potato|
-|1 to 2|teaspoons mayonnaise|
 ||Sea Salt|
+|1 to 2|teaspoons mayonnaise|
+|2|slices soft bread, like white or potato|
 ||Freshly ground pepper|
+|1|large egg|
 |1 to 2|slices sharp white cheddar cheese or your favorite melty cheese|
 
 ###Instructions

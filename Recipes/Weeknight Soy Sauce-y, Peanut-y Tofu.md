@@ -3,17 +3,17 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-||A touch of lemon or lime|
-|2|tablespoons rice vinegar|
-||Cooking oil|
-|2|blocks of tofu, extra firm or firm|
-|1|teaspoon fresh ginger, minced|
-|1/2|teaspoon roasted sesame oil|
-|3/4|cup unsalted peanuts, whole or halved, roasted or raw (see above)|
-|3/4|cup soy sauce|
 |2|tablespoons Shaoxing wine|
-|1|tablespoon molasses|
+|3/4|cup unsalted peanuts, whole or halved, roasted or raw (see above)|
+|1/2|teaspoon roasted sesame oil|
+|2|tablespoons rice vinegar|
+||A touch of lemon or lime|
+||Cooking oil|
+|3/4|cup soy sauce|
+|1|teaspoon fresh ginger, minced|
 |2|onions, thinly sliced|
+|1|tablespoon molasses|
+|2|blocks of tofu, extra firm or firm|
 
 ###Instructions
 

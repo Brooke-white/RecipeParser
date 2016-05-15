@@ -3,17 +3,17 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-||2/3 cup unsalted pepitas|
-||2/3 cup pumpkin puree|
-||1 teaspoon pumpkin pie spice|
-||1/4 cup of water|
-|3/4|teaspoon fleur de sel|
 ||1 teaspoon lemon juice|
+|3/4|teaspoon fleur de sel|
+||2/3 cup unsalted pepitas|
 ||1/3 cup good maple syrup|
-|1 1/2|cups heavy cream|
-||2 cups white sugar|
+||2/3 cup pumpkin puree|
 ||4 tablespoons unsalted butter, cut in chunks|
+||2 cups white sugar|
+||1/4 cup of water|
 ||1/2 cups light corn syrup|
+|1 1/2|cups heavy cream|
+||1 teaspoon pumpkin pie spice|
 
 ###Instructions
 

@@ -4,20 +4,20 @@
 |Quantity|Ingredient|
 ----------:|:-------
 |1|teaspoon ground cinnamon|
-|1/4|teaspoon allspice|
-|1/2|cup sugar|
 |1/2|cup whole milk, at room temperature|
-|1/4|teaspoon nutmeg|
-|1/2|teaspoon salt|
-|1|pinch ground ginger|
-|1 1/2|cups all purpose flour|
 |1|large egg, at room temperature|
-|1|teaspoon orange zest|
-|1|pinch ground cloves|
-|1/2|cup granulated sugar|
-|1/3|cup unsalted butter|
+|1 1/2|cups all purpose flour|
+|1|pinch ground ginger|
+|1/2|teaspoon salt|
 |6|tablespoons butter, melted|
+|1/2|cup granulated sugar|
+|1/4|teaspoon allspice|
+|1/3|cup unsalted butter|
 |1 1/2|teaspoons baking powder|
+|1/4|teaspoon nutmeg|
+|1|pinch ground cloves|
+|1/2|cup sugar|
+|1|teaspoon orange zest|
 
 ###Instructions
 

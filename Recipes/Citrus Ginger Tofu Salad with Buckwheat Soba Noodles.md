@@ -3,28 +3,28 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|1 1/2|cups lacinato kale, de-ribbed and cut into ribbons|
-||Zest of 1 lime|
-||Sea salt to taste|
-|1|package extra firm tofu|
-||Juice of 1/2 lime|
-|1/2|package Eden Buckwheat Soba Noodles|
-|1/8|cup toasted sesame oil|
-|3|tablespoons seasoned rice vinegar|
-||Leftover marinade|
-|1|teaspoon finely grated ginger|
-|1/4|teaspoon cayenne pepper|
-|1/8|cup tamari|
-|1/81/8|cup orange juice|
-|1/3|cup cilantro, chopped|
-|1|clove garlic|
-|2|teaspoons maple syrup|
-|1|large carrot, peeled and cut into matchsticks|
 |1/2|cup green cabbage, shredded|
-|8|basil leaves, chopped|
-|1|stalk broccoli, florets only|
-|1/8|cup extra virgin olive oil|
 |1|tablespoon sesame seeds, toasted|
+|1|clove garlic|
+|1/8|cup tamari|
+|8|basil leaves, chopped|
+||Juice of 1/2 lime|
+||Zest of 1 lime|
+|1/2|package Eden Buckwheat Soba Noodles|
+||Leftover marinade|
+|1|package extra firm tofu|
+|1/4|teaspoon cayenne pepper|
+|1/8|cup toasted sesame oil|
+|1/81/8|cup orange juice|
+|3|tablespoons seasoned rice vinegar|
+|2|teaspoons maple syrup|
+|1 1/2|cups lacinato kale, de-ribbed and cut into ribbons|
+||Sea salt to taste|
+|1|stalk broccoli, florets only|
+|1|large carrot, peeled and cut into matchsticks|
+|1/3|cup cilantro, chopped|
+|1/8|cup extra virgin olive oil|
+|1|teaspoon finely grated ginger|
 
 ###Instructions
 

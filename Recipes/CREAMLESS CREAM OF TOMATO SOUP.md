@@ -3,17 +3,17 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|1|small onion, diced|
-|1 1/2|cups Vegetable Broth|
-|3/4|teaspoon Salt, more or less, to taste|
-|1|Slice of Bread, crusts removed, torn|
-|3|Cloves Garlic, minced, about 1 1/2 teaspoons|
-||Freshly Ground Black Pepper, optional, to taste|
-|2|pounds Assorted Heirloom Tomatoes, I used Black From Tula, Snow White Cherry, Roma & Riesentraube, diced (or one large 30 oz can)|
-|1|Bay Leaf|
-||Fresh Basil, chopped, optional for garnish|
 |1|teaspoon Brown Sugar|
+|3/4|teaspoon Salt, more or less, to taste|
+||Freshly Ground Black Pepper, optional, to taste|
+|1|Slice of Bread, crusts removed, torn|
 |3|tablespoons Olive Oil|
+|2|pounds Assorted Heirloom Tomatoes, I used Black From Tula, Snow White Cherry, Roma & Riesentraube, diced (or one large 30 oz can)|
+|1 1/2|cups Vegetable Broth|
+|3|Cloves Garlic, minced, about 1 1/2 teaspoons|
+|1|small onion, diced|
+||Fresh Basil, chopped, optional for garnish|
+|1|Bay Leaf|
 
 ###Instructions
 

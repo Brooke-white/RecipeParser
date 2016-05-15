@@ -3,12 +3,12 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|1|ounce dried shitakes (or a handful of fresh shitakes or Maitakes)|
-|1-2|chopped scallions|
-|1|sheet kombu-style seaweed (or 1oz shredded)|
-|1|egg, poached|
 |6|cups cold water|
+|1|ounce dried shitakes (or a handful of fresh shitakes or Maitakes)|
 |1|leek, washed and sliced|
+|1-2|chopped scallions|
+|1|egg, poached|
+|1|sheet kombu-style seaweed (or 1oz shredded)|
 
 ###Instructions
 

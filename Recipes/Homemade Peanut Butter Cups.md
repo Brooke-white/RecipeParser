@@ -3,12 +3,12 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|1/3|cup light brown sugar|
 |1|teaspoon coarse sea salt (or more, to taste; I used Sichuan salt)|
+|1/3|cup light brown sugar|
 |4|tablespoons unsalted butter|
-|32|ounces high-quality chocolate (use milk chocolate if you'd like to truly mimic the classic flavor)|
-|3/4|cup powdered sugar|
 |1|cup creamy  unsalted peanut butter|
+|3/4|cup powdered sugar|
+|32|ounces high-quality chocolate (use milk chocolate if you'd like to truly mimic the classic flavor)|
 
 ###Instructions
 

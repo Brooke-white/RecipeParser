@@ -3,12 +3,12 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|6 to 8|baby Yukon Gold potatoes (any long and narrow waxy heirloom will work), based on skillet size|
-|8|tablespoons unsalted butter, melted|
-|4|garlic cloves, minced|
-||Salt and pepper, to taste|
-|4|tablespoons finely minced herbs (I use parsley, rosemary, and thyme.)|
 |4|tablespoons grated Parmesan (optional)|
+|6 to 8|baby Yukon Gold potatoes (any long and narrow waxy heirloom will work), based on skillet size|
+||Salt and pepper, to taste|
+|8|tablespoons unsalted butter, melted|
+|4|tablespoons finely minced herbs (I use parsley, rosemary, and thyme.)|
+|4|garlic cloves, minced|
 
 ###Instructions
 

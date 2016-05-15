@@ -3,17 +3,17 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|1/4|cup chopped chives|
-|6|sprigs thyme|
-|3|tablespoons olive oil|
-|1|pound cremini mushrooms, cleaned, stems separated from caps|
-|1/4|cup Cognac|
-|1/4|cup whipping cream|
-|1|sprig rosemary|
-|1|pound mixed mushrooms, cleaned, stems separated from caps|
-|4|cups rich homemade chicken stock|
 |1/2|cup minced shallot|
+|3|tablespoons olive oil|
+|1|sprig rosemary|
+|1/4|cup whipping cream|
+|1|pound mixed mushrooms, cleaned, stems separated from caps|
+|6|sprigs thyme|
 ||Salt and pepper, to taste|
+|1|pound cremini mushrooms, cleaned, stems separated from caps|
+|1/4|cup chopped chives|
+|1/4|cup Cognac|
+|4|cups rich homemade chicken stock|
 
 ###Instructions
 

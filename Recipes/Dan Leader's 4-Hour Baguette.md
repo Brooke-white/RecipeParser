@@ -3,12 +3,12 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|1/2|cup ice cubes|
-|3|teaspoons (3/8 ounces) Diamond Crystal kosher salt (note: if using a fine-grained salt like table salt, fine sea salt or other brands of kosher salt, you will need to use a smaller volume)|
-||Canola oil, for greasing bowl|
-|3 1/4|cups (14 2/3 ounces) all-purpose flour|
 |1|teaspoon (1/8 ounce) active dry yeast|
+|1/2|cup ice cubes|
 |1 1/2|cups (12 ounces) tap water, heated to 115° F|
+|3 1/4|cups (14 2/3 ounces) all-purpose flour|
+||Canola oil, for greasing bowl|
+|3|teaspoons (3/8 ounces) Diamond Crystal kosher salt (note: if using a fine-grained salt like table salt, fine sea salt or other brands of kosher salt, you will need to use a smaller volume)|
 
 ###Instructions
 

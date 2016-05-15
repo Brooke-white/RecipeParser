@@ -3,15 +3,15 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
+|1/2|pound ground pork|
+|6|cups stock or water|
+|1|tablespoon ginger, minced|
 |1|tablespoon neutral oil|
+|7|ounces soft tofu, chopped into cubes|
+|2|cups kimchi|
+||Green onion, to serve|
 |4|cloves garlic, minced|
 ||Soy sauce, to taste|
-||Green onion, to serve|
-|2|cups kimchi|
-|6|cups stock or water|
-|1/2|pound ground pork|
-|7|ounces soft tofu, chopped into cubes|
-|1|tablespoon ginger, minced|
 
 ###Instructions
 

@@ -3,19 +3,19 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|2|cups water or vegetable broth|
+|12-14|cloves garlic confit|
 |1|cup diced carrot|
 |1|cup dried white beans|
-|1|parmesan rind|
-||extra virgin olive oil|
 |1-2|heads garlic|
-|12-14|cloves garlic confit|
+|1/2|cup ditalini, tubetti, or other small soup pasta|
+||extra virgin olive oil|
 ||Kosher or sea salt|
+|2|cups leeks, sliced into thin half-moons|
+|2|cups water or vegetable broth|
+|1-2|sprigs fresh marjoram, savory, rosemary, or thyme, or a few large fresh sage leaves|
 |6-8|small red-skinned potatoes, quartered|
 |2|tablespoons garlic-infused oil (from confit), or extra virgin olive oil|
-|1-2|sprigs fresh marjoram, savory, rosemary, or thyme, or a few large fresh sage leaves|
-|1/2|cup ditalini, tubetti, or other small soup pasta|
-|2|cups leeks, sliced into thin half-moons|
+|1|parmesan rind|
 
 ###Instructions
 

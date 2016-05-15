@@ -3,23 +3,23 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|1/2|cup fresh Thai basil|
-|1|scallion, sliced on the bias|
-|1|tablespoon vegetable oil|
-|1|cup chopped red bell pepper|
-|1/2|package firm tofu, cut into bite-sized pieces (1/2- to 1-inch)|
-|1|tablespoon dark soy sauce|
-|2|teaspoons light soy sauce|
-|1/4|white onion, sliced|
 |3|cups cooked rice, cooled|
 |2|tablespoons vegetable oil|
-|3|cloves garlic, minced|
-|1|lime|
+|1|scallion, sliced on the bias|
+|1/2|package firm tofu, cut into bite-sized pieces (1/2- to 1-inch)|
+|1/2|cup fresh Thai basil|
+|1|cup chopped red bell pepper|
 |2|teaspoons finely diced white onion|
+|2|teaspoons light soy sauce|
+|1/4|white onion, sliced|
+|1|tablespoon dark soy sauce|
 |3|Thai chile peppers, chopped|
+|1|tablespoon vegetable oil|
 |1|tablespoon fish sauce|
-|1|tablespoon oyster sauce|
 |1 1/2|tablespoons granulated sugar|
+|1|tablespoon oyster sauce|
+|1|lime|
+|3|cloves garlic, minced|
 
 ###Instructions
 

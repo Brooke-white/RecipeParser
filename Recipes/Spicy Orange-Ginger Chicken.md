@@ -3,20 +3,20 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|2|teaspoons orange zest|
-|2|tablespoons minced fresh garlic|
-|1/4|teaspoon ground white pepper|
-|1/4|cup low-sodium soy sauce|
+||Brown rice, white rice or quinoa for serving|
+|1/4|cup sliced green onions|
+|1 1/4|pounds boneless, skinless chicken breasts, cut into thin strips|
+|2|teaspoons light brown sugar|
 |1|tablespoon cornstarch|
 |2|tablespoons sriracha (or more to taste)|
-|1/4|cup sliced green onions|
-||Brown rice, white rice or quinoa for serving|
-|1 1/2|tablespoons rice vinegar|
-|1 1/4|cups orange juice (preferably fresh)|
+|2|tablespoons minced fresh garlic|
+|2|teaspoons orange zest|
 |2|tablespoons olive oil, divided|
+|1 1/4|cups orange juice (preferably fresh)|
 |3|tablespoons grated fresh ginger|
-|2|teaspoons light brown sugar|
-|1 1/4|pounds boneless, skinless chicken breasts, cut into thin strips|
+|1/4|teaspoon ground white pepper|
+|1/4|cup low-sodium soy sauce|
+|1 1/2|tablespoons rice vinegar|
 
 ###Instructions
 

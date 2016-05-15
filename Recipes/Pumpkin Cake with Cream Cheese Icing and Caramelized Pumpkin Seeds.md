@@ -3,23 +3,23 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|1|tablespoon sugar|
-|2 1/2|cups powdered sugar|
-|1|teaspoon freshly grated nutmeg|
-|3/4|teaspoon salt|
-|3|large eggs, at room temperature, yolks and whites separated|
-|9|tablespoons butter, divided, at room temperature|
-|1 1/3|cups sugar|
 |1|tablespoon plus 1 teaspoon ground cinnamon|
 |1/2|teaspoon baking soda|
-|1|cup vegetable or canola oil|
-|1|cup plus 2 tablespoons (9 ounces) pumpkin purée|
+|1|tablespoon sugar|
+|9|tablespoons butter, divided, at room temperature|
+|3|large eggs, at room temperature, yolks and whites separated|
+|1|teaspoon freshly grated nutmeg|
 ||Pinch of cinnamon|
+|1 2/3|cups all-purpose flour|
+|2 1/2|cups powdered sugar|
 |8|ounces cream cheese, at room temperature|
+|1|cup plus 2 tablespoons (9 ounces) pumpkin purée|
 |1/4|teaspoon ground cloves|
 |1/2|cup pumpkin seeds (raw or toasted)|
-|1 2/3|cups all-purpose flour|
 |1 1/2|teaspoons baking powder|
+|1|cup vegetable or canola oil|
+|1 1/3|cups sugar|
+|3/4|teaspoon salt|
 
 ###Instructions
 

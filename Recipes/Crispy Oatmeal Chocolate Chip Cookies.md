@@ -3,19 +3,19 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|1|teaspoon ground cinnamon|
-|1|large egg|
-|1/4|teaspoon freshly ground nutmeg|
-|1|teaspoon vanilla extract|
-|1|cup packed light brown sugar|
-|1/2|cup granulated sugar|
 |1|teaspoon baking soda|
-|2|cups semisweet chocolate chips or chunks|
-|1 1/4|cups all-purpose flour|
-|3|cups rolled oats|
-|2|sticks unsalted butter, softened|
-|1|teaspoon kosher salt|
+|1/4|teaspoon freshly ground nutmeg|
+|1|cup packed light brown sugar|
 |1/8|teaspoon allspice|
+|2|cups semisweet chocolate chips or chunks|
+|1|teaspoon vanilla extract|
+|1|teaspoon kosher salt|
+|1|teaspoon ground cinnamon|
+|1 1/4|cups all-purpose flour|
+|2|sticks unsalted butter, softened|
+|1/2|cup granulated sugar|
+|3|cups rolled oats|
+|1|large egg|
 
 ###Instructions
 

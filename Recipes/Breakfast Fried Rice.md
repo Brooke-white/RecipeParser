@@ -3,16 +3,16 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|1/4|teaspoon crushed red pepper flakes|
-|1|tablespoon sesame oil|
 |2|eggs|
-|1|tablespoon sesame seeds, toasted|
-|3|green onions, thinly sliced|
-|1/3|cup low-sodium soy sauce|
-|1|tablespoon unsalted butter|
-|5|slices of bacon|
-|1|tablespoon rice vinegar|
 |3|cups day-old cooked rice, at room temperature|
+|1/3|cup low-sodium soy sauce|
+|1|tablespoon sesame oil|
+|1|tablespoon unsalted butter|
+|1|tablespoon sesame seeds, toasted|
+|1|tablespoon rice vinegar|
+|5|slices of bacon|
+|3|green onions, thinly sliced|
+|1/4|teaspoon crushed red pepper flakes|
 
 ###Instructions
 

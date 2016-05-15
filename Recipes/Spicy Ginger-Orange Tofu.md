@@ -3,21 +3,21 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|1/2|cup rice vinegar|
-|1|lb. extra-firm tofu, rinsed, well-drained, cut into 1" cubes|
-|2|tablespoons tamari|
-|2|inch peel of an orange|
-|2|tablespoons canola or vegetable oil|
-||(optional) 1 chili of your hotness-choice, diced|
-|1/4|cup fresh ginger, sliced & minced|
-|1|teaspoon sesame oil|
 |1/4|cup garlic, minced|
 |2|tablespoons corn starch|
-|2|teaspoons sesame seeds|
-||sea salt & cracked pepper|
-|1/2|cup scallions, chopped|
+|1/4|cup fresh ginger, sliced & minced|
 |1/4|cup brown sugar|
+|1/2|cup scallions, chopped|
+|1/2|cup rice vinegar|
+|2|tablespoons canola or vegetable oil|
+|2|tablespoons tamari|
+||sea salt & cracked pepper|
+|1|teaspoon sesame oil|
+|1|lb. extra-firm tofu, rinsed, well-drained, cut into 1" cubes|
+|2|teaspoons sesame seeds|
+|2|inch peel of an orange|
 |2|tablespoons freshly squeezed orange juice (keep 2 1" pieces of orange peel too)|
+||(optional) 1 chili of your hotness-choice, diced|
 
 ###Instructions
 

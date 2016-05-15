@@ -3,20 +3,20 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
+|2|tablespoons molasses|
+|1|teaspoon baking soda|
+|3|cups powdered sugar|
+|1|tablespoon bourbon|
+|1|cup brown sugar|
+|1 1/2|cups unsalted butter (3 sticks), room temperature|
+|1 1/22|teaspoons vanilla|
+|2|eggs|
+|2|cups all-purpose flour|
+|1/21/4|teaspoon salt|
+|3|tablespoons heavy cream|
 |2 1/2|cups rolled oats|
 |1/2|cup sugar|
-|3|cups powdered sugar|
 |1|cup unsalted butter (2 sticks)|
-|1 1/2|cups unsalted butter (3 sticks), room temperature|
-|1/21/4|teaspoon salt|
-|2|eggs|
-|1|teaspoon baking soda|
-|1|cup brown sugar|
-|1 1/22|teaspoons vanilla|
-|1|tablespoon bourbon|
-|3|tablespoons heavy cream|
-|2|cups all-purpose flour|
-|2|tablespoons molasses|
 
 ###Instructions
 

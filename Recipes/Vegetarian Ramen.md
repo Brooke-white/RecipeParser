@@ -3,27 +3,27 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|2|tablespoons bonito flakes (technically not vegetarian, but recommended for fish eaters)|
-|4|packets ramen or udon noodles, preferably fresh|
-|1|cup shoyu (Japanese soy sauce)|
-|1|tablespoon oil with high smoke point, like peanut|
-|1 to 2|squirts sriracha, or pinch of red pepper flakes|
-||Thai basil|
-|1/2|cup mirin|
-||Green onion, sliced|
-|4|eggs|
-|1|sheet kombu, wiped with a damp cloth|
-|2|stalks lemongrass, cut into thirds and smashed (optional)|
-|6 to 8|garlic cloves, smashed|
 |1|onion, cut in half (you can leave the skin on)|
-|1|packet extra-firm tofu, pressed of its moisture|
-|2|carrots, cut into thirds|
-|2|tablespoons brown sugar|
-||Lime wedges|
-|2|stalks celery, cut into thirds|
-|1|cup dried mushrooms, preferably shiittake|
 |8|cups cold water|
+||Thai basil|
+||Lime wedges|
+|1|cup dried mushrooms, preferably shiittake|
+|2|tablespoons bonito flakes (technically not vegetarian, but recommended for fish eaters)|
+|1|packet extra-firm tofu, pressed of its moisture|
+|1|sheet kombu, wiped with a damp cloth|
+|4|eggs|
+|6 to 8|garlic cloves, smashed|
+|1|cup shoyu (Japanese soy sauce)|
+|1/2|cup mirin|
+|1 to 2|squirts sriracha, or pinch of red pepper flakes|
+|2|stalks celery, cut into thirds|
+|2|tablespoons brown sugar|
+|2|carrots, cut into thirds|
+|4|packets ramen or udon noodles, preferably fresh|
+|1|tablespoon oil with high smoke point, like peanut|
 |One|2-inch section of ginger, smashed|
+||Green onion, sliced|
+|2|stalks lemongrass, cut into thirds and smashed (optional)|
 
 ###Instructions
 

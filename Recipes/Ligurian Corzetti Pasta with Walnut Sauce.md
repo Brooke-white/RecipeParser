@@ -3,16 +3,16 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|1/2|cup (125 milliliters) white wine, or as needed|
-|1|handful fresh marjoram leaves plus a few for garnish (sage is a lovely substitute)|
-|1|pinch salt plus 1 heaping teaspoon for cooking water, divided|
-|2 1/2|cups (about 300 grams) all-purpose flour|
-|3/4|cup (90 grams) finely grated Parmesan, divided|
-|1|pinch salt|
 |1|garlic clove, peeled|
-|5|ounces (150 grams) walnut halves|
-|1/3|cup (80 milliliters) extra-virgin olive oil|
+|2 1/2|cups (about 300 grams) all-purpose flour|
 |3|egg yolks from small (50 to 55 gram) eggs (if using larger eggs, try 2)|
+|1|pinch salt plus 1 heaping teaspoon for cooking water, divided|
+|1/2|cup (125 milliliters) white wine, or as needed|
+|5|ounces (150 grams) walnut halves|
+|3/4|cup (90 grams) finely grated Parmesan, divided|
+|1|handful fresh marjoram leaves plus a few for garnish (sage is a lovely substitute)|
+|1/3|cup (80 milliliters) extra-virgin olive oil|
+|1|pinch salt|
 
 ###Instructions
 

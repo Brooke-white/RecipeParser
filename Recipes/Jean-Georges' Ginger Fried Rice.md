@@ -3,15 +3,15 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|2|tablespoons minced garlic|
+|4|cups cooked rice, preferably jasmine, at room temperature (see note below)|
 |2|tablespoons minced ginger|
-|4|teaspoons soy sauce|
-||Salt|
+|1/2|cup peanut oil if you're Mark Bittman, chicken fat if you're Jean-Georges|
+|2|tablespoons minced garlic|
+|2|teaspoons sesame oil|
 |4|large eggs|
 |2|cups thinly sliced leeks, white and light green parts only, rinsed and dried|
-|4|cups cooked rice, preferably jasmine, at room temperature (see note below)|
-|2|teaspoons sesame oil|
-|1/2|cup peanut oil if you're Mark Bittman, chicken fat if you're Jean-Georges|
+|4|teaspoons soy sauce|
+||Salt|
 
 ###Instructions
 

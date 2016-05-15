@@ -3,17 +3,17 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
+|1|large cauliflower (washed & trimmed into bite size pieces)|
+||1/2 cup to 3/4 cup grated Romano cheese|
+||Salt and pepper to taste|
+||Fresh italian flat leaf parsley|
+||1/4 to 1/2 cup (or more if needed) whole milk|
 |2 to 3|small garlic cloves (peeled and finely chopped)|
 |3 to 4|shallots, peeled and chopped|
-||1/4 to 1/2 cup (or more if needed) whole milk|
-||1/2 cup shredded low moisture mozzarella|
-|1|large cauliflower (washed & trimmed into bite size pieces)|
-||Salt and pepper to taste|
-|3 to 4|large organic eggs|
 ||1/4 to 1/2 cup (or more if needed) unbleached baking flour|
-||1/2 cup to 3/4 cup grated Romano cheese|
-||Fresh italian flat leaf parsley|
 ||Light olive oil (for cooking)|
+||1/2 cup shredded low moisture mozzarella|
+|3 to 4|large organic eggs|
 
 ###Instructions
 

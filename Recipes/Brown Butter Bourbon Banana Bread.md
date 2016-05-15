@@ -3,18 +3,18 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|2/3|cup toasted, chopped pecans|
-|1/2|teaspoon salt|
-|2|large eggs|
-|2|cups flour|
-|1/2|teaspoon baking powder|
-|8|tablespoons butter|
-|1|teaspoon pure vanilla extract|
 |1/4|teaspoon baking soda|
-|1/2|cup buttermilk|
-|3|very ripe bananas|
-|1|tablespoon bourbon|
 |3/4|cup plus 1 tablespoon, brown sugar, divided|
+|1/2|cup buttermilk|
+|2|large eggs|
+|3|very ripe bananas|
+|1/2|teaspoon baking powder|
+|2|cups flour|
+|2/3|cup toasted, chopped pecans|
+|1|teaspoon pure vanilla extract|
+|1|tablespoon bourbon|
+|1/2|teaspoon salt|
+|8|tablespoons butter|
 
 ###Instructions
 

@@ -3,14 +3,14 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
+|2 1/2|cups cranberries|
+|2/3|cup apple cider|
+|1 1/2|teaspoons dry pectin (optional, but recommended)|
+|1/8|teaspoon nutmeg (optional)|
 ||juice of 1/2 a lemon|
 |1 1/2|cups sugar|
 |1|pinch cloves (optional)|
-|1 1/2|teaspoons dry pectin (optional, but recommended)|
-|2 1/2|cups cranberries|
-|2/3|cup apple cider|
 |1/4|teaspoon cinnamon (optional)|
-|1/8|teaspoon nutmeg (optional)|
 
 ###Instructions
 

@@ -3,19 +3,19 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|1/4|teaspoon coriander|
-|1|potato, peeled and diced|
-|2|cups cauliflower, chopped|
-|1/2|teaspoon salt|
-||Freshly ground pepper|
-|1|red pepper, cored and diced|
 |1|cup milk (you should probably have some fat in there; I'm a staunch skim milker and even I sprung for 2%)|
+|2|cups cauliflower, chopped|
 |1|clove garlic, minced (a GLOVE, I’m trying so hard to make that happen)|
+|1/4|teaspoon coriander|
 |1|tablespoon olive oil|
 |1/4|teaspoon cumin|
-|2|cups vegetable stock|
-||Grated Parmesan|
 |1|bay leaf|
+||Grated Parmesan|
+|2|cups vegetable stock|
+|1|potato, peeled and diced|
+|1|red pepper, cored and diced|
+||Freshly ground pepper|
+|1/2|teaspoon salt|
 
 ###Instructions
 

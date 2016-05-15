@@ -3,18 +3,18 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|1|teaspoon sugar|
-|1|teaspoon salt|
-|1/3|cup minced carrots (optional)|
-|1/3|cup soy sauce|
-|1|tablespoon rice wine vinegar|
-|1/4|cup minced bok choy (optional)|
-|2|cloves of garlic, minced|
 |1/2|small onion, finely chopped|
-|1|package square wonton wrappers|
-|1/2|cup vegetable oil, using more/less as needed|
 |1|pound ground pork|
+|1/3|cup soy sauce|
+|2|cloves of garlic, minced|
+|1|package square wonton wrappers|
+|1/3|cup minced carrots (optional)|
+|1/2|cup vegetable oil, using more/less as needed|
+|1|teaspoon sugar|
+|1/4|cup minced bok choy (optional)|
+|1|tablespoon rice wine vinegar|
 |2|teaspoons black pepper|
+|1|teaspoon salt|
 
 ###Instructions
 

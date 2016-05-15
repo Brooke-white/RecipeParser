@@ -4,15 +4,15 @@
 |Quantity|Ingredient|
 ----------:|:-------
 ||Salt and freshly ground pepper to taste|
-|2|cloves garlic, minced|
-|1 1/4|cups leek, thinly sliced crosswise (white and pale green parts only)|
-|1-2|tablespoons Italian parsley, chopped|
-||Zest of one lemon|
-|1|pound asparagus, woody ends trimmed and sliced into 2 inch pieces on the bias|
 |2|tablespoons toasted pine nuts|
-|1|tablespoon butter|
-|1|teaspoon orange zest|
+|1-2|tablespoons Italian parsley, chopped|
 |4|ounces pancetta, cut into 3/8 inch to 1/4 inch dice|
+|1 1/4|cups leek, thinly sliced crosswise (white and pale green parts only)|
+|1|teaspoon orange zest|
+|1|tablespoon butter|
+||Zest of one lemon|
+|2|cloves garlic, minced|
+|1|pound asparagus, woody ends trimmed and sliced into 2 inch pieces on the bias|
 
 ###Instructions
 

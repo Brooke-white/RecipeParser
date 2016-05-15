@@ -3,14 +3,14 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|2|tablespoons roughly chopped fresh parsley|
-|2|large heads cauliflower|
-|1/2|teaspoon coarse salt, divided|
+|1/4|teaspoon freshly ground black pepper|
+|2|cloves garlic, finely minced|
 ||Zest of 1 lemon|
 |1/4|cup plus 2 tablespoons olive oil, divided|
-|2|cloves garlic, finely minced|
+|2|large heads cauliflower|
+|2|tablespoons roughly chopped fresh parsley|
+|1/2|teaspoon coarse salt, divided|
 |1/2|cup panko (Japanese bread crumbs)|
-|1/4|teaspoon freshly ground black pepper|
 
 ###Instructions
 

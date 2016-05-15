@@ -3,16 +3,16 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
+|1/2-1|teaspoons kosher salt|
+|1-2|tablespoons olive oil|
 |12|small to medium Brussels Sprouts|
 |1|teaspoon lemon zest (optional)|
-|1/2-1|teaspoons onion powder|
 |1/2-1|teaspoons celery salt|
-|1/2-1|teaspoons garlic powder|
-|1-2|tablespoons olive oil|
-|1|tablespoon parmesan cheese grated or shreded (optional)|
-|1/2-1|teaspoons kosher salt|
-|1|handful crumbled bacon (optional)|
 |1/2-1|teaspoons cracked black pepper|
+|1|tablespoon parmesan cheese grated or shreded (optional)|
+|1|handful crumbled bacon (optional)|
+|1/2-1|teaspoons garlic powder|
+|1/2-1|teaspoons onion powder|
 
 ###Instructions
 

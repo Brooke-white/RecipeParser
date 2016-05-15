@@ -3,17 +3,17 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|1|small yellow onion, chopped|
-|1 1/2|teaspoons cumin powder|
-|1|clove garlic, minced|
 |1|teaspoon sea salt|
+|1/2|teaspoon smoked paprika|
+|1|small yellow onion, chopped|
+|1|tablespoon olive oil|
+|1 1/2|teaspoons cumin powder|
+|2/3|cup quick oats or bread crumbs, plus extra as needed|
+||Black pepper or red pepper flakes, to taste|
 |1|teaspoon chili powder|
 |3/4|cup fresh (or frozen and thawed) corn|
-|1|tablespoon olive oil|
+|1|clove garlic, minced|
 |3|cups (or 2 cans) cooked black beans, divided|
-|2/3|cup quick oats or bread crumbs, plus extra as needed|
-|1/2|teaspoon smoked paprika|
-||Black pepper or red pepper flakes, to taste|
 
 ###Instructions
 

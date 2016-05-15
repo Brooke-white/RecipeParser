@@ -3,17 +3,17 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|2 1/2-3|cups flour (unbleached all-purpose or bread flour)|
+|2|teaspoons active dry yeast|
+|2|tablespoons molasses|
 |1/2|cup butter cut into cubes|
 |1|tablespoon dark brown sugar|
-|3/4|cup rolled oats|
-|2|tablespoons molasses|
-|2|teaspoons active dry yeast|
-|3/4|cup milk|
 |1/4|cup lukewarm water|
+|2-3|tablespoons melted butter for brushing tops of rolls|
+|2 1/2-3|cups flour (unbleached all-purpose or bread flour)|
+|3/4|cup milk|
 |2|teaspoons salt|
 |1|egg|
-|2-3|tablespoons melted butter for brushing tops of rolls|
+|3/4|cup rolled oats|
 
 ###Instructions
 

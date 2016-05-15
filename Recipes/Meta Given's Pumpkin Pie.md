@@ -3,15 +3,15 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|1 3/4|cups canned or fresh cooked pumpkin puree|
 |1|teaspoon ground cinnamon|
-|3/4|cup sugar|
+|1 3/4|cups canned or fresh cooked pumpkin puree|
 ||Unbaked, unpricked, chilled 9-inch pie shell (we like lapadia's simple Himalayan Blackberry Pie crust, also on FOOD52)|
-|1/2|cup milk|
+|2|eggs|
 |1/2|teaspoon ground ginger|
+|1/2|cup milk|
+|3/4|cup sugar|
 |1|cup cream|
 |1/2|teaspoon salt|
-|2|eggs|
 
 ###Instructions
 

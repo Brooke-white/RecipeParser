@@ -3,26 +3,26 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|2/3|cup cooked corn (fresh or canned)|
-|1|tablespoon minced chipotles in adobo|
-||Kosher salt|
-|1|teaspoon olive oil|
-|1|large egg|
-|1|teaspoon honey|
-|1/2|teaspoon dijon mustard|
-|1|teaspoon minced chipotles in adobo|
-|1/2|cup fat-free Greek yogurt|
-|1 1/2|teaspoons ground cumin|
-|3|cloves garlic, minced|
-|1/2|teaspoon adobo sauce|
-|2|cans (15.5 ounces each) black beans, rinsed and drained|
-|1|small red onion, chopped|
-|1|cup rolled oats, ground into crumbs|
-|1/4|cup chopped cilantro|
 |1/2|cup quinoa|
-|2|tablespoons tomato paste|
-||Lettuce, avocado slices, and tomatoes, for topping (optional)|
+|1|small red onion, chopped|
+|2|cans (15.5 ounces each) black beans, rinsed and drained|
+||Kosher salt|
+|1|tablespoon minced chipotles in adobo|
+|1/4|cup chopped cilantro|
+|1/2|teaspoon dijon mustard|
 |6|multigrain hamburger rolls|
+|2|tablespoons tomato paste|
+|1/2|teaspoon adobo sauce|
+|1|teaspoon minced chipotles in adobo|
+|3|cloves garlic, minced|
+|1|teaspoon honey|
+|1/2|cup fat-free Greek yogurt|
+|1|cup rolled oats, ground into crumbs|
+|2/3|cup cooked corn (fresh or canned)|
+|1 1/2|teaspoons ground cumin|
+|1|large egg|
+|1|teaspoon olive oil|
+||Lettuce, avocado slices, and tomatoes, for topping (optional)|
 
 ###Instructions
 

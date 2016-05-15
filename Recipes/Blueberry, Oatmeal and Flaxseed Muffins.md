@@ -3,17 +3,17 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|2|large eggs, lightly beaten|
-|4|teaspoons ground cinnamon|
 |450|grams (5 1/2 cups) rolled oats|
+|2|large eggs, lightly beaten|
 |2|cups blueberries (or use other fresh berries, or dried berries)|
 |300|grams (1 1/2 cups) light brown sugar|
+|80|grams (2/3 cup plus 1 tablespoon) ground flaxseed|
 |280|grams (2 cups) whole wheat flour|
 |1|teaspoon baking powder|
+|4|teaspoons ground cinnamon|
 |1|cup neutral oil (vegetable, olive, and coconut are good choices)|
 |2|cups buttermilk|
 |4|teaspoons baking soda|
-|80|grams (2/3 cup plus 1 tablespoon) ground flaxseed|
 
 ###Instructions
 

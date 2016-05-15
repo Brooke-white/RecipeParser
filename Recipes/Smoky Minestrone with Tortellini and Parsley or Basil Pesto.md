@@ -3,28 +3,28 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|1|9-ounce package of high quality, all-natural cheese tortellini|
-|1|potato, peeled and chopped|
-|1|cup loosely packed basil or parsley|
-|1|large onion, peeled and chopped|
-|3|carrots, peeled and chopped|
-|4|cups vegetable or chicken stock, preferably homemade|
-|3|tablespoons olive oil|
-|1|15 oz. can of cooked chickpeas, preferably organic|
-|2|tablespoons pine nuts, toasted|
-|1|cup kale, chopped fine|
-|2|slices preservative-free, all-natural bacon, chopped into small pieces|
-|2|cloves garlic, peeled|
-|1|zucchini, chopped|
-|2|large cloves of garlic, minced|
-|1|tablespoon olive oil|
-||Grated parmesan cheese for garnish- optional|
-||Aged balsamic vinegar, for drizzling- optional|
-|1|28 oz. can of peeled San Marzano tomatoes, with juice|
-|2|ribs of celery, chopped|
-||Salt|
 |1|leek, trimmed and sliced thinly|
+|4|cups vegetable or chicken stock, preferably homemade|
+|1|tablespoon olive oil|
+|1|28 oz. can of peeled San Marzano tomatoes, with juice|
+|1|cup loosely packed basil or parsley|
+|2|cloves garlic, peeled|
+|2|large cloves of garlic, minced|
 |2|tablespoons grated Parmesan cheese|
+|1|large onion, peeled and chopped|
+||Salt|
+||Grated parmesan cheese for garnish- optional|
+|3|tablespoons olive oil|
+|1|9-ounce package of high quality, all-natural cheese tortellini|
+|1|zucchini, chopped|
+|1|cup kale, chopped fine|
+||Aged balsamic vinegar, for drizzling- optional|
+|2|tablespoons pine nuts, toasted|
+|2|ribs of celery, chopped|
+|1|potato, peeled and chopped|
+|3|carrots, peeled and chopped|
+|2|slices preservative-free, all-natural bacon, chopped into small pieces|
+|1|15 oz. can of cooked chickpeas, preferably organic|
 
 ###Instructions
 

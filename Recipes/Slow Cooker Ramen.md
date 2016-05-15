@@ -3,19 +3,19 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|1|2-in piece ginger, peeled and chopped|
-|8|Eggs, soft boiled|
-|8|cups Chicken broth (low-sodium preferred)|
-|1|Leek, halved lengthwise, and chopped|
-|1|Yellow onion, chopped|
-||Green onions, to serve|
-|3|pounds Boneless pork shoulder|
-|2|tablespoons Neutral oil|
-|6|Garlic cloves, crushed|
-|1 1/2|pounds Fresh ramen noodles|
-||Soy sauce, sesame oil to taste for serving|
-|1/4|pound Mushrooms, chopped|
 |2|cups Steamed veggies, like Bok Choy/ Mushrooms|
+|8|Eggs, soft boiled|
+||Green onions, to serve|
+|1 1/2|pounds Fresh ramen noodles|
+|2|tablespoons Neutral oil|
+|1|Yellow onion, chopped|
+|1|Leek, halved lengthwise, and chopped|
+|8|cups Chicken broth (low-sodium preferred)|
+|1/4|pound Mushrooms, chopped|
+|6|Garlic cloves, crushed|
+|3|pounds Boneless pork shoulder|
+|1|2-in piece ginger, peeled and chopped|
+||Soy sauce, sesame oil to taste for serving|
 
 ###Instructions
 

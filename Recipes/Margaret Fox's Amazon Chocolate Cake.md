@@ -3,16 +3,16 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|5|tablespoons neutral oil (like corn, canola, or vegetable)|
-|1|teaspoon baking soda|
-|1|cup sugar|
-|1|tablespoon cider or white vinegar|
-|1/3|cup unsweetened cocoa|
-|1/2|teaspoon salt|
 ||Confectioners' sugar (optional, for dusting)|
-|1 1/2|teaspoons vanilla|
+|1|teaspoon baking soda|
+|5|tablespoons neutral oil (like corn, canola, or vegetable)|
 |1|cup cold water|
+|1/3|cup unsweetened cocoa|
+|1|tablespoon cider or white vinegar|
+|1 1/2|teaspoons vanilla|
 |1 1/2|cups all-purpose flour|
+|1/2|teaspoon salt|
+|1|cup sugar|
 
 ###Instructions
 

@@ -3,16 +3,16 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|3/4|teaspoon baking soda|
 |1 1/4|cups dark chocolate chips (we prefer chocolate with 60 percent cocoa content or higher—double-check the ingredients if you want to make sure they're vegan)|
-||Coarse-grained sea salt or flaky sea salt like Maldon, for garnish|
-|2|cups (250 grams) all-purpose flour|
 |1/2|cup plus 1 tablespoon canola, grapeseed, or any other neutral oil|
-|1/2|teaspoon fine salt|
-|1|teaspoon baking powder|
-|1/2|cup (110 grams) packed light or dark brown sugar|
+|3/4|teaspoon baking soda|
 |1/4|cup plus 1 tablespoon water|
 |1/2|cup (100 grams) sugar|
+||Coarse-grained sea salt or flaky sea salt like Maldon, for garnish|
+|2|cups (250 grams) all-purpose flour|
+|1/2|teaspoon fine salt|
+|1/2|cup (110 grams) packed light or dark brown sugar|
+|1|teaspoon baking powder|
 
 ###Instructions
 

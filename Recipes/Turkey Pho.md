@@ -3,22 +3,22 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|1|cinnamon stick|
-|1|tablespoon fish sauce, or more to taste|
-|4|whole cloves|
-|1-2|cups kale, chopped into bite-sized pieces|
-|1|teaspoon brown sugar, or more to taste|
-|1|quart homemade turkey stock (or homemade or store-bought chicken stock)|
-|2|tablespoons coriander seeds|
-|1/2|pound leftover turkey breast, shredded|
-|1-2|tablespoons cilantro, chopped- for garnish (optional)|
-|1|3-inch chunk of ginger, sliced and smashed with side of knife|
-|1/2|lime, cut into wedges|
-|1|bunch green onions (green top parts only) chopped|
-||Sriracha chili sauce to taste|
-|1|bunch (approx. 2 oz.) cellophane/bean thread noodles (or enough flat dried rice noodles to serve 2)|
-|4|whole star anise|
 |1-2|tablespoons chopped green onions (white parts only), minced- for garnish (optional)|
+|1|cinnamon stick|
+|1/2|pound leftover turkey breast, shredded|
+|1|quart homemade turkey stock (or homemade or store-bought chicken stock)|
+|1-2|tablespoons cilantro, chopped- for garnish (optional)|
+|1|teaspoon brown sugar, or more to taste|
+|1/2|lime, cut into wedges|
+|1|tablespoon fish sauce, or more to taste|
+|1-2|cups kale, chopped into bite-sized pieces|
+|2|tablespoons coriander seeds|
+|1|bunch green onions (green top parts only) chopped|
+|1|bunch (approx. 2 oz.) cellophane/bean thread noodles (or enough flat dried rice noodles to serve 2)|
+|4|whole cloves|
+|4|whole star anise|
+|1|3-inch chunk of ginger, sliced and smashed with side of knife|
+||Sriracha chili sauce to taste|
 
 ###Instructions
 

@@ -3,24 +3,24 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|One|8-ounce can bamboo shoots, drained and thinly sliced|
-|1|medium carrot, shredded|
-||Boiling water for soaking the mushrooms|
-|2|tablespoons hoisin sauce|
-|1|tablespoon unseasoned rice vinegar|
-||Salt, to taste|
-|1|tablespoon cornstarch|
-||Water for sealing the rolls|
-|1|ounce dried shiitake mushrooms|
-|4|celery stalks, shredded or finely diced|
-|1|(6-oz) package baked (pressed) tofu, shredded or julienned|
-|3|tablespoons cold water|
-||Crushed red chile flakes, to taste|
-|About 30|egg roll wrappers|
-|2|tablespoons peanut oil, plus more for brushing|
 |1|tablespoon soy sauce|
+|3|tablespoons cold water|
+||Water for sealing the rolls|
+||Crushed red chile flakes, to taste|
+|1|tablespoon unseasoned rice vinegar|
 |4|scallions, white and light green parts only, thinly sliced|
+|1|tablespoon cornstarch|
+||Salt, to taste|
+|About 30|egg roll wrappers|
+|1|(6-oz) package baked (pressed) tofu, shredded or julienned|
+|One|8-ounce can bamboo shoots, drained and thinly sliced|
+||Boiling water for soaking the mushrooms|
+|2|tablespoons peanut oil, plus more for brushing|
+|1|ounce dried shiitake mushrooms|
+|2|tablespoons hoisin sauce|
 |1|teaspoon toasted sesame oil|
+|1|medium carrot, shredded|
+|4|celery stalks, shredded or finely diced|
 
 ###Instructions
 

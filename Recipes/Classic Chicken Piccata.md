@@ -3,18 +3,18 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|1|small shallot, minced (about 2 tablespoons)|
-|1|pinch black pepper|
-|3|tablespoons unsalted butter, softened|
-|6|boneless, skinless, chicken breasts, trimmed and pounded until 1/4 inch thick|
-|2|large lemons|
+|1|cup low-sodium chicken broth|
 |4|tablespoons olive oil|
+|3|tablespoons unsalted butter, softened|
+|1|small shallot, minced (about 2 tablespoons)|
 ||Couscous or angel hair pasta, for serving|
-|2|tablespoons capers, drained|
 |2|tablespoons fresh parsley, minced|
 |1|pinch salt|
-|1|cup low-sodium chicken broth|
+|2|large lemons|
 |1/2|cup flour|
+|6|boneless, skinless, chicken breasts, trimmed and pounded until 1/4 inch thick|
+|2|tablespoons capers, drained|
+|1|pinch black pepper|
 
 ###Instructions
 

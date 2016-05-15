@@ -3,11 +3,11 @@
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-||Also optional: a dash of cinnamon, or a tiny dash of freshly grated nutmeg or finely grated lemon zest|
 |3|pieces vanilla bean, thinly sliced crosswise (or 1 tablespoon vanilla extract, or 2 teaspoons vanilla bean paste)|
-||Filtered water (2 cups for soaking +  3½ cups for blending)|
-|1|cup raw almonds|
 ||Optional Sweeteners: 1 tablespoon warmed honey or maple syrup; a scant tablespoon agave nectar; 3 or 4 pitted dates (to taste)|
+||Also optional: a dash of cinnamon, or a tiny dash of freshly grated nutmeg or finely grated lemon zest|
+|1|cup raw almonds|
+||Filtered water (2 cups for soaking +  3½ cups for blending)|
 
 ###Instructions
 
