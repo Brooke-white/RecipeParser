@@ -1,8 +1,20 @@
+# coding: utf-8
 import bs4 as bs
 import urllib
 from urllib import request
 import os.path
 import ast
+
+
+def strip_bad_ascii(string):
+    """
+    Removes ascii chars excluding those for 1/4, 1/2, and 3/4
+    :param string: input string containing ascii to be stripped
+    :return: string containing above specified ascii chars
+    """
+    return "".join(filter(
+        lambda x: ord(x) < 128 or 187 < ord(x) < 191, string))
+
 
 
 class RecipeParse(object):
@@ -512,6 +524,116 @@ class CookingNYTimesParse(RecipeParse):
             raise Exception("Unset class variables")
 
 
+class SweetAndSavoryParse(RecipeParse):
+    def __init__(self, url):
+        """
+        Generates SweetAndSavoryParse object
+        :param url: Input String of form sweetandsavorybyshinee.com/xxxx
+        :return: None
+        """
+        super(SweetAndSavoryParse, self).__init__(url)
+
+    def __str__(self):
+        """
+        Generates markup styled string
+        :return: None
+        """
+        ingredients_table = ''
+        instruction_list = ''
+
+        for step, ingredients in self.ingredients.items():
+            ingredients_table += "\n####" + step + "\n"
+            for ingredient in ingredients:
+                ingredients_table += "* " + ingredient + "\n"
+            ingredients_table += "\n"
+
+        for step in self.instructions:
+            instruction_list += "\n\n* " + step
+
+        return "#[{}]({})\n![alt text]({})\n###Ingredients\n{}" \
+        "\n###Instructions{}".format(self.title, self.url, self.img_url, ingredients_table,
+                         instruction_list)
+
+    def set_recipe_title(self):
+        """
+        Gets recipe title from recipe
+        :return: None
+        """
+        self.title = self.soup.find("h2", itemprop="name").text
+
+    def set_recipe_img(self):
+        """
+        Sets recipe image using url
+        :return: None
+        """
+        self.img_url = "http:" + self.soup.find("img")['src']
+
+    def set_recipe_yield(self):
+        """
+        Gets recipe yield (serving size) from SweetAndSavory recipe
+        :return: None
+        """
+        self.recipe_yield = self.soup.find("span", itemprop="recipeYield").text
+
+
+    def set_ingredients(self):
+        """
+        Sets ingredient dict from SweetAndSavory.com
+        {"sub-recipe": "ingredient"}
+        if no sub-recipe field is set to ' '
+        :return: None
+        """
+        sub_title = ' '
+        is_set = False
+
+        for sub in self.soup.find("div", {"class": "ingredients"}):
+            if sub.find("div") and not is_set:  # sub-title in div
+                sub_title = sub.text.split(':')[0]
+                self.ingredients[sub_title] = []
+                is_set = True
+            if sub.find("li") is None and not is_set:  # sub-title in list
+                sub_title = sub.text
+                self.ingredients[sub_title] = []
+                is_set = True
+                continue
+            if not sub.find('p') and not is_set:  # no sub-title
+                is_set = True
+            if not is_set:  # sub title within inner div as p, along with li
+                for count, y in enumerate(sub.findAll('p')):
+                    self.ingredients[y.string] = [
+                        strip_bad_ascii(li.text) for li in
+                        sub.findAll("ul")[count]]
+                    count += 1
+                return
+            if sub.find("li"):
+                self.ingredients[sub_title] = [
+                    strip_bad_ascii(x.text) for x in sub.findAll("li")]
+            is_set = False
+
+    def set_instructions(self):
+        """
+        Sets instructions for Food52.com recipe
+        :return: None
+        """
+        for directions in self.soup.findAll("div", {"class": "instructions"}):
+            for step in directions.find("ol"):
+                self.instructions.append(strip_bad_ascii(step.text))
+
+    def set_recipe_contents(self):
+        """
+        Sets all recipe elements
+        :return:
+        """
+        if self.soup:
+            self.set_recipe_title()
+            self.set_recipe_img()
+            self.set_recipe_yield()
+            self.set_ingredients()
+            self.set_instructions()
+        else:
+            raise Exception("Unset class variables")
+
+
 def read_input_file(file):
     content = []
     try:
@@ -528,9 +650,8 @@ def main(file):
     except IOError as e:
         print("UNABLE TO OPEN FILE: ", e)
 
-    count = 0
 
-    for url in content:
+    for count, url in enumerate(content):
         if "food52" in url:
             thisrecipe = Food52Parse(url)
             thisrecipe.set_recipe_contents()
@@ -545,6 +666,10 @@ def main(file):
 
         if "nytimes" in url:
             thisrecipe = CookingNYTimesParse(url)
+            thisrecipe.set_recipe_contents()
+
+        if "sweetandsavory" in url:
+            thisrecipe = SweetAndSavoryParse(url)
             thisrecipe.set_recipe_contents()
 
         if thisrecipe:
