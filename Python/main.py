@@ -270,7 +270,7 @@ class AllRecipesParse(RecipeParse):
 
     def set_recipe_title(self):
         """
-        Gets recipe title from Food52.com recipe
+        Gets recipe title from AllRecipes.com recipe
         :return: None
         """
         self.title = self.soup.find(
@@ -286,7 +286,7 @@ class AllRecipesParse(RecipeParse):
 
     def set_ingredients(self):
         """
-        Sets ingredient dict from Food52.com {"ingredient": "quantity"}
+        Sets ingredient dict from AllRecipes.com {"ingredient": "quantity"}
         :return: None
         """
         # find all for multi-part recipes
@@ -297,7 +297,7 @@ class AllRecipesParse(RecipeParse):
 
     def set_instructions(self):
         """
-        Sets instructions for Food52.com recipe
+        Sets instructions for AllRecipes.com recipe
         :return: None
         """
         self.instructions = [
@@ -322,6 +322,11 @@ class AllRecipesParse(RecipeParse):
 
 class FoodDotComParse(RecipeParse):
     def __init__(self, url):
+        """
+        Generates FoodDotComParse object
+        :param url: Input String of form Food.com/recipe/xxx
+        :return: None
+        """
         super(FoodDotComParse, self).__init__(url)
         self.ingredients = []
 
@@ -364,7 +369,7 @@ class FoodDotComParse(RecipeParse):
 
     def set_ingredients(self):
         """
-        Sets ingredient list from Food52.com
+        Sets ingredient list from Food.com
         :return: None
         """
         self.ingredients = ast.literal_eval(self.soup.find("input", {
@@ -372,7 +377,7 @@ class FoodDotComParse(RecipeParse):
 
     def set_instructions(self):
         """
-        Sets instructions for Food52.com recipe
+        Sets instructions for Food.com recipe
         :return:
         """
         self.instructions = [
@@ -429,7 +434,7 @@ class CookingNYTimesParse(RecipeParse):
     def __init__(self, url):
         """
         Generates CookingNYTimesParse object
-        :param url: Input String of form 52food.com/recipes/xxx
+        :param url: Input String of form cooking.nytimes.com/recipes/xxx
         :return: None
         """
         super(CookingNYTimesParse, self).__init__(url)
@@ -456,7 +461,7 @@ class CookingNYTimesParse(RecipeParse):
 
     def set_recipe_title(self):
         """
-        Gets recipe title from Food52.com recipe
+        Gets recipe title from cooking.nytimes.com recipe
         :return: None
         """
         self.title = self.soup.find(
@@ -473,7 +478,7 @@ class CookingNYTimesParse(RecipeParse):
 
     def set_ingredients(self):
         """
-        Sets ingredient dict from Food52.com {"ingredient": "quantity"}
+        Sets ingredient dict from cooking.nytimes.com {"ingredient": "quantity"}
         :return: None
         """
         self.ingredients = [
@@ -483,7 +488,7 @@ class CookingNYTimesParse(RecipeParse):
 
     def set_instructions(self):
         """
-        Sets instructions for Food52.com recipe
+        Sets instructions for cooking.nytimes.com recipe
         :return:
         """
         self.instructions = [
