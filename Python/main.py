@@ -575,7 +575,6 @@ class SweetAndSavoryParse(RecipeParse):
         """
         self.recipe_yield = self.soup.find("span", itemprop="recipeYield").text
 
-
     def set_ingredients(self):
         """
         Sets ingredient dict from SweetAndSavory.com
@@ -612,7 +611,7 @@ class SweetAndSavoryParse(RecipeParse):
 
     def set_instructions(self):
         """
-        Sets instructions for Food52.com recipe
+        Sets instructions for SweetAndSavory.com recipe
         :return: None
         """
         for directions in self.soup.findAll("div", {"class": "instructions"}):
@@ -633,6 +632,57 @@ class SweetAndSavoryParse(RecipeParse):
         else:
             raise Exception("Unset class variables")
 
+
+class FoodNetworkParse(RecipeParse):
+    def __init__(self, url):
+        """
+        Generates FoodNewtorkParse object
+        :param url: Input String of form sweetandsavorybyshinee.com/xxxx
+        :return: None
+        """
+        super(FoodNetworkParse, self).__init__(url)
+
+    def __str__(self):
+        """
+        Generates markup styled string
+        :return: None
+        """
+
+    def set_recipe_title(self):
+        """
+        Gets recipe title from recipe
+        :return: None
+        """
+
+    def set_recipe_img(self):
+        """
+        Sets recipe image using url
+        :return: None
+        """
+
+    def set_recipe_yield(self):
+        """
+        Gets recipe yield (serving size) from SweetAndSavory recipe
+        :return: None
+        """
+
+    def set_ingredients(self):
+        """
+        Sets ingredients from FoodNetwork.com
+        :return: None
+        """
+
+    def set_instructions(self):
+        """
+        Sets instructions for FoodNetwork.com recipe
+        :return: None
+        """
+
+    def set_recipe_contents(self):
+        """
+        Sets all recipe elements
+        :return:
+        """
 
 def read_input_file(file):
     content = []
