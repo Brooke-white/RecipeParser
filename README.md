@@ -19,20 +19,25 @@ BeautifulSoup4 (pip install bs4)
 
 + [Food.com](http://www.food.com/)
 
++ [SweetAndSavoryByShinee.com](http://www.sweetandsavorybyshinee.com/)
+
++ [FoodNetwork.com](http://www.foodnetwork.com/recipes.html?vty=recipes/)
+
 
 ## Usage
 file: A text file containing recipe urls from the supported websites
 
     file = "/Users/you/anywhere/recipes.txt"
-    main(file)
+    if main(file):
+        print("All "
 
 
-If generating the markup files is a success you will see a success message, otherwise you'll see which markup files weren't generated and the corresponding error messages.
+If generating the markdown files is a success you will see a success message, otherwise you'll see which markup files weren't generated and the corresponding error messages.
 
 
 #### recipes.txt
     http://food52.com/recipes/31276-oatmeal-cream-pies#comments
     http://www.food.com/recipe/tsr-version-of-benihana-japanese-onion-soup-by-todd-wilbur-391952
     http://allrecipes.com/recipe/41460/sweet-corn-tomalito/
-
-
+    http://www.sweetandsavorybyshinee.com/lemon-french-macarons/
+    http://www.foodnetwork.com/recipes/mock-garlic-mashed-potatoes-recipe.html
