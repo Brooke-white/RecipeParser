@@ -641,6 +641,8 @@ class FoodNetworkParse(RecipeParse):
         :return: None
         """
         super(FoodNetworkParse, self).__init__(url)
+        self.instructions = {}
+
 
     def __str__(self):
         """
@@ -683,21 +685,40 @@ class FoodNetworkParse(RecipeParse):
         self.ingredients[''] = []
         temp = ''
 
-        for x in self.soup.find("section", {
+        for instruction in self.soup.find("section", {
             "class": "ingredients-instructions recipe-instructions section"}
                                 ).find("div", {"class", "bd"}
                                        ).find("div").findAll("li"):
-            if "class" in x.attrs:
-                temp = x.string
+            if "class" in instruction.attrs:
+                temp = instruction.string
                 self.ingredients[temp] = []
             else:
-                self.ingredients[temp].append(x.string)
+                self.ingredients[temp].append(instruction.string)
 
     def set_instructions(self):
         """
-        Sets instructions for FoodNetwork.com recipe
+        Sets instructions dict for FoodNetwork.com recipe, form of:
+         {'sub-title': ['step1'....'stepx'], '':['step1'....'stepx']
+         where a key with the value '' has no subtitle, or is a single section
+         recipe
         :return: None
         """
+        self.instructions[''] = []
+        temp = ''
+
+        for element in self.soup.find("div", {"class": "col10 directions"}):
+            if isinstance(element, bs.element.Tag) and \
+                    element.attrs.get('class'):
+                cur_class = ''.join(element.attrs.get('class'))
+                # recipe directions stored in <ul> with below class
+                if 'recipe-directions-list' == cur_class:
+                    for step in element:
+                        self.instructions[temp].append(step.text)
+                # recipes divided by <span> with below class
+                if 'subtitle' == cur_class:
+                    temp = element.text
+                    self.instructions[temp] = []
+        print(self.instructions)
 
     def set_recipe_contents(self):
         """
@@ -770,7 +791,7 @@ test = ["http://www.foodnetwork.com/recipes/ree-drummond/restaurant-style-salsa-
         "http://www.foodnetwork.com/recipes/quick-vanilla-buttercream-frosting-recipe.html"]
 for test1 in test:
     testy = FoodNetworkParse(test1)
-    testy.set_ingredients()
+    testy.set_instructions()
     print("\n")
 
 #if main(file):
