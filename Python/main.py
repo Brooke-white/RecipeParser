@@ -34,7 +34,7 @@ class RecipeParse(object):
 
     def __str__(self):
         """
-        Generates markup styled string
+        Generates markdown styled string
         :return: None
         """
 
@@ -109,9 +109,9 @@ class RecipeParse(object):
         :return:
         """
 
-    def make_markup(self):
+    def make_markdown(self):
         """
-        Creates and writes markup styled recipe to a file
+        Creates and writes markdown styled recipe to a file
         :return: True or IOError is raised
         """
         file = ''
@@ -151,7 +151,7 @@ class Food52Parse(RecipeParse):
 
     def __str__(self):
         """
-        Generates markup styled string
+        Generates markdown styled string
         :return: None
         """
         ingredients_table = ''
@@ -238,7 +238,7 @@ class Food52Parse(RecipeParse):
 
     def set_recipe_contents(self):
         """
-        Sets all class variables in prep for make_markup()
+        Sets all class variables in prep for make_markdown()
         :return: None
         """
         if self.soup:
@@ -263,7 +263,7 @@ class AllRecipesParse(RecipeParse):
 
     def __str__(self):
         """
-        Generates markup styled string
+        Generates markdown styled string
         :return: None
         """
         ingredients_table = ''
@@ -320,7 +320,7 @@ class AllRecipesParse(RecipeParse):
 
     def set_recipe_contents(self):
         """
-        Sets all class variables in prep for make_markup()
+        Sets all class variables in prep for make_markdown()
         :return: None
         """
         if self.soup:
@@ -344,7 +344,7 @@ class FoodDotComParse(RecipeParse):
 
     def __str__(self):
         """
-        Generates markup styled string
+        Generates markdown styled string
         :return: None
         """
 
@@ -411,9 +411,9 @@ class FoodDotComParse(RecipeParse):
         else:
             raise Exception("Unset class variables")
 
-    def make_markup(self):
+    def make_markdown(self):
         """
-        Creates and writes markup styled recipe to a file
+        Creates and writes markdown styled recipe to a file
         :return: True or IOError is raised
         """
         file = ''
@@ -454,7 +454,7 @@ class CookingNYTimesParse(RecipeParse):
 
     def __str__(self):
         """
-        Generates markup styled string
+        Generates markdown styled string
         :return: None
         """
         ingredients_table = ''
@@ -511,7 +511,7 @@ class CookingNYTimesParse(RecipeParse):
 
     def set_recipe_contents(self):
         """
-        Sets all class variables in prep for make_markup()
+        Sets all class variables in prep for make_markdown()
         :return: None
         """
         if self.soup:
@@ -535,7 +535,7 @@ class SweetAndSavoryParse(RecipeParse):
 
     def __str__(self):
         """
-        Generates markup styled string
+        Generates markdown styled string
         :return: None
         """
         ingredients_table = ''
@@ -643,12 +643,32 @@ class FoodNetworkParse(RecipeParse):
         super(FoodNetworkParse, self).__init__(url)
         self.instructions = {}
 
-
     def __str__(self):
         """
-        Generates markup styled string
+        Generates markdown styled string
         :return: None
         """
+        ingredients_table = ''
+        instruction_list = ''
+
+        for step, ingredients in self.ingredients.items():
+            ingredients_table += "\n####" + step + "\n"
+            for ingredient in ingredients:
+                ingredients_table += "* " + ingredient + "\n"
+            ingredients_table += "\n"
+
+        for title, steps in self.instructions.items():
+            if title:
+                instruction_list += "\n####" + title + "\n"
+            else:
+                instruction_list += "\n"
+            for step in steps:
+                instruction_list += "* " + step + "\n"
+            instruction_list += "\n"
+
+        return "#[{}]({})\n![alt text]({})\n###Ingredients\n{}" \
+        "\n###Instructions{}".format(self.title, self.url, self.img_url, ingredients_table,
+                         instruction_list)
 
     def set_recipe_title(self):
         """
@@ -718,13 +738,20 @@ class FoodNetworkParse(RecipeParse):
                 if 'subtitle' == cur_class:
                     temp = element.text
                     self.instructions[temp] = []
-        print(self.instructions)
 
     def set_recipe_contents(self):
         """
         Sets all recipe elements
         :return:
         """
+        if self.soup:
+            self.set_recipe_title()
+            self.set_recipe_img()
+            self.set_recipe_yield()
+            self.set_ingredients()
+            self.set_instructions()
+        else:
+            raise Exception("Unset class variables")
 
 def read_input_file(file):
     content = []
@@ -769,7 +796,7 @@ def main(file):
 
         if thisrecipe:
             try:
-                thisrecipe.make_markup()
+                thisrecipe.make_markdown()
                 count += 1
             except IOError as e:
                 print(thisrecipe.title, "\tFILE NOT CREATED:\t", e.__str__())
@@ -783,18 +810,9 @@ def main(file):
     else:
         return False
 
-file = "/Users/brooke/Desktop/recipes.txt"
-test = ["http://www.foodnetwork.com/recipes/ree-drummond/restaurant-style-salsa-recipe.html",
-        "http://www.foodnetwork.com/recipes/food-network-kitchens/chocolate-chip-cookies-recipe4.html",
-        "http://www.foodnetwork.com/recipes/ina-garten/beattys-chocolate-cake-recipe.html",
-        "http://www.foodnetwork.com/recipes/alton-brown/garden-vegetable-soup-recipe.html",
-        "http://www.foodnetwork.com/recipes/quick-vanilla-buttercream-frosting-recipe.html"]
-for test1 in test:
-    testy = FoodNetworkParse(test1)
-    testy.set_instructions()
-    print("\n")
+file = "/Users/brooke/Desktop/input.txt"
 
-#if main(file):
-#    print("Success")
-#else:
-#    print("Not all markup files were generated")
+if main(file):
+    print("Success")
+else:
+    print("Not all markdown files were generated")
