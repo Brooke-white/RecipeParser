@@ -5,7 +5,7 @@
 
 
 ## About
-A python script that parses recipe websites to create markup files with essential recipe information, like ingredients, instructions, and a photo of course! I made this so I can keep all of my favorite recipes organized in a psuedo recipe book. 
+A python script that parses recipe websites to create markdown files with essential recipe information, like ingredients, instructions, and a photo of course! I made this so I can keep all of my favorite recipes organized in a psuedo recipe book.
 
 
 ## Dependencies
@@ -32,7 +32,7 @@ file: A text file containing recipe urls from the supported websites
         print("All "
 
 
-If generating the markdown files is a success you will see a success message, otherwise you'll see which markup files weren't generated and the corresponding error messages.
+If generating the markdown files is a success you will see a success message, otherwise you'll see which markdown files weren't generated and the corresponding error messages.
 
 
 #### recipes.txt
