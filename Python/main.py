@@ -636,8 +636,8 @@ class SweetAndSavoryParse(RecipeParse):
 class FoodNetworkParse(RecipeParse):
     def __init__(self, url):
         """
-        Generates FoodNewtorkParse object
-        :param url: Input String of form sweetandsavorybyshinee.com/xxxx
+        Generates FoodNetworkParse object
+        :param url: Input String of form foodnetwork.com/recipes/xxxx
         :return: None
         """
         super(FoodNetworkParse, self).__init__(url)
@@ -653,24 +653,45 @@ class FoodNetworkParse(RecipeParse):
         Gets recipe title from recipe
         :return: None
         """
+        self.title = self.soup.find("h1", itemprop="name").text
 
     def set_recipe_img(self):
         """
         Sets recipe image using url
         :return: None
         """
+        # recipe video image within a href class="#lightbox-recipe-video"
+        for element in self.soup.find("div", {"class": "col12 pic collapsed"}):
+            if element.find("img") != -1:
+                self.img_url = element.find("img")['src']
 
     def set_recipe_yield(self):
         """
-        Gets recipe yield (serving size) from SweetAndSavory recipe
+        Gets recipe yield (serving size) from FoodNetwork recipe
         :return: None
         """
+        self.recipe_yield = self.soup.find("div", {"class": "difficulty"}
+                                           ).find("dd").text
 
     def set_ingredients(self):
         """
-        Sets ingredients from FoodNetwork.com
+        Sets ingredient dict from FoodNetwork.com
+        {"sub-recipe": "ingredient"}
+        if no sub-recipe field is set to ' '
         :return: None
         """
+        self.ingredients[''] = []
+        temp = ''
+
+        for x in self.soup.find("section", {
+            "class": "ingredients-instructions recipe-instructions section"}
+                                ).find("div", {"class", "bd"}
+                                       ).find("div").findAll("li"):
+            if "class" in x.attrs:
+                temp = x.string
+                self.ingredients[temp] = []
+            else:
+                self.ingredients[temp].append(x.string)
 
     def set_instructions(self):
         """
@@ -700,7 +721,6 @@ def main(file):
     except IOError as e:
         print("UNABLE TO OPEN FILE: ", e)
 
-
     for count, url in enumerate(content):
         if "food52" in url:
             thisrecipe = Food52Parse(url)
@@ -722,6 +742,10 @@ def main(file):
             thisrecipe = SweetAndSavoryParse(url)
             thisrecipe.set_recipe_contents()
 
+        if "foodnetwork" in url:
+            thisrecipe = FoodNetworkParse(url)
+            thisrecipe.set_recipe_contents()
+
         if thisrecipe:
             try:
                 thisrecipe.make_markup()
@@ -739,8 +763,17 @@ def main(file):
         return False
 
 file = "/Users/brooke/Desktop/recipes.txt"
+test = ["http://www.foodnetwork.com/recipes/ree-drummond/restaurant-style-salsa-recipe.html",
+        "http://www.foodnetwork.com/recipes/food-network-kitchens/chocolate-chip-cookies-recipe4.html",
+        "http://www.foodnetwork.com/recipes/ina-garten/beattys-chocolate-cake-recipe.html",
+        "http://www.foodnetwork.com/recipes/alton-brown/garden-vegetable-soup-recipe.html",
+        "http://www.foodnetwork.com/recipes/quick-vanilla-buttercream-frosting-recipe.html"]
+for test1 in test:
+    testy = FoodNetworkParse(test1)
+    testy.set_ingredients()
+    print("\n")
 
-if main(file):
-    print("Success")
-else:
-    print("Not all markup files were generated")
+#if main(file):
+#    print("Success")
+#else:
+#    print("Not all markup files were generated")
