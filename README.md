@@ -9,6 +9,7 @@ A python script that parses recipe websites to create markdown files with essent
 
 
 ## Dependencies
+Python == 3.4.3
 BeautifulSoup4 (pip install bs4)
 
 
@@ -23,6 +24,7 @@ BeautifulSoup4 (pip install bs4)
 
 + [FoodNetwork.com](http://www.foodnetwork.com/recipes.html?vty=recipes/)
 
++ [MarthaStewart.com](http://www.marthastewart.com/cook)
 
 ## Usage
 file: A text file containing recipe urls from the supported websites
@@ -41,3 +43,4 @@ If generating the markdown files is a success you will see a success message, ot
     http://allrecipes.com/recipe/41460/sweet-corn-tomalito/
     http://www.sweetandsavorybyshinee.com/lemon-french-macarons/
     http://www.foodnetwork.com/recipes/mock-garlic-mashed-potatoes-recipe.html
+    http://www.marthastewart.com/1075067/stuffed-tomatoes-mozzarella
