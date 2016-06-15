@@ -16,6 +16,78 @@ def strip_bad_ascii(string):
         lambda x: ord(x) < 128 or 187 < ord(x) < 191, string))
 
 
+def get_ingredient_table(ingredient_dict):
+    """
+    Creates a markdown table
+    :param ingredient_dict: Dictionary of form {'ingredient' : 'quantity'}
+    :return: String containing markdown 2 column table (Quantity|Ingredient)
+    """
+    ingredient_table = ''
+
+    for ingredient, amount in ingredient_dict.items():
+            ingredient_table += "|" + ''.join(amount) + "|" + \
+                                 ingredient + "|\n"
+    return ingredient_table
+
+
+def get_ingredient_table_simple(ingredient_list):
+    """
+    Creates a markdown table
+    :param ingredient_list: List of form ['x ingredient a', 'y ingredient b']
+    :return: String containing markdown 1 column table (Ingredient)
+    """
+    ingredient_table = ''
+    for ingredient in ingredient_list:
+            ingredient_table += "|" + ''.join(ingredient) + "|\n"
+    return ingredient_table
+
+
+def get_ingredient_list_with_subtitles(ingredient_dict):
+    """
+    Creates a markdown list from a dict containing recipe instructions
+    :param ingredient_dict: Dictionary of form
+    {'title', ['step0', ... , 'stepX'}}
+    :return: String containing markdown list with sub-title
+    """
+    ingredient_list = ''
+
+    for title, ingredients in ingredient_dict.items():
+            ingredient_list += "\n######" + title + "\n" if title else ''
+            for ingredient in ingredients:
+                ingredient_list += "* " + ingredient + "\n"
+    return ingredient_list
+
+
+def get_instruction_list(instruction_list):
+    """
+    Creates a markdown list from a list containing recipe instructions
+    :param instruction_list: List of form ['step0', ... , 'stepX']
+    :return: String containing markdown list
+    """
+    instruction_list_string = ''
+    for step in instruction_list:
+            instruction_list_string += "\n\n* " + step
+    return instruction_list_string
+
+
+def get_instruction_dict_with_subtitles(instruction_dict):
+    """
+    Creates a markdown list from a dict containing instructions
+    :param instruction_dict: Dictionary of form
+    {'title' : ['step0', ... , 'stepX']}
+    :return: String containing markdown list with sub-titles
+    """
+    instruction_list = ''
+    for title, steps in instruction_dict.items():
+            if title:
+                instruction_list += "\n####" + title + "\n"
+            else:
+                instruction_list += "\n"
+            for step in steps:
+                instruction_list += "* " + step + "\n"
+            instruction_list += "\n"
+
+
 class RecipeParse(object):
     def __init__(self, url):
         """
@@ -113,7 +185,7 @@ class RecipeParse(object):
         Creates and writes markdown styled recipe to a file
         :return: True or IOError is raised
         """
-        file = ''
+        new_file = ''
         directory = os.path.dirname(os.path.dirname(__file__)) + "/Recipes/"
         if not os.path.exists(directory):
             os.makedirs(directory)
@@ -121,21 +193,19 @@ class RecipeParse(object):
         try:
             self.title = ''.join(c for c in self.title if 0 < ord(c) < 127)
             if os.path.isfile(directory + self.title + ".md"):
-                raise IOError(directory + self.title + ".md" + "already exists")
-            else:
-                x = str(directory + self.title + ".md")
-            file = open(x, "w")
-            file.write(self.__str__())
+                raise IOError(
+                    directory + self.title + ".md" + "already exists")
+            x = str(directory + self.title + ".md")
+            new_file = open(x, "w")
+            new_file.write(self.__str__())
         except IOError:
-            os.remove(x)
             raise IOError
         except:
-            os.remove(x)
             raise Exception
         finally:
-            if file:
+            if new_file:
                 try:
-                    file.close()
+                    new_file.close()
                 except IOError:
                     raise IOError
                 except Exception:
@@ -157,20 +227,11 @@ class Food52Parse(RecipeParse):
         Generates markdown styled string
         :return: None
         """
-        ingredients_table = ''
-        instruction_list = ''
-
-        for ingredient, amount in self.ingredients.items():
-            ingredients_table += "|" + ''.join(amount) + "|" + \
-                                 ingredient + "|\n"
-
-        for step in self.instructions:
-            instruction_list += "\n\n* " + step
-
         return "#[{}]({})\n![alt text]({})\n###Ingredients\n|Quantity|" \
                "Ingredient|\n----------:|:-------\n{}\n###Instructions{}" \
-               "".format(self.title, self.url, self.img_url, ingredients_table,
-                         instruction_list)
+               "".format(self.title, self.url, self.img_url,
+                         get_ingredient_table(self.ingredients),
+                         get_instruction_list(self.instructions))
 
     def set_recipe_title(self):
         """
@@ -269,19 +330,11 @@ class AllRecipesParse(RecipeParse):
         Generates markdown styled string
         :return: None
         """
-        ingredients_table = ''
-        instruction_list = ''
-
-        for ingredient in self.ingredients:
-            ingredients_table += "|" + ''.join(ingredient) + "|\n"
-
-        for step in self.instructions:
-            instruction_list += "\n\n* " + step
-
         return "#[{}]({})\n![alt text]({})\n###Ingredients\n|Ingredient|" \
                "\n|:-------|\n{}\n###Instructions{}".format(
-                self.title, self.url, self.img_url, ingredients_table,
-                instruction_list)
+                self.title, self.url, self.img_url,
+                get_ingredient_table_simple(self.ingredients),
+                get_instruction_list(self.instructions))
 
     def set_recipe_title(self):
         """
@@ -350,21 +403,11 @@ class FoodDotComParse(RecipeParse):
         Generates markdown styled string
         :return: None
         """
-
-        ingredients_table = ''
-        instruction_list = ''
-
-        for ingredient in self.ingredients:
-            ingredients_table += "|" + ''.join(ingredient) + "|\n"
-
-        for step in self.instructions:
-            instruction_list += "\n\n* " + step
-
         return "#[{}]({})\n![alt text]\n({})\n###Ingredients\n" \
                "|Ingredient|\n|:-------|\n{}\n###Instructions{}".format(
                 self.title, self.url, self.img_url,
-                ingredients_table, instruction_list
-        )
+                get_ingredient_table_simple(self.ingredients),
+                get_instruction_list(self.instructions))
 
     def set_recipe_title(self):
         """
@@ -414,36 +457,6 @@ class FoodDotComParse(RecipeParse):
         else:
             raise Exception("Unset class variables")
 
-    def make_markdown(self):
-        """
-        Creates and writes markdown styled recipe to a file
-        :return: True or IOError is raised
-        """
-        file = ''
-        directory = os.path.dirname(os.path.dirname(__file__)) + "/Recipes/"
-
-        if not os.path.exists(directory):
-            os.makedirs(directory)
-
-        try:
-            self.title = ''.join(c for c in self.title if 0 < ord(c) < 127)
-            x = str(directory + self.title + ".md")
-            file = open(x, "w")
-            file.write(self.__str__())
-        except IOError:
-            raise IOError
-        except:
-            raise Exception
-        finally:
-            if file:
-                try:
-                    file.close()
-                except IOError:
-                    raise IOError
-                except Exception:
-                    raise Exception
-        return True
-
 
 class CookingNYTimesParse(RecipeParse):
     def __init__(self, url):
@@ -460,19 +473,11 @@ class CookingNYTimesParse(RecipeParse):
         Generates markdown styled string
         :return: None
         """
-        ingredients_table = ''
-        instruction_list = ''
-
-        for ingredient in self.ingredients:
-            ingredients_table += "|" + ingredient + "|\n"
-
-        for step in self.instructions:
-            instruction_list += "\n\n* " + step
-
-        return "#[{}]({})\n![alt text]({})\n###Ingredients\n|Ingredient|" \
-               "\n|:-------\n{}\n###Instructions{}" \
-               "".format(self.title, self.url, self.img_url, ingredients_table,
-                         instruction_list)
+        return "#[{}]({})\n![alt text]({})\n###Ingredients\n|Ingredient|\n" \
+               "|:-------\n{}\n###Instructions{}" \
+               "".format(self.title, self.url, self.img_url,
+                         get_ingredient_table_simple(self.ingredients),
+                         get_instruction_list(self.instructions))
 
     def set_recipe_title(self):
         """
@@ -493,7 +498,8 @@ class CookingNYTimesParse(RecipeParse):
 
     def set_ingredients(self):
         """
-        Sets ingredient dict from cooking.nytimes.com {"ingredient": "quantity"}
+        Sets ingredient dict from cooking.nytimes.com
+        {"ingredient": "quantity"}
         :return: None
         """
         self.ingredients = [
@@ -541,21 +547,12 @@ class SweetAndSavoryParse(RecipeParse):
         Generates markdown styled string
         :return: None
         """
-        ingredients_table = ''
-        instruction_list = ''
-
-        for step, ingredients in self.ingredients.items():
-            ingredients_table += "\n####" + step + "\n"
-            for ingredient in ingredients:
-                ingredients_table += "* " + ingredient + "\n"
-            ingredients_table += "\n"
-
-        for step in self.instructions:
-            instruction_list += "\n\n* " + step
-
         return "#[{}]({})\n![alt text]({})\n###Ingredients\n{}" \
-        "\n###Instructions{}".format(self.title, self.url, self.img_url, ingredients_table,
-                         instruction_list)
+               "\n###Instructions{}".format(self.title, self.url, self.img_url,
+                                            get_ingredient_list_with_subtitles(
+                                                self.ingredients),
+                                            get_instruction_list(
+                                                self.instructions))
 
     def set_recipe_title(self):
         """
@@ -651,27 +648,12 @@ class FoodNetworkParse(RecipeParse):
         Generates markdown styled string
         :return: None
         """
-        ingredients_table = ''
-        instruction_list = ''
-
-        for step, ingredients in self.ingredients.items():
-            ingredients_table += "\n####" + step + "\n"
-            for ingredient in ingredients:
-                ingredients_table += "* " + ingredient + "\n"
-            ingredients_table += "\n"
-
-        for title, steps in self.instructions.items():
-            if title:
-                instruction_list += "\n####" + title + "\n"
-            else:
-                instruction_list += "\n"
-            for step in steps:
-                instruction_list += "* " + step + "\n"
-            instruction_list += "\n"
-
         return "#[{}]({})\n![alt text]({})\n###Ingredients\n{}" \
-        "\n###Instructions{}".format(self.title, self.url, self.img_url, ingredients_table,
-                         instruction_list)
+               "\n###Instructions{}".format(self.title, self.url, self.img_url,
+                                            get_ingredient_list_with_subtitles(
+                                                self.ingredients),
+                                            get_ingredient_list_with_subtitles(
+                                                self.instructions))
 
     def set_recipe_title(self):
         """
@@ -771,29 +753,20 @@ class MarthaStewartParse(RecipeParse):
         Generates markdown styled string
         :return: None
         """
-        ingredients_list = ''
-        instruction_list = '\n'
-
-        for title, ingredients in self.ingredients.items():
-            ingredients_list += "\n######" + title + "\n" if title else ''
-            for ingredient in ingredients:
-                ingredients_list += "* " + ingredient + "\n"
-
-        for instruction in self.instructions:
-            instruction_list += "* " + instruction + "\n"
-
         if self.recipe_yield:
             return "#[{}]({})\n![alt text]({})\n######{}\n###Ingredients\n{}" \
-                   "\n###Instructions{}".format(self.title, self.url,
-                                                self.img_url,
-                                                self.recipe_yield,
-                                                ingredients_list,
-                                                instruction_list)
+                   "\n###Instructions{}".format(
+                    self.title, self.url, self.img_url, self.recipe_yield,
+                    get_ingredient_list_with_subtitles(self.ingredients),
+                    get_instruction_list(self.instructions)
+                    )
         else:
             return "#[{}]({})\n![alt text]({})\n###Ingredients\n{}" \
-                   "\n###Instructions{}".format(self.title, self.url,
-                                                self.img_url, ingredients_list,
-                                                instruction_list)
+                   "\n###Instructions{}".format(
+                    self.title, self.url, self.img_url,
+                    get_ingredient_list_with_subtitles(self.ingredients),
+                    get_instruction_list(self.instructions)
+                    )
 
     def set_recipe_title(self):
         """
@@ -807,7 +780,8 @@ class MarthaStewartParse(RecipeParse):
         Sets recipe image using url
         :return: None
         """
-        self.img_url = self.soup.find("img", {"class": "feat-primary-img"})['data-original']
+        self.img_url = self.soup.find(
+            "img", {"class": "feat-primary-img"})['data-original']
 
     def set_recipe_yield(self):
             """
@@ -826,7 +800,8 @@ class MarthaStewartParse(RecipeParse):
         if no sub-recipe field is set to ''
         :return: None
         """
-        for element in self.soup.find_all("section", {"class": "components-group"}):
+        for element in self.soup.find_all("section",
+                                          {"class": "components-group"}):
             # assign section title iff exists, else assign to None
             title = element.find(
                 "h3", {"class": "components-group-header"}).text.strip() \
@@ -864,19 +839,20 @@ class MarthaStewartParse(RecipeParse):
             raise Exception("Unset class variables")
 
 
-def read_input_file(file):
-    content = []
+def read_input_file(my_file):
     try:
-        with open(file, 'r') as f:
+        with open(my_file, 'r') as f:
             content = f.read().splitlines()
     except IOError:
         raise IOError
     return content
 
 
-def main(file):
+def main(cur_file):
+    content = []
+    count = -1
     try:
-        content = read_input_file(file=file)
+        content = read_input_file(my_file=cur_file)
     except IOError as e:
         print("UNABLE TO OPEN FILE: ", e)
 
