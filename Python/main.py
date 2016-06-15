@@ -16,7 +16,6 @@ def strip_bad_ascii(string):
         lambda x: ord(x) < 128 or 187 < ord(x) < 191, string))
 
 
-
 class RecipeParse(object):
     def __init__(self, url):
         """
@@ -116,18 +115,22 @@ class RecipeParse(object):
         """
         file = ''
         directory = os.path.dirname(os.path.dirname(__file__)) + "/Recipes/"
-
         if not os.path.exists(directory):
             os.makedirs(directory)
 
         try:
             self.title = ''.join(c for c in self.title if 0 < ord(c) < 127)
-            x = str(directory + self.title + ".md")
+            if os.path.isfile(directory + self.title + ".md"):
+                raise IOError(directory + self.title + ".md" + "already exists")
+            else:
+                x = str(directory + self.title + ".md")
             file = open(x, "w")
             file.write(self.__str__())
         except IOError:
+            os.remove(x)
             raise IOError
         except:
+            os.remove(x)
             raise Exception
         finally:
             if file:
@@ -753,6 +756,114 @@ class FoodNetworkParse(RecipeParse):
         else:
             raise Exception("Unset class variables")
 
+
+class MarthaStewartParse(RecipeParse):
+    def __init__(self, url):
+        """
+        Generates MarthaStewartParse object
+        :param url: Input String of form marthastewart.com/xxxx/recipe-title
+        :return: None
+        """
+        super(MarthaStewartParse, self).__init__(url)
+
+    def __str__(self):
+        """
+        Generates markdown styled string
+        :return: None
+        """
+        ingredients_list = ''
+        instruction_list = '\n'
+
+        for title, ingredients in self.ingredients.items():
+            ingredients_list += "\n######" + title + "\n" if title else ''
+            for ingredient in ingredients:
+                ingredients_list += "* " + ingredient + "\n"
+
+        for instruction in self.instructions:
+            instruction_list += "* " + instruction + "\n"
+
+        if self.recipe_yield:
+            return "#[{}]({})\n![alt text]({})\n######{}\n###Ingredients\n{}" \
+                   "\n###Instructions{}".format(self.title, self.url,
+                                                self.img_url,
+                                                self.recipe_yield,
+                                                ingredients_list,
+                                                instruction_list)
+        else:
+            return "#[{}]({})\n![alt text]({})\n###Ingredients\n{}" \
+                   "\n###Instructions{}".format(self.title, self.url,
+                                                self.img_url, ingredients_list,
+                                                instruction_list)
+
+    def set_recipe_title(self):
+        """
+        Gets recipe title from recipe
+        :return: None
+        """
+        self.title = self.soup.find("h1", itemprop="name").text.strip()
+
+    def set_recipe_img(self):
+        """
+        Sets recipe image using url
+        :return: None
+        """
+        self.img_url = self.soup.find("img", {"class": "feat-primary-img"})['data-original']
+
+    def set_recipe_yield(self):
+            """
+            Gets recipe yield (serving size) from MarthaStewart recipe
+            :return: None
+            """
+            # if yield is specified, set it, otherwise set to None
+            self.recipe_yield = self.soup.find(
+                "span", itemprop="recipeYield").text \
+                if self.soup.find("span", itemprop="recipeYield") else None
+
+    def set_ingredients(self):
+        """
+        Sets ingredient dict from MarthaStewart.com
+        {"sub-recipe": "ingredient"}
+        if no sub-recipe field is set to ''
+        :return: None
+        """
+        for element in self.soup.find_all("section", {"class": "components-group"}):
+            # assign section title iff exists, else assign to None
+            title = element.find(
+                "h3", {"class": "components-group-header"}).text.strip() \
+                if element.find("h3", {"class": "components-group-header"}) \
+                else ''
+            ingredients = [
+                y.text.strip() for y in element.find_all(
+                    "li", itemprop="ingredients")
+                ]
+            self.ingredients[title] = ingredients
+
+    def set_instructions(self):
+        """
+        Sets instruction list for MarthaStewart.com recipe, form of:
+        ['step1'....'stepx']
+        :return: None
+        """
+        self.instructions = [
+            step.text.strip() for step in self.soup.find_all(
+                "p", {"class": "directions-item-text"})
+            ]
+
+    def set_recipe_contents(self):
+        """
+        Sets all recipe elements
+        :return:
+        """
+        if self.soup:
+            self.set_recipe_title()
+            self.set_recipe_img()
+            self.set_recipe_yield()
+            self.set_ingredients()
+            self.set_instructions()
+        else:
+            raise Exception("Unset class variables")
+
+
 def read_input_file(file):
     content = []
     try:
@@ -770,31 +881,31 @@ def main(file):
         print("UNABLE TO OPEN FILE: ", e)
 
     for count, url in enumerate(content):
+        thisrecipe = None
+
         if "food52" in url:
             thisrecipe = Food52Parse(url)
-            thisrecipe.set_recipe_contents()
 
         if "allrecipes" in url:
             thisrecipe = AllRecipesParse(url)
-            thisrecipe.set_recipe_contents()
 
         if "food.com" in url:
             thisrecipe = FoodDotComParse(url)
-            thisrecipe.set_recipe_contents()
 
         if "nytimes" in url:
             thisrecipe = CookingNYTimesParse(url)
-            thisrecipe.set_recipe_contents()
 
         if "sweetandsavory" in url:
             thisrecipe = SweetAndSavoryParse(url)
-            thisrecipe.set_recipe_contents()
 
         if "foodnetwork" in url:
             thisrecipe = FoodNetworkParse(url)
-            thisrecipe.set_recipe_contents()
+
+        if "marthastewart" in url:
+            thisrecipe = MarthaStewartParse(url)
 
         if thisrecipe:
+            thisrecipe.set_recipe_contents()
             try:
                 thisrecipe.make_markdown()
                 count += 1
