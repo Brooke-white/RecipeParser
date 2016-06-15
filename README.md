@@ -10,6 +10,7 @@ A python script that parses recipe websites to create markdown files with essent
 
 ## Dependencies
 Python == 3.4.3
+
 BeautifulSoup4 (pip install bs4)
 
 
