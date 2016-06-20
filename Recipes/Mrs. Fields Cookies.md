@@ -3,7 +3,7 @@ Makes 56 cookies
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
-|1|cup butter}
+|1|cup butter|
 |1|cup sugar|
 |1|cup brown sugar|
 |2|eggs|

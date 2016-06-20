@@ -88,6 +88,70 @@ def get_instruction_dict_with_subtitles(instruction_dict):
             instruction_list += "\n"
 
 
+def read_input_file(my_file):
+    try:
+        with open(my_file, 'r') as f:
+            content = f.read().splitlines()
+    except IOError:
+        raise IOError
+    return content
+
+
+def main(cur_file):
+    count = -1
+    try:
+        content = read_input_file(my_file=cur_file)
+    except IOError as e:
+        print("UNABLE TO OPEN FILE: ", e)
+        return False
+
+    content[:] = ["http://" + content if "http://" not in content else content
+                  for content in content]
+
+    for count, url in enumerate(content):
+
+        if "food52" in url:
+            thisrecipe = Food52Parse(url)
+
+        if "allrecipes" in url:
+            thisrecipe = AllRecipesParse(url)
+
+        if "food.com" in url:
+            thisrecipe = FoodDotComParse(url)
+
+        if "nytimes" in url:
+            thisrecipe = CookingNYTimesParse(url)
+
+        if "sweetandsavory" in url:
+            thisrecipe = SweetAndSavoryParse(url)
+
+        if "foodnetwork" in url:
+            thisrecipe = FoodNetworkParse(url)
+
+        if "marthastewart" in url:
+            thisrecipe = MarthaStewartParse(url)
+
+        if thisrecipe:
+            thisrecipe.set_recipe_contents()
+            try:
+                thisrecipe.make_markdown()
+                count += 1
+            except FileExistsError as e:
+                print(thisrecipe.title, "\t FILE EXISTS:\t", e.__str__())
+            except IOError as e:
+                print(thisrecipe.title, "\tFILE NOT CREATED:\t", e.__str__())
+            except Exception as e:
+                pass
+                print(thisrecipe.title, "\tFILE NOT CREATED:\t", e.__str__())
+        else:
+            print("UNSUPPORTED URL:\t", url)
+
+    if count == len(content):
+        return True
+    else:
+        return False
+
+
 class RecipeParse(object):
     def __init__(self, url):
         """
@@ -186,18 +250,19 @@ class RecipeParse(object):
         :return: True or IOError is raised
         """
         new_file = ''
-        directory = os.path.dirname(os.path.dirname(__file__)) + "/Recipes/"
+        directory = os.path.dirname(os.path.dirname(__file__)) + "/TESTRecipes/"
         if not os.path.exists(directory):
             os.makedirs(directory)
 
         try:
             self.title = ''.join(c for c in self.title if 0 < ord(c) < 127)
             if os.path.isfile(directory + self.title + ".md"):
-                raise IOError(
-                    directory + self.title + ".md" + "already exists")
+                raise FileExistsError
             x = str(directory + self.title + ".md")
             new_file = open(x, "w")
             new_file.write(self.__str__())
+        except FileExistsError:
+            raise FileExistsError(directory + self.title + ".md")
         except IOError:
             raise IOError
         except:
@@ -566,7 +631,8 @@ class SweetAndSavoryParse(RecipeParse):
         Sets recipe image using url
         :return: None
         """
-        self.img_url = "http:" + self.soup.find("img")['src']
+        self.img_url = "http://" + self.soup.find("div", id="content").find(
+            "img")['src'][2:]
 
     def set_recipe_yield(self):
         """
@@ -615,8 +681,12 @@ class SweetAndSavoryParse(RecipeParse):
         :return: None
         """
         for directions in self.soup.findAll("div", {"class": "instructions"}):
-            for step in directions.find("ol"):
-                self.instructions.append(strip_bad_ascii(step.text))
+            if directions.find("ol"):
+                for step in directions.find("ol"):
+                    self.instructions.append(strip_bad_ascii(step.text))
+            else:
+                for step in directions:
+                    self.instructions.append(strip_bad_ascii(step.text))
 
     def set_recipe_contents(self):
         """
@@ -839,67 +909,10 @@ class MarthaStewartParse(RecipeParse):
             raise Exception("Unset class variables")
 
 
-def read_input_file(my_file):
-    try:
-        with open(my_file, 'r') as f:
-            content = f.read().splitlines()
-    except IOError:
-        raise IOError
-    return content
+if __name__ == "__main__":
+    file = "/Users/brooke/Desktop/input.txt"
 
-
-def main(cur_file):
-    content = []
-    count = -1
-    try:
-        content = read_input_file(my_file=cur_file)
-    except IOError as e:
-        print("UNABLE TO OPEN FILE: ", e)
-
-    for count, url in enumerate(content):
-        thisrecipe = None
-
-        if "food52" in url:
-            thisrecipe = Food52Parse(url)
-
-        if "allrecipes" in url:
-            thisrecipe = AllRecipesParse(url)
-
-        if "food.com" in url:
-            thisrecipe = FoodDotComParse(url)
-
-        if "nytimes" in url:
-            thisrecipe = CookingNYTimesParse(url)
-
-        if "sweetandsavory" in url:
-            thisrecipe = SweetAndSavoryParse(url)
-
-        if "foodnetwork" in url:
-            thisrecipe = FoodNetworkParse(url)
-
-        if "marthastewart" in url:
-            thisrecipe = MarthaStewartParse(url)
-
-        if thisrecipe:
-            thisrecipe.set_recipe_contents()
-            try:
-                thisrecipe.make_markdown()
-                count += 1
-            except IOError as e:
-                print(thisrecipe.title, "\tFILE NOT CREATED:\t", e.__str__())
-            except Exception as e:
-                print(thisrecipe.title, "\tFILE NOT CREATED:\t", e.__str__())
-        else:
-            print("UNSUPPORTED URL:\t", url)
-
-    if count == len(content):
-        return True
+    if main(file):
+        print("Success")
     else:
-        return False
-
-file = "/Users/brooke/Desktop/input.txt"
-
-if main(file):
-    print("Success")
-else:
-    print("Not all markdown files were generated")
+        print("Not all markdown files were generated")
