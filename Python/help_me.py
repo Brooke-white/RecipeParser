@@ -97,4 +97,3 @@ def get_instruction_dict_with_subtitles(instruction_dict):
             for step in steps:
                 instruction_list += "* " + step + "\n"
             instruction_list += "\n"
-
