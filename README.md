@@ -27,6 +27,8 @@ BeautifulSoup4 (pip install bs4)
 
 + [MarthaStewart.com](http://www.marthastewart.com/cook)
 
++ [LiveEatLearn.com](http://www.liveeatlearn.com/)
+
 ## Usage
 file: A text file containing recipe urls from the supported websites
 
@@ -45,3 +47,4 @@ If generating the markdown files is a success you will see a success message, ot
     http://www.sweetandsavorybyshinee.com/lemon-french-macarons/
     http://www.foodnetwork.com/recipes/mock-garlic-mashed-potatoes-recipe.html
     http://www.marthastewart.com/1075067/stuffed-tomatoes-mozzarella
+    http://www.liveeatlearn.com/honey-lime-grilled-pineapple/
