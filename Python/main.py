@@ -37,6 +37,9 @@ def main(cur_file):
         if "marthastewart" in url:
             thisrecipe = MarthaStewartParse(url)
 
+        if "liveeatlearn" in url:
+            thisrecipe = LiveEatLearnParse(url)
+
         if thisrecipe:
             thisrecipe.set_recipe_contents()
             try:
