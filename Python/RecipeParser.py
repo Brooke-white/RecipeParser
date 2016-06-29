@@ -105,7 +105,7 @@ class RecipeParse(object):
         :return: True or IOError is raised
         """
         new_file = ''
-        directory = os.path.dirname(os.path.dirname(__file__)) + "/TESTRecipes/"
+        directory = os.path.dirname(os.path.dirname(__file__)) + "/Recipes/"
         if not os.path.exists(directory):
             os.makedirs(directory)
 
@@ -754,6 +754,82 @@ class MarthaStewartParse(RecipeParse):
         Sets all recipe elements
         :return:
         """
+        if self.soup:
+            self.set_recipe_title()
+            self.set_recipe_img()
+            self.set_recipe_yield()
+            self.set_ingredients()
+            self.set_instructions()
+        else:
+            raise Exception("Unset class variables")
+
+
+class LiveEatLearnParse(RecipeParse):
+    def __init__(self, url):
+        """
+        Generates LivEatLearnParse object
+        :param url: Input String of form liveEatlearn.com/xxxx
+        :return: None
+        """
+        super(LiveEatLearnParse, self).__init__(url)
+        self.ingredients = []
+
+    def __str__(self):
+        """
+        Generates markdown styled string
+        :return: None
+        """
+        return "#[{}]({})\n![alt text]({})\n\n|Ingredients|\n" \
+               "| ------------- |\n{}\n###Instructions{}".format(
+                    self.title, self.url, self.img_url,
+                    get_ingredient_table_simple(self.ingredients),
+                    get_instruction_list(self.instructions)
+                    )
+
+    def set_recipe_title(self):
+        """
+        Gets recipe title from recipe
+        :return: None
+        """
+        self.title = self.soup.find("h1", itemprop="headline").text.strip()
+
+    def set_recipe_img(self):
+        """
+        Sets recipe image using url
+        :return: None
+        """
+        self.img_url = self.soup.find("img", {"class": "aligncenter"})['src']
+
+    def set_recipe_yield(self):
+            """
+            Gets recipe yield (serving size) from LiveEatLearn recipe
+            :return: None
+            """
+            self.recipe_yield = self.soup.find(
+                "div", {"class": "ERSServes"}).text
+
+    def set_ingredients(self):
+        """
+        Sets ingredient list from LiveEatLearn.com
+        :return: None
+        """
+        self.ingredients = [
+            strip_bad_ascii(element.text.strip()) for element in
+            self.soup.find_all("li", {"class": "ingredient"})
+            ]
+
+    def set_instructions(self):
+        """
+        Sets instruction list for LiveEatLearn.com recipe, form of:
+        ['step1'....'stepx']
+        :return: None
+        """
+        self.instructions = [
+            strip_bad_ascii(element.text.strip()) for element in
+            self.soup.find_all("li", {"class": "instruction"})
+            ]
+
+    def set_recipe_contents(self):
         if self.soup:
             self.set_recipe_title()
             self.set_recipe_img()
