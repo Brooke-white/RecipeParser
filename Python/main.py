@@ -11,7 +11,7 @@ def main(cur_file):
         print("UNABLE TO OPEN FILE: ", e)
         return False
 
-    content[:] = ["http://" + content if "http://" not in content else content
+    content[:] = ["http://" + content if "http" not in content else content
                   for content in content]
 
     for count, url in enumerate(content):
@@ -61,7 +61,7 @@ def main(cur_file):
         return False
 
 if __name__ == "__main__":
-    file = "/Users/brooke/Desktop/input.txt"
+    file = "/Users/brooke/Desktop/recipes.txt"
 
     if main(file):
         print("Success")
