@@ -232,7 +232,7 @@ class Food52Parse(RecipeParse):
             self.set_ingredients()
             self.set_instructions()
         else:
-            raise Exception("Unset class variables")
+            raise Exception("Unset class variables", self.url)
 
 
 class AllRecipesParse(RecipeParse):
