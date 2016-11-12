@@ -1,5 +1,5 @@
 #[Martha Stewart's One-Pan Pasta](https://food52.com/recipes/30147-martha-stewart-s-one-pan-pasta#comments)
-![alt text](https:https://images.food52.com/nHc8yu1y7q56kqNE2uAChgca7GY=/753x502/d97d9405-b431-4740-ba2c-2ee139ce4341--2014-0624_genius_one-pan-pasta-071.jpg)
+![alt text](https://images.food52.com/nHc8yu1y7q56kqNE2uAChgca7GY=/753x502/d97d9405-b431-4740-ba2c-2ee139ce4341--2014-0624_genius_one-pan-pasta-071.jpg)
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
