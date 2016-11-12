@@ -1,5 +1,5 @@
 #[Momofuku's Soy Sauce Eggs](https://food52.com/recipes/35930-momofuku-s-soy-sauce-eggs)
-![alt text](https:https://images.food52.com/pD4FVaVcpb2nWw323kuOGkkYYQc=/753x502/053eb065-eed3-42ff-beea-b352627b83a5--2015-0421_genius-soy-sauce-eggs_james-ransom-159.jpg)
+![alt text](https://images.food52.com/pD4FVaVcpb2nWw323kuOGkkYYQc=/753x502/053eb065-eed3-42ff-beea-b352627b83a5--2015-0421_genius-soy-sauce-eggs_james-ransom-159.jpg)
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
