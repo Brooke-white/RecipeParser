@@ -1,5 +1,5 @@
 #[Grandma DiLaura's Italian Ricotta Gnocchi](https://food52.com/recipes/9460-grandma-dilaura-s-italian-ricotta-gnocchi)
-![alt text](https:https://images.food52.com/7t7K6Pyj15c7BjR1Tuzh7KOfHJU=/753x502/2fd0dbf1-ed9f-451c-801d-5b5c9fd351d8--032911F_429.JPG)
+![alt text](https://images.food52.com/7t7K6Pyj15c7BjR1Tuzh7KOfHJU=/753x502/2fd0dbf1-ed9f-451c-801d-5b5c9fd351d8--032911F_429.JPG)
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
