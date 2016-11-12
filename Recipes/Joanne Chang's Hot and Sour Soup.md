@@ -1,5 +1,5 @@
 #[Joanne Chang's Hot and Sour Soup](https://food52.com/recipes/25530-joanne-chang-s-hot-and-sour-soup)
-![alt text](https:https://images.food52.com/MYtSIJXLb0jIB4nueCsz6RdF55Y=/753x502/85144f1a-9d8b-4cc0-a744-18b20908477d--11523410703_68118ebd1a_b.jpg)
+![alt text](https://images.food52.com/MYtSIJXLb0jIB4nueCsz6RdF55Y=/753x502/85144f1a-9d8b-4cc0-a744-18b20908477d--11523410703_68118ebd1a_b.jpg)
 ###Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
