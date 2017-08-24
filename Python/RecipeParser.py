@@ -838,3 +838,80 @@ class LiveEatLearnParse(RecipeParse):
             self.set_instructions()
         else:
             raise Exception("Unset class variables")
+
+
+class EpicuriousParse(RecipeParse):
+
+    def __init__(self, url):
+        """
+        Generates EpicuriousParse object
+        :param url: Input String of form epicurious.com/recipies/food/xxxx
+        :return: None
+        """
+        super(EpicuriousParse, self).__init__(url)
+        self.ingredients = []
+
+    def __str__(self):
+        """
+        Generates markdown styled string
+        :return: None
+        """
+        return "# [{}]({})\n![alt text]({})\n###### {}\n### Ingredients\n{}" \
+               "\n### Instructions{}".format(self.title, self.url, self.img_url,
+                                             self.recipe_yield,
+                                             get_ingredient_table_simple(self.ingredients),
+                                             get_instruction_list(self.instructions)
+                                             )
+
+    def set_recipe_title(self):
+        """
+        Gets recipe title from recipe
+        :return: None
+        """
+        self.title = self.soup.find("h1", itemprop="name").text.strip()
+
+    def set_recipe_img(self):
+        """
+        Sets recipe image using url
+        :return: None
+        """
+        self.img_url = "https:" + self.soup.find("source", {"media": "(min-width: 1024px)"})['srcset']
+
+    def set_recipe_yield(self):
+        """
+        Gets recipe yield (serving size) from Epicurious.com recipe
+        :return: None
+        """
+        self.recipe_yield = self.soup.find("dd", {"class": "yield"}).text
+
+    def set_ingredients(self):
+        """
+        Sets ingredient dict from Epicurious.com {"ingredient": "quantity"}
+        :return: None
+        """
+        for element in self.soup.find_all("li", {"class": "ingredient"}):
+            ingredient = element.text.strip()
+            self.ingredients.append(ingredient)
+
+    def set_instructions(self):
+        """
+        Sets instructions for Epicurious.com recipe
+        :return:
+        """
+        for element in self.soup.find_all("li", {"class": "preparation-step"}):
+            step = element.text.strip()
+            self.instructions.append(step)
+
+    def set_recipe_contents(self):
+        """
+        Sets all recipe elements
+        :return:
+        """
+        if self.soup:
+            self.set_recipe_title()
+            self.set_recipe_img()
+            self.set_recipe_yield()
+            self.set_ingredients()
+            self.set_instructions()
+        else:
+            raise Exception("Unset class variables")
