@@ -1,8 +1,8 @@
-#Classic Key Lime Pie
+# Classic Key Lime Pie
 Serves 8
-###Ingredients
+### Ingredients
 
-#####For the Pastry
+##### For the Pastry
 |Quantity|Ingredient|
 ----------:|:-------
 |1 1/4|cups flour|
@@ -12,7 +12,7 @@ Serves 8
 |1/4|cup shortening|
 |2-3|tablespoons ice water, or as needed|
 
-#####For the lime curd
+##### For the lime curd
 |Quantity|Ingredient|
 ----------:|:-------
 |3|eggs|
@@ -23,7 +23,7 @@ Serves 8
 |1/2|cup key lime juice|
 |8|tablespoons unsalted butter, softened cut|
 
-#####For the meringue
+##### For the meringue
 |Quantity|Ingredient|
 ----------:|:-------
 |4|egg whites|
@@ -31,7 +31,7 @@ Serves 8
 |1/4|teaspoon cream of tartar|
 |1/3|cup sugar|
 
-###Instructions
+### Instructions
 
 * To make the pastry, in the bowl of a food processor, combine the flour, salt, and sugar and pulse once to mix. Add the butter and shortening and process in short pulses to form pea-sized crumbs, 20 to 25 seconds. While pulsing, gradually add the water to form larger, moist crumbs, 10 seconds more. Turn the dough out onto a lightly floured surface and, with floured hands, shape the mixture into a flat disk. Wrap tightly with plastic wrap and refrigerate until firm, at least 1 hour or as long as overnight.
 * To make the lime curd, in the top pan of a double boiler or in a nonreactive saucepan, whisk together the eggs, egg yolks, sugar, milk, and salt until blended. Then whisk in the lime juice. Set the top pan over the bottom pan of simmering water but not touching the water, or set the saucepan over medium-low heat. (If using a saucepan, take care not to heat the mixture to quickly). Cook, stirring constantly with a wooden spatula or spoon, until the mixture is warmed through, 1 to 2 minutes.

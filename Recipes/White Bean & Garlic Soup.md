@@ -1,6 +1,6 @@
-#[White Bean & Garlic Soup](http://food52.com/recipes/2392-white-bean-garlic-soup)
+# [White Bean & Garlic Soup](http://food52.com/recipes/2392-white-bean-garlic-soup)
 ![alt text](https://images.food52.com/jWHfOnocCUA7odAg7n6tn6GOaIQ=/753x502/426018a2-1808-4db6-93ea-ab91f6ca19bd--white_bean_garlic_soup.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |12-14|cloves garlic confit|
@@ -17,7 +17,7 @@
 |2|tablespoons garlic-infused oil (from confit), or extra virgin olive oil|
 |1|parmesan rind|
 
-###Instructions
+### Instructions
 
 * Preheat the oven to 300.
 

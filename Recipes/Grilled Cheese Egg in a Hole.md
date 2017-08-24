@@ -1,6 +1,6 @@
-#[Grilled Cheese Egg in a Hole](http://food52.com/recipes/30739-grilled-cheese-egg-in-a-hole?from_related=1&related_src_type=recipe)
+# [Grilled Cheese Egg in a Hole](http://food52.com/recipes/30739-grilled-cheese-egg-in-a-hole?from_related=1&related_src_type=recipe)
 ![alt text](https://images.food52.com/VB9wkAYplrOQqStoO9hLIf3tXh0=/753x502/3930ae34-4c4f-4e62-bd40-09fcfed41152--2014-0923_grilled-cheese-egg-in-a-hole-020.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 ||Sea Salt|
@@ -10,7 +10,7 @@
 |1|large egg|
 |1 to 2|slices sharp white cheddar cheese or your favorite melty cheese|
 
-###Instructions
+### Instructions
 
 * Start heating a non-stick pan on medium-low. Spread a thin layer of mayonnaise on one slice of bread and place the bread mayonnaise-side down in the pan.
 

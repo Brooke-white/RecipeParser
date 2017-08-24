@@ -1,6 +1,6 @@
-#Nutty Cookies
+# Nutty Cookies
 36 Cookies
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1|cup whole wheat flour|
@@ -18,7 +18,7 @@
 |2/3|cup walnuts, chopped|
 |1/4|cup coconut, flaked|
 
-###Instructions
+### Instructions
 
 * Preheat oven to 350 degrees F.
 * Combine all ingredients and form tablespoon sized balls.

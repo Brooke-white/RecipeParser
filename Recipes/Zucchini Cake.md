@@ -1,6 +1,6 @@
-#Zucchini Cake
-###Ingredients
-#####Cake
+# Zucchini Cake
+### Ingredients
+##### Cake
 |Quantity|Ingredient|
 ----------:|:-------
 |3|cup flour|
@@ -14,14 +14,14 @@
 |1|teaspoon lemon zest|
 |1 1/2|cup walnuts, chopped|
 
-#####Glaze
+##### Glaze
 |Quantity|Ingredient|
 ----------:|:-------
 |1 1/2|cups powdered sugar|
 |1/8|teaspoon salt|
 |1|tablespoon butter, soft|
 
-###Instructions
+### Instructions
 
 * Beat ingredients together, folding walnuts, zucchini, and raisins (if desired).
 * Bake at 325 degrees F for one hour and 25 minutes.

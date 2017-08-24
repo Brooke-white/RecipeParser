@@ -1,6 +1,6 @@
-#[Spice Merchant Cauliflower Couscous](http://food52.com/recipes/21165-spice-merchant-cauliflower-couscous)
+# [Spice Merchant Cauliflower Couscous](http://food52.com/recipes/21165-spice-merchant-cauliflower-couscous)
 ![alt text](https://images.food52.com/KmlvenHo-zCBYs9bmKo71Q_DhT0=/753x502/dd0d5595-9225-492b-8f42-e7a95c366197--2013-0813_finalist_cauliflower-couscous-017.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |4|tablespoons lemon juice|
@@ -15,7 +15,7 @@
 |5|ounces raw cashewnuts|
 |1/4|teaspoon finely shredded lemon zest|
 
-###Instructions
+### Instructions
 
 * Place the sultanas in a bowl and pour warm water over them. Leave the sultanas for about 15 minutes, until plump. Drain and discard the water.
 

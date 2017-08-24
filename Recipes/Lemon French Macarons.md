@@ -1,8 +1,8 @@
-#[Lemon French Macarons](http://www.sweetandsavorybyshinee.com/lemon-french-macarons/)
+# [Lemon French Macarons](http://www.sweetandsavorybyshinee.com/lemon-french-macarons/)
 ![alt text](http://www.sweetandsavorybyshinee.com/wp-content/uploads/2014/05/Lemon-French-Macarons-1.jpg)
-###Ingredients
+### Ingredients
 
-####For lemon buttercream
+#### For lemon buttercream
 * 3 tablespoons (40gr) unsalted butter, softened
 * 1 cup (130gr) powdered sugar
 * 2 teaspoons heavy cream
@@ -12,7 +12,7 @@
 * 1/8 teaspoon salt
 
 
-####For macaron shells
+#### For macaron shells
 * 1 cup (100gr) almond flour
 * 3/4 cup (100gr) powdered sugar
 * 2 large egg whites (about 70gr)
@@ -24,7 +24,7 @@
 * Yellow gel food coloring
 
 
-###Instructions
+### Instructions
 
 * In medium bowl, sift together almond flour and powdered sugar twice. Set aside.
 

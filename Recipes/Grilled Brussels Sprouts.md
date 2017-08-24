@@ -1,6 +1,6 @@
-#[Grilled Brussels Sprouts](http://food52.com/recipes/1299-grilled-brussels-sprouts)
+# [Grilled Brussels Sprouts](http://food52.com/recipes/1299-grilled-brussels-sprouts)
 ![alt text](https://images.food52.com/Go50i97c5s4ksW-Kio37bmmCEzs=/753x502/e71e8335-3ba1-4f70-8932-39112f84fde3--brussel_sprouts.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1/2-1|teaspoons kosher salt|
@@ -14,7 +14,7 @@
 |1/2-1|teaspoons garlic powder|
 |1/2-1|teaspoons onion powder|
 
-###Instructions
+### Instructions
 
 * First, clean the sprouts.  Trim the cut ends back without interferring with the leaves, and peel any withered leaves off the bulb.  Score the bottoms; one cut will suffice.
 

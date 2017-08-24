@@ -1,6 +1,6 @@
-#[Vanilla & Coconut Tart](https://food52.com/recipes/19654-vanilla-coconut-tart)
+# [Vanilla & Coconut Tart](https://food52.com/recipes/19654-vanilla-coconut-tart)
 ![alt text](https:https://images.food52.com/p_bAfBG4Vmbdr8V3zNHeLBmynGA=/753x502/56e9be5e-25cd-4367-8684-9c3b87e0e380--R0011646.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |2|cups Coconut chips or desiccated coconut|
@@ -15,7 +15,7 @@
 ||pinches Sea salt|
 |0.5|teaspoons Vanilla extract (if you can, try to use extract rather than essence as the taste is far better)|
 
-###Instructions
+### Instructions
 
 * 20cm / 8 inch springform pan, greased with a little coconut oil.
 

@@ -1,6 +1,6 @@
-#[Classic Chicken Piccata](http://food52.com/recipes/26564-classic-chicken-piccata)
+# [Classic Chicken Piccata](http://food52.com/recipes/26564-classic-chicken-piccata)
 ![alt text](https://images.food52.com/1fpa_0b2xJeDtlFbKoVW6thNXBY=/753x502/da54cfd6-7a62-4e48-89b7-c1533bbaf8de--2014-0225_CP_classic-chicken-piccata-005.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1|cup low-sodium chicken broth|
@@ -16,7 +16,7 @@
 |2|tablespoons capers, drained|
 |1|pinch black pepper|
 
-###Instructions
+### Instructions
 
 * Cut one lemon in half lengthwise. Trim the ends from one half and cut across into thin slices about 1/8 inch thick; set aside. Juice the remaining half and whole lemon to obtain about 1/4 cup juice; set aside.
 

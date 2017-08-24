@@ -1,6 +1,6 @@
-#[Smoky Minestrone with Tortellini and Parsley or Basil Pesto](http://food52.com/recipes/4661-smoky-minestrone-with-tortellini-and-parsley-or-basil-pesto)
+# [Smoky Minestrone with Tortellini and Parsley or Basil Pesto](http://food52.com/recipes/4661-smoky-minestrone-with-tortellini-and-parsley-or-basil-pesto)
 ![alt text](https://images.food52.com/HlYDq1vAUhUva2GfcR0s8stnqBw=/753x502/17db38e1-ee3f-42a5-851e-8cd7c623ce35--052510F_415.JPG)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1|leek, trimmed and sliced thinly|
@@ -26,7 +26,7 @@
 |2|slices preservative-free, all-natural bacon, chopped into small pieces|
 |1|15 oz. can of cooked chickpeas, preferably organic|
 
-###Instructions
+### Instructions
 
 * Heat 1 tablespoon of the olive oil in a large pot over medium heat. Add the bacon pieces and cook for a couple of minutes, until they start to brown.
 

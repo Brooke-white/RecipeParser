@@ -1,6 +1,6 @@
-#Ragelach
+# Ragelach
 Yield: 48
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1|cup unsalted butter, softened|
@@ -10,7 +10,7 @@ Yield: 48
 |3/4|cup raspberry jam or apricot preserves|
 |3/4|cup raisins|
 |1/2|cup walnuts|
-###Instructions
+### Instructions
 
 * In a large bowl, beat butter and cream cheese with mixer on medium speed until smooth.
 * On low speed, gradually add flour, beating just until dough comes together, 10-15 seconds. Divide dough into thirds, flattening each into a 6-inch disk.

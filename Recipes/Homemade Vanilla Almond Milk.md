@@ -1,6 +1,6 @@
-#[Homemade Vanilla Almond Milk](http://food52.com/recipes/20948-homemade-vanilla-almond-milk)
+# [Homemade Vanilla Almond Milk](http://food52.com/recipes/20948-homemade-vanilla-almond-milk)
 ![alt text](https://images.food52.com/PJGLIVW7xbRtOH9C7vxjmMXN2r0=/753x502/4a89cf01-130e-48da-9bdf-9e1fe94d96ab--milk2.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |3|pieces vanilla bean, thinly sliced crosswise (or 1 tablespoon vanilla extract, or 2 teaspoons vanilla bean paste)|
@@ -9,7 +9,7 @@
 |1|cup raw almonds|
 ||Filtered water (2 cups for soaking +  3½ cups for blending)|
 
-###Instructions
+### Instructions
 
 * Soak the nuts in 2 cups of cold filtered water at least overnight – 24 hours is even better.
 

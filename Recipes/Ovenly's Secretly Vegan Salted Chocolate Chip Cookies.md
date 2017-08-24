@@ -1,6 +1,6 @@
-#[Ovenly's Secretly Vegan Salted Chocolate Chip Cookies](http://food52.com/recipes/39132-ovenly-s-secretly-vegan-salted-chocolate-chip-cookies)
+# [Ovenly's Secretly Vegan Salted Chocolate Chip Cookies](http://food52.com/recipes/39132-ovenly-s-secretly-vegan-salted-chocolate-chip-cookies)
 ![alt text](https://images.food52.com/0vnpU8Z4cYYhqhfHxEvnlGw58J0=/753x502/130b9019-06cd-4d31-87dd-0ee786270a35--2015-1102_genius-vegan-salted-chocolate-chip-cookies_james-ransom-095.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1 1/4|cups dark chocolate chips (we prefer chocolate with 60 percent cocoa content or higher—double-check the ingredients if you want to make sure they're vegan)|
@@ -14,7 +14,7 @@
 |1/2|cup (110 grams) packed light or dark brown sugar|
 |1|teaspoon baking powder|
 
-###Instructions
+### Instructions
 
 * In a large bowl, whisk together flour, baking powder, baking soda, and salt. Add the chocolate chips to the flour mixture and toss to coat.
 

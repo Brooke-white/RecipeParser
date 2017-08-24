@@ -1,8 +1,8 @@
-#[Classic Eclairs](http://www.sweetandsavorybyshinee.com/eclairs-pate-a-choux-puffs/)
+# [Classic Eclairs](http://www.sweetandsavorybyshinee.com/eclairs-pate-a-choux-puffs/)
 ![alt text](http://www.sweetandsavorybyshinee.com/wp-content/uploads/2013/01/Eclairs-2.jpg)
-###Ingredients
+### Ingredients
 
-####For Pastry Shells:
+#### For Pastry Shells:
 * ½ cup (125gr) milk (whole, 2%, or 1% will work)
 * ½ cup (125gr) water
 * 1/2 cup (115gr) unsalted butter
@@ -12,7 +12,7 @@
 * 4-5 large eggs, at room temperature
 
 
-####For Pastry Cream:
+#### For Pastry Cream:
 * 2 cups (500gr) milk
 * 1 teaspoon vanilla extract
 * 4 egg yolks
@@ -22,13 +22,13 @@
 * 1/2 cup (120 ml) cold heavy whipping cream
 
 
-####For Chocolate Ganache:
+#### For Chocolate Ganache:
 * ½ cup (120ml) heavy whipping cream
 * 1 cup (175gr) semi-sweet chocolate chips
 * 1 tablespoon unsalted butter,softened, optional
 
 
-###Instructions
+### Instructions
 
 * Preheat oven to 375F (190C).
 

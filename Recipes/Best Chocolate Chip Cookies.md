@@ -1,6 +1,6 @@
-#Best Chocolate Chip Cookies
+# Best Chocolate Chip Cookies
 24 cookies
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1|cup butter, soft|
@@ -15,7 +15,7 @@
 |2|cups semisweet chocolate chips|
 |1|cup chopped walnuts|
 
-###Instructions
+### Instructions
 
 * Preheat oven to 350 degrees F
 * Cream together butter, white sugar, and brown sugar until smooth. Beat in the eggs one at a time, then stir in the vanilla. Dissolve baking soda in hot water. Add to batter along with salt. Stir in flour, chocolate chips, and nuts. Drop by large spoonfuls onto pans.

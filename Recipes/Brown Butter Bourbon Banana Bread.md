@@ -1,6 +1,6 @@
-#[Brown Butter Bourbon Banana Bread](http://food52.com/recipes/1259-brown-butter-bourbon-banana-bread)
+# [Brown Butter Bourbon Banana Bread](http://food52.com/recipes/1259-brown-butter-bourbon-banana-bread)
 ![alt text](https://images.food52.com/pSuhzv3GpepWebEf3VAWeNH2MGU=/753x502/c513356b-02a7-47d6-874c-7e720ede852f--2014-0930_brown_butter_bourbon_banana_bread_153.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1/4|teaspoon baking soda|
@@ -16,7 +16,7 @@
 |1/2|teaspoon salt|
 |8|tablespoons butter|
 
-###Instructions
+### Instructions
 
 * Preheat oven to 350° F. Grease only the bottom of a standard size loaf pan with butter or nonstick cooking spray. Combine flour, baking soda, baking powder, and salt in a medium-sized bowl. Set aside.
 

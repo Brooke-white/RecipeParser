@@ -1,6 +1,6 @@
-#Magic Cookie Bars (Seven Layer Cookies)
+# Magic Cookie Bars (Seven Layer Cookies)
 Yield 3 dozen bars
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1|cup butter|
@@ -11,7 +11,7 @@ Yield 3 dozen bars
 |3 ½|ounce can flaked coconut|
 |1|cup chopped nuts (walnuts are best)|
 
-###Instructions
+### Instructions
 
 * Preheat oven to 350 degrees. 
 * In 9 x 13 inch baking pan, melt butter. Sprinkle graham cracker crumbs over butter; pour condensed milk evenly over crumbs. Top evenly with remaining ingredients. Press down firmly.

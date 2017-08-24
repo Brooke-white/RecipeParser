@@ -1,6 +1,6 @@
-#[Pumpkin Cake with Cream Cheese Icing and Caramelized Pumpkin Seeds](http://food52.com/recipes/30963-pumpkin-cake-with-cream-cheese-icing-and-caramelized-pumpkin-seeds)
+# [Pumpkin Cake with Cream Cheese Icing and Caramelized Pumpkin Seeds](http://food52.com/recipes/30963-pumpkin-cake-with-cream-cheese-icing-and-caramelized-pumpkin-seeds)
 ![alt text](https://images.food52.com/RgkBleThg9yaY7_vdOgZLtK42Xs=/753x502/1ac13895-b2bb-449d-b81d-8b6f6b1670d5--2014-0926_pumpkin-cake-004.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1|tablespoon plus 1 teaspoon ground cinnamon|
@@ -21,7 +21,7 @@
 |1 1/3|cups sugar|
 |3/4|teaspoon salt|
 
-###Instructions
+### Instructions
 
 * FOR THE CAKE: Preheat the oven to 325° F and position a rack in the center. Butter a 9-inch round cake pan, then line the bottom with a circle of parchment paper and butter that, too (I like to be extra vigilant).
 

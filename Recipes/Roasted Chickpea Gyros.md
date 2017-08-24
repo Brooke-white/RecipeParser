@@ -1,4 +1,4 @@
-#[Roasted Chickpea Gyros](http://www.liveeatlearn.com/roasted-chickpea-gyros/)
+# [Roasted Chickpea Gyros](http://www.liveeatlearn.com/roasted-chickpea-gyros/)
 ![alt text](http://www.liveeatlearn.com/wp-content/uploads/2015/10/DSC_0530crop.jpg)
 
 |Ingredients|
@@ -15,7 +15,7 @@
 |2 lettuce leaves, roughly chopped|
 |1 tomato, sliced|
 
-###Instructions
+### Instructions
 
 * Pat dry chickpeas with paper towel, removing any skins that may come off.
 

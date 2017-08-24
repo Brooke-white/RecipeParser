@@ -1,6 +1,6 @@
-#[Turkey Pho](http://food52.com/recipes/1919-turkey-pho)
+# [Turkey Pho](http://food52.com/recipes/1919-turkey-pho)
 ![alt text](https://images.food52.com/8E0NiFKPvIvKu1ZbPcFOm85TZwY=/753x502/2e4c5feb-287f-462d-9769-fa814216e725--120109F_803.JPG)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1-2|tablespoons chopped green onions (white parts only), minced- for garnish (optional)|
@@ -20,7 +20,7 @@
 |1|3-inch chunk of ginger, sliced and smashed with side of knife|
 ||Sriracha chili sauce to taste|
 
-###Instructions
+### Instructions
 
 * Heat a cast-iron skillet or frying pan over medium heat. Add the coriander seeds, cloves, star anise, and cinnamon stick and toast until fragrant, about 3-4 minutes. Immediately spoon out the spices into a bowl to avoid burning them and set aside.
 

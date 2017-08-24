@@ -1,5 +1,5 @@
-#Pizza Dough
-###Ingredients
+# Pizza Dough
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1 1/2|cup water|
@@ -9,7 +9,7 @@
 |1/4|cup olive oil|
 |4|cup flour|
 
-###Instructions
+### Instructions
 
 * Combine all ingredients, kneed until incorporated
 * Let rise for 1 hour, covered. 

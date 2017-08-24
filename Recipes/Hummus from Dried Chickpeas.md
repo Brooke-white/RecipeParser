@@ -1,7 +1,7 @@
-#[Hummus from Dried Chickpeas](http://www.food.com/recipe/hummus-from-dried-chickpeas-214532)
+# [Hummus from Dried Chickpeas](http://www.food.com/recipe/hummus-from-dried-chickpeas-214532)
 ![alt text]
 (http://img.sndimg.com/food/image/upload/w_614,h_461,c_fit/v1/img/recipes/21/45/32/picgxZw28.jpg)
-###Ingredients
+### Ingredients
 |Ingredient|
 |:-------|
 |1  lb  dried garbanzo beans, soaked overnight|
@@ -12,7 +12,7 @@
 |1 -2  tablespoon  salt, to taste|
 |1  teaspoon  ground cumin (optional)|
 
-###Instructions
+### Instructions
 
 * Bring chickpeas to boiling then simmer about 1/2 hour until tender. 
 

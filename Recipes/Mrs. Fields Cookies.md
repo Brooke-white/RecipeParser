@@ -1,6 +1,6 @@
-#Mrs. Fields Cookies
+# Mrs. Fields Cookies
 Makes 56 cookies
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1|cup butter|
@@ -17,7 +17,7 @@ Makes 56 cookies
 |4|ounce Hershey bar, grated|
 |1/2|cup walnuts, chopped|
 
-###Instructions
+### Instructions
 
 * Cream butter, sugar, and brown sugar together, then add eggs and vanilla.
 * Mix flour, powdered oatmeal, salt, baking powder, and baking soda together then add.

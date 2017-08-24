@@ -1,6 +1,6 @@
-#Mrs. Sigg's Snickerdoodles
+# Mrs. Sigg's Snickerdoodles
 48 cookies
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1/2|cup butter, soft|
@@ -16,7 +16,7 @@
 |2|teaspoon ground cinnamon|
 
 
-###Instructions
+### Instructions
 
 * Preheat oven to 400 degrees F.
 * Cream together butter, shortening, 1 1/2 cup sugar, eggs, and vanilla. Blend in the flour, cream of tartar, baking soda, and salt. Shape dough by rounded spoonfuls into balls.

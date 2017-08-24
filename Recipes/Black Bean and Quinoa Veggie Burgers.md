@@ -1,6 +1,6 @@
-#[Black Bean and Quinoa Veggie Burgers](http://food52.com/recipes/19635-black-bean-and-quinoa-veggie-burgers)
+# [Black Bean and Quinoa Veggie Burgers](http://food52.com/recipes/19635-black-bean-and-quinoa-veggie-burgers)
 ![alt text](https://images.food52.com/w1-NVP1J9xT2Tt4XcyUNQ3d11LY=/753x502/e809114b-6e1e-48a8-bb72-c43d25931580--2013-0910_CP_black-bean-quinoa-burgers-003.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1/2|cup quinoa|
@@ -24,7 +24,7 @@
 |1|teaspoon olive oil|
 ||Lettuce, avocado slices, and tomatoes, for topping (optional)|
 
-###Instructions
+### Instructions
 
 * Place the quinoa in a small saucepan along with 1 cup of water.  Bring the water to a boil then reduce heat to medium low and cover the pan.  Cook 10 to 15 minutes until the water is absorbed and quinoa is cooked. Remove from heat.
 

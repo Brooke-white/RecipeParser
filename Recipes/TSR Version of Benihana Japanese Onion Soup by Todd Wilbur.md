@@ -1,7 +1,7 @@
-#[TSR Version of Benihana Japanese Onion Soup by Todd Wilbur](http://www.food.com/recipe/tsr-version-of-benihana-japanese-onion-soup-by-todd-wilbur-391952)
+# [TSR Version of Benihana Japanese Onion Soup by Todd Wilbur](http://www.food.com/recipe/tsr-version-of-benihana-japanese-onion-soup-by-todd-wilbur-391952)
 ![alt text]
 (http://img.sndimg.com/food/image/upload/w_614,h_461,c_fit/v1/img/recipes/39/19/52/picU49QUy.jpg)
-###Ingredients
+### Ingredients
 |Ingredient|
 |:-------|
 |4  cups  canned chicken broth|
@@ -16,7 +16,7 @@
 |6  medium  mushrooms, thinly sliced|
 |4    green onions, diced (green part only)|
 
-###Instructions
+### Instructions
 
 * Combine chicken broth and water in a large saucepan over high heat.
 

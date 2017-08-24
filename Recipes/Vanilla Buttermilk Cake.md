@@ -1,5 +1,5 @@
-#Vanilla Buttermilk Cake
-###Ingredients
+# Vanilla Buttermilk Cake
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |2|cups sugar|
@@ -12,7 +12,7 @@
 |1/2|teaspoon salt|
 |2|cups buttermilk|
 
-###Instructions
+### Instructions
 
 * Cream butter and sugar together.
 * Add eggs and vanilla, mix well.

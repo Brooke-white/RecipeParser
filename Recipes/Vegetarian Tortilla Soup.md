@@ -1,7 +1,7 @@
-#Vegetarian Tortilla Soup
+# Vegetarian Tortilla Soup
 4 Servings
-###Ingredients
-#####Soup
+### Ingredients
+##### Soup
 |Quantity|Ingredient|
 ----------:|:-------
 |2| tablespoons canola oil|
@@ -17,7 +17,7 @@
 |1/2|cup lime juice|
 |2|ears of corn, cut into 2 inch wheels|
 
-#####Garnish
+##### Garnish
 |Quantity|Ingredient|
 ----------:|:-------
 |1|cup grated Monterrey Jack cheese|
@@ -26,7 +26,7 @@
 |1|cup crumbled tortilla chips, or more|
 
 
-###Instructions
+### Instructions
 
 * Heat the canola oil in a large saucepan over medium heat. Add the onions, carrots, and celery; Saute for 3 minutes, add in the cumin, garlic, chili powder, salt, and cilantro. Stir well, and cook for another 3 minutes.
 * Add the vegetable broth and lime juice and bring to a simmer. Add the corn and cook for 10-15 minutes.

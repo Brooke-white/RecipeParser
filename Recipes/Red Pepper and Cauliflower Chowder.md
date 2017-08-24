@@ -1,6 +1,6 @@
-#[Red Pepper and Cauliflower Chowder](http://food52.com/recipes/31659-red-pepper-and-cauliflower-chowder)
+# [Red Pepper and Cauliflower Chowder](http://food52.com/recipes/31659-red-pepper-and-cauliflower-chowder)
 ![alt text](https://images.food52.com/P2x2UxHfh8YSzT8vonFukv3XhzQ=/753x502/bc5cc8c6-c861-421e-9fe3-e1e61815715b--2014-1021_red_pepper_and_cauliflower_chowder_484.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1|cup milk (you should probably have some fat in there; I'm a staunch skim milker and even I sprung for 2%)|
@@ -17,7 +17,7 @@
 ||Freshly ground pepper|
 |1/2|teaspoon salt|
 
-###Instructions
+### Instructions
 
 * Heat olive oil over medium heat. Add garlic and red pepper, cooking down until the pepper is softened, 8 to 10 minutes.
 

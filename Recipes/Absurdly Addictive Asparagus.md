@@ -1,6 +1,6 @@
-#[Absurdly Addictive Asparagus](http://food52.com/recipes/4023-absurdly-addictive-asparagus)
+# [Absurdly Addictive Asparagus](http://food52.com/recipes/4023-absurdly-addictive-asparagus)
 ![alt text](https://images.food52.com/bpNppoN4_JY6RtbSpwl9VNKroIE=/753x502/e53e7186-df51-47c0-bcbd-c99159ac4a24--2013-1107_absurdly-addictive-asparagus-021.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 ||Salt and freshly ground pepper to taste|
@@ -14,7 +14,7 @@
 |2|cloves garlic, minced|
 |1|pound asparagus, woody ends trimmed and sliced into 2 inch pieces on the bias|
 
-###Instructions
+### Instructions
 
 * In a large non-stick pan, sauté pancetta, stirring frequently, over medium heat, until crisp and lightly golden.
 

@@ -1,15 +1,15 @@
-#[Sea Salt Chocolate Macarons](http://www.sweetandsavorybyshinee.com/sea-salt-chocolate-macarons/)
+# [Sea Salt Chocolate Macarons](http://www.sweetandsavorybyshinee.com/sea-salt-chocolate-macarons/)
 ![alt text](http://www.sweetandsavorybyshinee.com/wp-content/uploads/2014/11/Chocolate-Macarons-2.jpg)
-###Ingredients
+### Ingredients
 
-####For chocolate ganache filling:
+#### For chocolate ganache filling:
 * 1/3 cup (60gr) semi sweet chocolate chips
 * 3 tablespoons heavy cream
 * 2 tablespoons Nutella
 * 1 tablespoon Kahlua, optional
 
 
-####For macarons shells:
+#### For macarons shells:
 * 1 cup (100gr) almond flour
 * 1 cup (130gr) powdered sugar
 * 2 tablespoons (10gr) natural cocoa powder
@@ -19,7 +19,7 @@
 * 1 teaspoon coarse sea salt
 
 
-###Instructions
+### Instructions
 
 * In a medium bowl, sift together almond flour, powdered sugar and cocoa powder twice. Set aside.
 

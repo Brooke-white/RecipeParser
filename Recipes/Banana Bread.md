@@ -1,5 +1,5 @@
-#Banana Bread
-###Ingredients
+# Banana Bread
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1 1/4|cup all-purpose flour|
@@ -12,7 +12,7 @@
 |1|cup mashed ripe bananas (about 2 medium)|
 |1|teaspoon vanilla extract|
 
-###Instructions
+### Instructions
 
 * Combine first four ingredients in a small bowl; stir well and set aside.
 * Combine sugar and oil in a medium bowl; beat at medium speed of an electric mixer 2 minutes or until well blended. Add egg; beat until light and lemon colored.

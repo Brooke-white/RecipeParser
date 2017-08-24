@@ -1,6 +1,6 @@
-#Mexican Rice
+# Mexican Rice
 
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |12 ounces| tomatoes, very ripe and cored|
@@ -15,7 +15,7 @@
 |1/2 cup| fresh cilantro, minced|
 |1| limes|
 
-###Instructions
+### Instructions
 
 * Adjust rack to middle position and preheat oven to 350.
 * Process tomato and onion in processor or blender until pureed and thoroughly smooth. Transfer mixture to measuring cup and reserve exactly 2 cups. Discard excess.

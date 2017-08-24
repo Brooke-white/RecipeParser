@@ -1,6 +1,6 @@
-#[No-Knead Bread](http://cooking.nytimes.com/recipes/11376-no-knead-bread)
+# [No-Knead Bread](http://cooking.nytimes.com/recipes/11376-no-knead-bread)
 ![alt text](http://graphics8.nytimes.com/images/2014/04/08/dining/kneadbread-copy/kneadbread-copy-videoSixteenByNine540-v2.jpg)
-###Ingredients
+### Ingredients
 |Ingredient|
 |:-------
 | 3 cups all-purpose or bread flour, more for dusting |
@@ -8,7 +8,7 @@
 | 1 ¼ teaspoons salt |
 |  Cornmeal or wheat bran as needed |
 
-###Instructions
+### Instructions
 
 * In a large bowl combine flour, yeast and salt. Add 1 5/8 cups water, and stir until blended; dough will be shaggy and sticky. Cover bowl with plastic wrap. Let dough rest at least 12 hours, preferably about 18, at warm room temperature, about 70 degrees.
 

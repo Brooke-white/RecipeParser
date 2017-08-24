@@ -1,6 +1,6 @@
-#[Meta Given's Pumpkin Pie](http://food52.com/recipes/15143-meta-given-s-pumpkin-pie)
+# [Meta Given's Pumpkin Pie](http://food52.com/recipes/15143-meta-given-s-pumpkin-pie)
 ![alt text](https://images.food52.com/LC_Kza3XgvTNkN-mdQE_1qGXkkA=/753x502/670d4e4d-c1d4-47e5-a930-736517ded9c9--2014-1030_pumpkin-pie-013.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1|teaspoon ground cinnamon|
@@ -13,7 +13,7 @@
 |1|cup cream|
 |1/2|teaspoon salt|
 
-###Instructions
+### Instructions
 
 * Turn pumpkin into saucepan and stir over direct heat for 10 minutes until somewhat dry and slightly caramelized, stirring frequently. Remove from heat but keep hot.
 

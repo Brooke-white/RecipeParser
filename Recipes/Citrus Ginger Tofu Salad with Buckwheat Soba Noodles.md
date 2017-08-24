@@ -1,6 +1,6 @@
-#[Citrus Ginger Tofu Salad with Buckwheat Soba Noodles](http://food52.com/recipes/23059-citrus-ginger-tofu-salad-with-buckwheat-soba-noodles)
+# [Citrus Ginger Tofu Salad with Buckwheat Soba Noodles](http://food52.com/recipes/23059-citrus-ginger-tofu-salad-with-buckwheat-soba-noodles)
 ![alt text](https://images.food52.com/K43HAXEa5fTiiA3gqItlzzxMVtA=/753x502/cffe4014-8c2c-4692-87da-e8bed7a7960c--tofu_salad.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1/2|cup green cabbage, shredded|
@@ -26,7 +26,7 @@
 |1/8|cup extra virgin olive oil|
 |1|teaspoon finely grated ginger|
 
-###Instructions
+### Instructions
 
 * Preparing the Tofu + Marinade: Preheat the oven to 350 degrees Fahrenheit. In a bowl mix together orange juice, tamari, sesame oil, olive oil, ginger, garlic, maple syrup, and cayenne and set aside. Cut the tofu into 1-inch cubes and place into a small baking pan without overlapping. Pour the marinade over the tofu. Put the tofu into the oven and bake for 15 minutes, stir, and bake for 15 minutes more until browned. With a slotted spoon, scoop out the tofu and place onto a plate and allow to cool. Pour the remaining marinade into a bowl and set aside.
 

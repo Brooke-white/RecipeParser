@@ -1,6 +1,6 @@
-#[Easy Lentil Walnut Tacos with Cabbage Lime Slaw](https://food52.com/recipes/33027-easy-lentil-walnut-tacos-with-cabbage-lime-slaw)
+# [Easy Lentil Walnut Tacos with Cabbage Lime Slaw](https://food52.com/recipes/33027-easy-lentil-walnut-tacos-with-cabbage-lime-slaw)
 ![alt text](https:https://images.food52.com/tpd88bVhM6ww8cBroGfaRkzgu4o=/753x502/624042ed-ca7d-4af2-ae3b-dd94ec68d55e--2015_0112_vegan-tacos-with-slaw-5692.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1/2|cup cilantro leaves, chopped|
@@ -24,7 +24,7 @@
 |1|tablespoon tamari or soy sauce|
 |2|cups red cabbage, thinly shredded and tightly packed|
 
-###Instructions
+### Instructions
 
 * To make the lentil walnut crumble, place the walnuts in a food processor and pulse 2 to 3 times to break them down. Add the tamari, garlic, sun-dried tomatoes, cumin, chili powder, and vinegar and pulse 2 to 3 times more. Add the lentils and pulse until the mixture is thoroughly incorporated and crumbly (it should resemble taco meat). As you go, add a few tablespoons of water as needed. Set the crumble aside until youâre ready to use it (to save time, make the crumble a day in advance). This recipe makes 2 cups, which will keep in an airtight container for up to a week.
 

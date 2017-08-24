@@ -1,6 +1,6 @@
-#[Salted Pumpkin Caramels](http://food52.com/recipes/7115-salted-pumpkin-caramels)
+# [Salted Pumpkin Caramels](http://food52.com/recipes/7115-salted-pumpkin-caramels)
 ![alt text](https://images.food52.com/_XsbXUQH8JXkfbc5lOvJspp2u0o=/753x502/8e14c365-f2fa-4a31-abfe-bf38725d6e54--101910F_412.JPG)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 ||1 teaspoon lemon juice|
@@ -15,7 +15,7 @@
 |1 1/2|cups heavy cream|
 ||1 teaspoon pumpkin pie spice|
 
-###Instructions
+### Instructions
 
 * Dry toast the pepitas in a skillet until they start to pop.
 

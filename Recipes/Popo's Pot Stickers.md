@@ -1,6 +1,6 @@
-#[Popo's Pot Stickers](http://food52.com/recipes/25605-popo-s-pot-stickers)
+# [Popo's Pot Stickers](http://food52.com/recipes/25605-popo-s-pot-stickers)
 ![alt text](https://images.food52.com/Mjos0mXryNRXlJWxcUA6JX76jaU=/753x502/03ca1661-00e1-42d0-839f-0c304e314aa7--13218366915_5cc5c0ce2f_c.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |2|tablespoons soy sauce|
@@ -16,7 +16,7 @@
 |1|pound ground pork|
 |1|cup cilantro, minced|
 
-###Instructions
+### Instructions
 
 * In a large mixing bowl, combine pork with ginger, cilantro, garlic, chives, salt, and pepper. In another bowl, whisk together egg, sesame oil, soy sauce, and cornstarch. Mix this into the pork mixture with your hands, making sure it's well combined.
 

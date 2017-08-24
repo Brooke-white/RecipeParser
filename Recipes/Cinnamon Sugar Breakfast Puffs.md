@@ -1,6 +1,6 @@
-#[Cinnamon Sugar Breakfast Puffs](http://food52.com/recipes/15110-cinnamon-sugar-breakfast-puffs)
+# [Cinnamon Sugar Breakfast Puffs](http://food52.com/recipes/15110-cinnamon-sugar-breakfast-puffs)
 ![alt text](https://images.food52.com/3m2zS02qhREOSsAxTg5HS3qUOyA=/753x502/5df861bc-1d36-4fed-8f15-7737f7738adb--IMG_6793.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1|teaspoon ground cinnamon|
@@ -19,7 +19,7 @@
 |1/2|cup sugar|
 |1|teaspoon orange zest|
 
-###Instructions
+### Instructions
 
 * In a heavy bottomed pan, heat the 1/3 cup butter, and cook over medium-high heat, stirring frequently, until browned and nutty smelling.  Pour into a mixing bowl and allow to cool completely to room temperature.
 

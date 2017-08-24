@@ -1,13 +1,13 @@
-#[Summer Corn and Tomato Salad](https://food52.com/recipes/332-summer-corn-and-tomato-salad)
+# [Summer Corn and Tomato Salad](https://food52.com/recipes/332-summer-corn-and-tomato-salad)
 ![alt text](https:https://images.food52.com/ezW5dZ9ld-TQnTZu3TXuvTE_ZTA=/753x502/7295a4da-8ee6-4197-b79d-4fd28b5038f1--2013-0806_corn-tomato-salad-006.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 ||oil, salt, pepper, good quality paprika|
 |6|fresh ripe tomatoes|
 |20|ears of corn|
 
-###Instructions
+### Instructions
 
 * Prepare a charcoal grill to high heat. Prepare a large pot of heavily salted boiling water.
 

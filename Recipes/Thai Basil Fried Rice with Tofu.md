@@ -1,6 +1,6 @@
-#[Thai Basil Fried Rice with Tofu](http://food52.com/recipes/38552-thai-basil-fried-rice-with-tofu)
+# [Thai Basil Fried Rice with Tofu](http://food52.com/recipes/38552-thai-basil-fried-rice-with-tofu)
 ![alt text](https://images.food52.com/ieVay642hAglYmkV8lSde4UyULc=/753x502/bff14f87-eb44-42d6-a049-72839543355b--thai-basil-fried-rice_Homestyle_Takeout-2.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |3|cups cooked rice, cooled|
@@ -21,7 +21,7 @@
 |1|lime|
 |3|cloves garlic, minced|
 
-###Instructions
+### Instructions
 
 * Start by smashing the garlic, chile peppers, and white onion for the sauce together until juices begin to run.
 

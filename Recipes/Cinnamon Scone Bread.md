@@ -1,6 +1,6 @@
-#[Cinnamon Scone Bread](http://food52.com/recipes/32107-cinnamon-scone-bread)
+# [Cinnamon Scone Bread](http://food52.com/recipes/32107-cinnamon-scone-bread)
 ![alt text](https://images.food52.com/PC-NfQeRXH3HEIkwXhBe3KO7lBo=/753x502/882f0fd7-6a7b-4f5a-b8a9-f75dfa5350d4--2014_1202_F52edit_CinnSconeBread2124.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |4|tablespoons granulated sugar|
@@ -19,7 +19,7 @@
 |1|tablespoon heavy cream|
 |1|large egg|
 
-###Instructions
+### Instructions
 
 * For the streusel: Mix together the flour, granulated sugar, brown sugar, and cinnamon. Stir in the cream to make a streusel. This is not a chunky streusel. It's more of a sugary blend. Set aside.
 

@@ -1,6 +1,6 @@
-#[Scallion Ginger Noodles](http://food52.com/recipes/27862-scallion-ginger-noodles)
+# [Scallion Ginger Noodles](http://food52.com/recipes/27862-scallion-ginger-noodles)
 ![alt text](https://images.food52.com/dCTd4QfCyDaRU_P9JjKUIfOTA38=/753x502/199385b6-f16a-4422-a361-f698d14c2b7d--ScallionGingerTofuNoodles.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 ||Juice of one lime|
@@ -21,7 +21,7 @@
 |1|tablespoon Bragg's Liquid Aminos (or tamari)|
 |1|tablespoon agave or honey|
 
-###Instructions
+### Instructions
 
 * Preheat oven to 375° F. Slice tofu into four slices, then rub the hoisin and Bragg's or tamari onto each piece. Place them on a parchment-lined sheet pan and bake for 30 minutes.
 

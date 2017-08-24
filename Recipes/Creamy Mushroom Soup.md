@@ -1,6 +1,6 @@
-#[Creamy Mushroom Soup](http://food52.com/recipes/923-creamy-mushroom-soup)
+# [Creamy Mushroom Soup](http://food52.com/recipes/923-creamy-mushroom-soup)
 ![alt text](https://images.food52.com/KxfALfDPb88QuY4GUBScfu5MUlU=/753x502/9733d4f8-d809-4e0c-945d-c13d95e22680--2016-0218_creamy-mushroom-soup_mark-weinberg_050.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1/2|cup minced shallot|
@@ -15,7 +15,7 @@
 |1/4|cup Cognac|
 |4|cups rich homemade chicken stock|
 
-###Instructions
+### Instructions
 
 * Roughly chop the mushroom stems and simmer them, covered, in the chicken broth for about an hour.
 

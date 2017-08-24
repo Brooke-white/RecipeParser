@@ -1,6 +1,6 @@
-#[You Won't Believe it's Vegan Pumpkin Pie](https://food52.com/recipes/19560-you-won-t-believe-it-s-vegan-pumpkin-pie)
+# [You Won't Believe it's Vegan Pumpkin Pie](https://food52.com/recipes/19560-you-won-t-believe-it-s-vegan-pumpkin-pie)
 ![alt text](https:https://images.food52.com/9omocQKtAs-Rn-NDBggQ-OoxO4U=/753x502/aa0bafd0-7c34-4b13-b913-2723ee9432e5--food52_10-31-12-5721.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |2|tablespoons blackstrap molasses|
@@ -15,7 +15,7 @@
 |1/4|teaspoon nutmeg|
 |1|cup cashews, soaked 3+ hours and drained of soaking water|
 
-###Instructions
+### Instructions
 
 * Prepare one perfect vegan pie crust. You can find the recipe here: http://food52.com/recipes/19559_perfect_vegan_pie_crust.
 

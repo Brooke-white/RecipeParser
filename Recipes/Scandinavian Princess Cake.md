@@ -1,15 +1,15 @@
-#[Scandinavian Princess Cake](http://www.marthastewart.com/342413/scandinavian-princess-cake)
+# [Scandinavian Princess Cake](http://www.marthastewart.com/342413/scandinavian-princess-cake)
 ![alt text](http://www.marthastewart.com/sites/files/marthastewart.com/styles/wmax-520-highdpi/public/d24/mla103942_1208_cakedoily/mla103942_1208_cakedoily_vert.jpg?itok=uxkRGLwV)
-###Ingredients
+### Ingredients
 
-######TO ASSEMBLE
+###### TO ASSEMBLE
 * 1/2 cup seedless raspberry jam
 * 3 cups heavy cream
 * 2 packages (7 ounces each) marzipan
 * Royal blue gel-paste food coloring, for decorating
 * Confectioners' sugar, for dusting
 
-######FOR THE PASTRY CREAM
+###### FOR THE PASTRY CREAM
 * 2 cups whole milk
 * 1/2 vanilla bean, split and scraped, pod reserved for another use
 * Pinch of salt
@@ -18,12 +18,12 @@
 * 1/4 cup cornstarch
 * 1/2 ounce (1 tablespoon) cold butter
 
-######FOR THE SIMPLE SYRUP
+###### FOR THE SIMPLE SYRUP
 * 1/4 cup granulated sugar
 * 1/4 cup water
 * 1/4 cup Armagnac (optional)
 
-######FOR THE GENOISE
+###### FOR THE GENOISE
 * Vegetable oil cooking spray
 * 1 1/4 cups cake flour (not self-rising), sifted
 * 6 tablespoons almond flour, toasted
@@ -33,7 +33,7 @@
 * 1 cup granulated sugar
 * 4 ounces (1 stick) butter, melted
 
-###Instructions
+### Instructions
 * Make the genoise: Preheat oven to 400 degrees. Coat 2 rimmed baking sheets with cooking spray, line each with parchment, then spray parchment. Combine cake flour, almond flour, and salt in a medium bowl.
 * Whisk eggs, yolks, and granulated sugar in a mixer bowl set over a pot of simmering water until sugar dissolves and mixture is warm to the touch, about 2 minutes. Attach bowl to mixer, and whisk on medium speed for 2 minutes. Raise speed to high, and whisk until mixture is pale and thick, 4 to 5 minutes. Sift flour mixture over egg mixture, and gently fold. When almost incorporated, slowly add melted butter, and fold.
 * Divide batter between baking sheets, spread evenly, and bake until golden brown and springy to the touch, 8 to 10 minutes. Let cool. Run a knife around edges of pans, and invert onto a clean surface; discard parchment. Using an 8-by-3-inch cake ring, cut out 4 circles. Choose the 3 thickest cake circles, and reserve the fourth for another use.

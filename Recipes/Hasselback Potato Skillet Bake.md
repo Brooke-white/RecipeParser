@@ -1,6 +1,6 @@
-#[Hasselback Potato Skillet Bake](http://food52.com/recipes/33049-hasselback-potato-skillet-bake)
+# [Hasselback Potato Skillet Bake](http://food52.com/recipes/33049-hasselback-potato-skillet-bake)
 ![alt text](https://images.food52.com/CrLu-cLzLdXqhIArct6vhFTFsrU=/753x502/190bed67-545e-4569-967a-078fc95a4db9--2015-0210_hasselback-potatoes_mark-weinberg-325.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |4|tablespoons grated Parmesan (optional)|
@@ -10,7 +10,7 @@
 |4|tablespoons finely minced herbs (I use parsley, rosemary, and thyme.)|
 |4|garlic cloves, minced|
 
-###Instructions
+### Instructions
 
 * Preheat oven to 425º F.
 

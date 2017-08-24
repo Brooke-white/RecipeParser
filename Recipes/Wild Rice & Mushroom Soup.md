@@ -1,6 +1,6 @@
-#Wild Rice & Mushroom Soup
+# Wild Rice & Mushroom Soup
 Serves 8
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |3/4|cup wild rice or wild rice mix|
@@ -16,7 +16,7 @@ Serves 8
 |2/3|cup heavy cream|
 |3|tablespoons flat leaf parsley, minced|
 |1/2|teaspoon pepper|
-###Instructions
+### Instructions
 
 * Put wild rice, salt, and 8 cups of cold water in a medium pot. Bring to a boil, lower heat to maintain a steady simmer, and cook until rice in tender, about 45 minutes. Drain and set aside.
 * Meanwhile, put shiitake in a small bowl and pour in 1 1/2 cups boiling water. Let sit until soft, about 15 minutes.

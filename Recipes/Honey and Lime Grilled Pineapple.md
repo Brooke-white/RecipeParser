@@ -1,4 +1,4 @@
-#[Honey and Lime Grilled Pineapple](http://www.liveeatlearn.com/honey-lime-grilled-pineapple/)
+# [Honey and Lime Grilled Pineapple](http://www.liveeatlearn.com/honey-lime-grilled-pineapple/)
 ![alt text](http://www.liveeatlearn.com/wp-content/uploads/2016/06/grilled-honey-lime-pineapple-8-680-678x1024.jpg)
 
 |Ingredients|
@@ -9,7 +9,7 @@
 |4 Tbsp unsweetened shredded coconut|
 |Recommended for serving: coconut ice cream or sorbet|
 
-###Instructions
+### Instructions
 
 * Cut the pineapple into ¾ inch slabs, leaving the skin on as decoration or cutting it off (completely up to you!)
 

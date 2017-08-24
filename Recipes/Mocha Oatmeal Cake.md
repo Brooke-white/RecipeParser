@@ -1,5 +1,5 @@
-#Mocha Oatmeal Cake
-###Ingredients
+# Mocha Oatmeal Cake
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1 1/3|cup hot coffee|
@@ -14,7 +14,7 @@
 |3/4|teaspoon salt|
 |6|tablespoon cocoa|
 
-###Instructions
+### Instructions
 
 * Pour coffee over oatmeal in a small bowl. Stir. Cover and let stand for 20 minutes. In a mixing bowl, beat butter until creamy. Gradually add sugars, beat until fluffy. Beat in eggs; add vanilla. Add oatmeal mixture. Blend well.
 * Sift together flour, baking soda, salt, and cocoa. Add to creamed mixture and blend well. 

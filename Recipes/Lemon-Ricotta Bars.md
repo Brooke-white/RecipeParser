@@ -1,6 +1,6 @@
-#[Lemon-Ricotta Bars](http://food52.com/recipes/13861-lemon-ricotta-bars)
+# [Lemon-Ricotta Bars](http://food52.com/recipes/13861-lemon-ricotta-bars)
 ![alt text](https://images.food52.com/kHut-255HQCzQAdpMWmNh_VR2tE=/753x502/33ce692c-a16b-4659-bef8-fa223096f814--food52_01-30-12-1994.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 ||4 large eggs, beaten|
@@ -17,7 +17,7 @@
 ||1/4 teaspoon  salt|
 ||8oz (1 cup) fresh whole milk Ricotta, drained|
 
-###Instructions
+### Instructions
 
 * To make the crust: Adjust oven rack to middle position and heat oven to 350 degrees.
 

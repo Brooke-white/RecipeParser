@@ -1,6 +1,6 @@
-#[Momofuku's Soy Sauce Eggs](https://food52.com/recipes/35930-momofuku-s-soy-sauce-eggs)
+# [Momofuku's Soy Sauce Eggs](https://food52.com/recipes/35930-momofuku-s-soy-sauce-eggs)
 ![alt text](https://images.food52.com/pD4FVaVcpb2nWw323kuOGkkYYQc=/753x502/053eb065-eed3-42ff-beea-b352627b83a5--2015-0421_genius-soy-sauce-eggs_james-ransom-159.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |3/4|cup soy sauce (we used low-sodiumâif yours is regular strength, you might want to err on the side of shorter marination time)|
@@ -11,7 +11,7 @@
 |1|tablespoon sugar|
 |6|large eggs|
 
-###Instructions
+### Instructions
 
 * In a medium bowl, whisk together the water and sugar to dissolve the sugar, then stir in the sherry vinegar and soy sauce.
 

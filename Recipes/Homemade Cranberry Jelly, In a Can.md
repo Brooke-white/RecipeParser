@@ -1,6 +1,6 @@
-#[Homemade Cranberry Jelly, In a Can](http://food52.com/recipes/25059-homemade-cranberry-jelly-in-a-can)
+# [Homemade Cranberry Jelly, In a Can](http://food52.com/recipes/25059-homemade-cranberry-jelly-in-a-can)
 ![alt text](https://images.food52.com/azAu4GQf5sWNaMyggfRmC2vfawA=/753x502/2d03ed9b-b563-46b2-800e-37102ed2c1c9--IMG_7269-3.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |2 1/2|cups cranberries|
@@ -12,7 +12,7 @@
 |1|pinch cloves (optional)|
 |1/4|teaspoon cinnamon (optional)|
 
-###Instructions
+### Instructions
 
 * Place cranberries in a medium saucepan. Mix pectin and spices into the sugar, then add the sugar mixture to the cranberries and stir to combine. Add the cider and lemon juice.
 

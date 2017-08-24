@@ -1,6 +1,6 @@
-#[Spicy Ginger-Orange Tofu](http://food52.com/recipes/18211-spicy-ginger-orange-tofu)
+# [Spicy Ginger-Orange Tofu](http://food52.com/recipes/18211-spicy-ginger-orange-tofu)
 ![alt text](https://images.food52.com/wcHRjIvFFKGPh5lwXFc-SCoVbbc=/753x502/9566c3f7-1b29-44a3-af9e-51bc8b292a8c--tofu.JPG)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1/4|cup garlic, minced|
@@ -19,7 +19,7 @@
 |2|tablespoons freshly squeezed orange juice (keep 2 1" pieces of orange peel too)|
 ||(optional) 1 chili of your hotness-choice, diced|
 
-###Instructions
+### Instructions
 
 * Toss tofu, corn starch, orange peel, sea salt & cracked pepper together in a bowl & set aside.
 

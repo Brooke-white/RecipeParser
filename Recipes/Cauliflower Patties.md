@@ -1,6 +1,6 @@
-#[Cauliflower Patties](http://food52.com/recipes/24643-cauliflower-patties)
+# [Cauliflower Patties](http://food52.com/recipes/24643-cauliflower-patties)
 ![alt text](https://images.food52.com/J4yPHmA9-kFINIXhiVOhT6fud3Y=/753x502/b2e3d88f-7557-4524-a01f-0a34f20e62a0--cauliflower.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1|large cauliflower (washed & trimmed into bite size pieces)|
@@ -15,7 +15,7 @@
 ||1/2 cup shredded low moisture mozzarella|
 |3 to 4|large organic eggs|
 
-###Instructions
+### Instructions
 
 * Place a large stockpot filled with water to boil on the stove top. Once it comes to a full boil, add the prepared cauliflower and cook until tender, but not too mushy. Drain and rinse with cold water, set aside to cool.
 

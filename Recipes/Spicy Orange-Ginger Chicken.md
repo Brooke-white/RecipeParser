@@ -1,6 +1,6 @@
-#[Spicy Orange-Ginger Chicken](http://food52.com/recipes/20877-spicy-orange-ginger-chicken)
+# [Spicy Orange-Ginger Chicken](http://food52.com/recipes/20877-spicy-orange-ginger-chicken)
 ![alt text](https://images.food52.com/HLuWRlAFxj2cde5mC8_uWboZgOs=/753x502/ae26b194-999a-4d66-9472-c9af802e5ffa--Spicy-Orange-Ginger-Chicken_1136_food52_mark_weinberg.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 ||Brown rice, white rice or quinoa for serving|
@@ -18,7 +18,7 @@
 |1/4|cup low-sodium soy sauce|
 |1 1/2|tablespoons rice vinegar|
 
-###Instructions
+### Instructions
 
 * In small bowl, whisk together orange juice, soy sauce, ginger, garlic, 1 tablespoon oil, sriracha, vinegar, brown sugar, orange zest, and pepper. Place chicken in a large ziploc bag; pour 1/3 cup marinade over chicken. Seal bag and marinate in refrigerator 1 hour.
 

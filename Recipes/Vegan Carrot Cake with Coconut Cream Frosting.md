@@ -1,6 +1,6 @@
-#[Vegan Carrot Cake with Coconut Cream Frosting](https://food52.com/recipes/34886-vegan-carrot-cake-with-coconut-cream-frosting)
+# [Vegan Carrot Cake with Coconut Cream Frosting](https://food52.com/recipes/34886-vegan-carrot-cake-with-coconut-cream-frosting)
 ![alt text](https:https://images.food52.com/5FTS08738iV0g8tR1jdJ4lXcvQY=/753x502/ceea8df1-93d0-4973-a8a4-987e5bf43d09--2015-0324_vegan-carrot-cake-w-coconut-frosting_bobbi-lin_0304.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1|teaspoon vanilla extract|
@@ -23,7 +23,7 @@
 |2|cups grated carrots|
 |1/4|teaspoon ground allspice|
 
-###Instructions
+### Instructions
 
 * First, prepare the frosting. As the coconut milk sits overnight, it'll accumulate a thick, solid layer at the top of the can. Remove this layer from the can (you can reserve the rest of the liquid for smoothies), and place it into a mixing bowl. Repeat with the other two cans. Add the confectioners' sugar and vanilla to the mixture. Use a hand mixer to begin whipping the frosting, starting on a low speed and increasing the speed as you go. Move the mixers around as much as possible (this will fold in air, which will make the mixture fluffier). Continue until it is whipped. Refrigerate the frosting for at least 2 hours, preferably 4, before using, so that it can solidify.
 

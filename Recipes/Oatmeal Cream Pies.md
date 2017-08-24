@@ -1,6 +1,6 @@
-#[Oatmeal Cream Pies](http://food52.com/recipes/31276-oatmeal-cream-pies#comments)
+#[Oatmeal Cream Pies](http://food52.com/recipes/31276-oatmeal-cream-pies# comments)
 ![alt text](https://images.food52.com/jFw3Sa1hRbf7akaQ5-BXAdpVad4=/753x502/58ea4583-c126-454f-884d-18ca4baa20ba--oatmeal_cream_pies6blogsize_1_of_1-.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |3|cups powdered sugar|
@@ -18,7 +18,7 @@
 |2|eggs|
 |1 1/22|teaspoons vanilla|
 
-###Instructions
+### Instructions
 
 * Preheat the oven to 350Â° F. Line three half sheet pans with parchment paper.
 

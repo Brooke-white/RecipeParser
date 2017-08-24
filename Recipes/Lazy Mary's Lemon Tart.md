@@ -1,6 +1,6 @@
-#[Lazy Mary's Lemon Tart](http://food52.com/recipes/1374-lazy-mary-s-lemon-tart)
+# [Lazy Mary's Lemon Tart](http://food52.com/recipes/1374-lazy-mary-s-lemon-tart)
 ![alt text](https://images.food52.com/K_SMHCbLWAF0FR4c9SGLy0vvC-8=/753x502/ecaac223-4c57-4926-aa7b-97be6d54d8d2--food52_12-18-12-1328.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1|stick butter|
@@ -10,7 +10,7 @@
 |1|teaspoon vanilla|
 |4|eggs|
 
-###Instructions
+### Instructions
 
 * Heat oven to 350° F.
 

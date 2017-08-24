@@ -1,6 +1,6 @@
-#[Black Bean and Corn Burgers](http://food52.com/recipes/23748-black-bean-and-corn-burgers)
+# [Black Bean and Corn Burgers](http://food52.com/recipes/23748-black-bean-and-corn-burgers)
 ![alt text](https://images.food52.com/BJUMqCxo7iYBbmVGeQBUv0zVF_4=/753x502/906a901f-6dad-452a-803e-3087c35e3de6--2013-0820_gena_veggie-burgers-062.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1|teaspoon sea salt|
@@ -15,7 +15,7 @@
 |1|clove garlic, minced|
 |3|cups (or 2 cans) cooked black beans, divided|
 
-###Instructions
+### Instructions
 
 * Sauté onion and garlic in the olive oil for eight to ten minutes, or until golden, soft, and fragrant.
 

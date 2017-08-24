@@ -1,6 +1,6 @@
-#[Jean-Georges' Ginger Fried Rice](http://food52.com/recipes/19490-jean-georges-ginger-fried-rice)
+# [Jean-Georges' Ginger Fried Rice](http://food52.com/recipes/19490-jean-georges-ginger-fried-rice)
 ![alt text](https://images.food52.com/sf2eUF1iyCfT7cfe53EI0aVencQ=/753x502/e1b57d40-06ed-4b63-871c-c50dd1b0b2ff--8103741453_45efe8f946_z.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |4|cups cooked rice, preferably jasmine, at room temperature (see note below)|
@@ -13,7 +13,7 @@
 |4|teaspoons soy sauce|
 ||Salt|
 
-###Instructions
+### Instructions
 
 * In a large skillet, heat 1/4 cup oil over medium heat. Add garlic and ginger and cook, stirring occasionally, until crisp and brown. With a slotted spoon, transfer to paper towels and salt lightly. Alternately, you can pour the oil into a heat-proof bowl through a fine-mesh strainer, then return the flavorful oil to the pan, reserving the ginger and garlic bits.
 

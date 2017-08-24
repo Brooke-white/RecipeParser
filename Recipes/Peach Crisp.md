@@ -1,5 +1,5 @@
-#Peach Crisp
-###Ingredients
+# Peach Crisp
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1 1/4|cup flour|
@@ -11,7 +11,7 @@
 |1 1/2|cups rolled oats|
 
 
-###Instructions
+### Instructions
 
 * Combine 1 cup flour, 1/2 cup brown sugar, and salt in medium bowl. Cut in 1/2 cup butter until crumbly.
 * Pat into bottom of greased 9-inch square baking dish. Bake at 350 degrees F for 15 minutes.

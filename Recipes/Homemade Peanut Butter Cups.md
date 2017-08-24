@@ -1,6 +1,6 @@
-#[Homemade Peanut Butter Cups](http://food52.com/recipes/24460-homemade-peanut-butter-cups)
+# [Homemade Peanut Butter Cups](http://food52.com/recipes/24460-homemade-peanut-butter-cups)
 ![alt text](https://images.food52.com/I9xDoMXcdI-OGpr1Lz6F9P1oAhg=/753x502/69efc0ab-4e18-4f72-84c2-f7fb8f965897--IMG_6616-3.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1|teaspoon coarse sea salt (or more, to taste; I used Sichuan salt)|
@@ -10,7 +10,7 @@
 |3/4|cup powdered sugar|
 |32|ounces high-quality chocolate (use milk chocolate if you'd like to truly mimic the classic flavor)|
 
-###Instructions
+### Instructions
 
 * Mix together peanut butter, butter, sugars, and salt in a bowl. Taste, then add more salt if needed.
 

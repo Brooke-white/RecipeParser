@@ -1,6 +1,6 @@
-#[Crispy Oatmeal Chocolate Chip Cookies](http://food52.com/recipes/5804-crispy-oatmeal-chocolate-chip-cookies)
+# [Crispy Oatmeal Chocolate Chip Cookies](http://food52.com/recipes/5804-crispy-oatmeal-chocolate-chip-cookies)
 ![alt text](https://images.food52.com/gTRI_wmP9128DJSrkQpiE8uIlvY=/753x502/f65ae839-b9df-4fc6-b287-d9885a824809--4812454762_9c21356437_z.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1|teaspoon baking soda|
@@ -17,7 +17,7 @@
 |3|cups rolled oats|
 |1|large egg|
 
-###Instructions
+### Instructions
 
 * Heat the oven to 375 degrees F. In a medium bowl, whisk together the flour, salt, baking soda and spices. Set aside.
 

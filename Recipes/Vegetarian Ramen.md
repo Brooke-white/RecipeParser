@@ -1,6 +1,6 @@
-#[Vegetarian Ramen](http://food52.com/recipes/31889-vegetarian-ramen)
+# [Vegetarian Ramen](http://food52.com/recipes/31889-vegetarian-ramen)
 ![alt text](https://images.food52.com/fUXoOYSr3C2dAQ7ctc7t_Xxfc24=/753x502/e82dc9a2-72b3-4f39-81b6-8e04203e612f--IMG_1006.JPG)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1|onion, cut in half (you can leave the skin on)|
@@ -25,7 +25,7 @@
 ||Green onion, sliced|
 |2|stalks lemongrass, cut into thirds and smashed (optional)|
 
-###Instructions
+### Instructions
 
 * Add mushrooms, carrots, onion, celery, garlic, ginger, and lemongrass (if using) into a large stock pot along with 8 cups of water. Bring to a boil, then turn down to a simmer. Add in kombu and bonito flakes, if using. Simmer stock for 2 to 3 hours.
 

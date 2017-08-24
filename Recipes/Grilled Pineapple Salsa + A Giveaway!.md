@@ -1,4 +1,4 @@
-#[Grilled Pineapple Salsa + A Giveaway!](http://www.liveeatlearn.com/grilled-pineapple-salsa/)
+# [Grilled Pineapple Salsa + A Giveaway!](http://www.liveeatlearn.com/grilled-pineapple-salsa/)
 ![alt text](http://www.liveeatlearn.com/wp-content/uploads/2016/06/grilled-pineapple-salsa-2-680-678x1024.jpg)
 
 |Ingredients|
@@ -12,7 +12,7 @@
 |¼ tsp salt|
 |¼ tsp cumin|
 
-###Instructions
+### Instructions
 
 * Light up the grill (or a panini grill) and cook the pineapple, bell pepper, onion, and jalapeno over medium/high heat until slightly charred, 5 to 10 minutes.
 

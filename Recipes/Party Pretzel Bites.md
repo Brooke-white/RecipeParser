@@ -1,6 +1,6 @@
-#[Party Pretzel Bites](http://food52.com/recipes/8082-party-pretzel-bites)
+# [Party Pretzel Bites](http://food52.com/recipes/8082-party-pretzel-bites)
 ![alt text](https://images.food52.com/EXZobbjEUQNu_sWOK2VFd8OWQ9E=/753x502/74eec54f-60c2-4d09-b40e-35b29773328c--food52_05-01-12-6100.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |3 1/2|cups all purpose flour (plus more for dusting surfaces, etc.)|
@@ -16,7 +16,7 @@
 |1/4|cup baking soda|
 |8|cups water|
 
-###Instructions
+### Instructions
 
 * In a large bowl stir together the warm water and honey.  Sprinkle with yeast and let stand until the yeast is foamy (about 5 minutes).  Stir in the butter, salt, and eggs.
 

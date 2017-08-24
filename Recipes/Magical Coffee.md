@@ -1,6 +1,6 @@
-#[Magical Coffee](http://food52.com/recipes/2018-magical-coffee)
+# [Magical Coffee](http://food52.com/recipes/2018-magical-coffee)
 ![alt text](https://images.food52.com/16jn9gnxuXnVt2CnEZbnkuLuoXg=/753x502/553a45b6-b872-4f99-b6b8-3dc37916d2a3--120809F_644.JPG)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |2/3|cup coarsely ground coffee|
@@ -10,7 +10,7 @@
 |3|tablespoons dark brown sugar|
 |1|teaspoon cinnamon|
 
-###Instructions
+### Instructions
 
 * Put ingredients in a quart jar and stir.
 

@@ -1,6 +1,6 @@
-#[Roasted Cauliflower with Gremolata Bread Crumbs](http://food52.com/recipes/7015-roasted-cauliflower-with-gremolata-bread-crumbs)
+# [Roasted Cauliflower with Gremolata Bread Crumbs](http://food52.com/recipes/7015-roasted-cauliflower-with-gremolata-bread-crumbs)
 ![alt text](https://images.food52.com/2hL1tx52R4j9IsqzHrB5zEZymtA=/753x502/597e3d56-aab3-4789-be02-ef6b21bb65c7--101210F_382.JPG)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1/4|teaspoon freshly ground black pepper|
@@ -12,7 +12,7 @@
 |1/2|teaspoon coarse salt, divided|
 |1/2|cup panko (Japanese bread crumbs)|
 
-###Instructions
+### Instructions
 
 * Preheat oven to 425°F.
 

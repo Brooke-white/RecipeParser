@@ -1,6 +1,6 @@
-#[Breakfast Fried Rice](http://food52.com/recipes/27403-breakfast-fried-rice)
+# [Breakfast Fried Rice](http://food52.com/recipes/27403-breakfast-fried-rice)
 ![alt text](https://images.food52.com/6FyPwgfvOfDjdFlqQKQsx6fHhno=/753x502/cab2fafc-344d-47c6-beb9-ff5c2ea46f63--2014-0408_finalist_breakfast-fried-rice-021.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |2|eggs|
@@ -14,7 +14,7 @@
 |3|green onions, thinly sliced|
 |1/4|teaspoon crushed red pepper flakes|
 
-###Instructions
+### Instructions
 
 * In a heavy-bottomed skillet over medium heat, cook the bacon, turning it until it's browned evenly. Remove the bacon from the pan and let drain on paper towels.  Once the bacon is cool enough to handle, roughly chop.
 

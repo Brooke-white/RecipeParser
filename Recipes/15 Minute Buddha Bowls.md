@@ -1,4 +1,4 @@
-#[15 Minute Buddha Bowls](http://www.liveeatlearn.com/15-minute-buddha-bowls/)
+# [15 Minute Buddha Bowls](http://www.liveeatlearn.com/15-minute-buddha-bowls/)
 ![alt text](http://www.liveeatlearn.com/wp-content/uploads/2016/03/15-minute-buddha-bowl-9-680.jpg)
 
 |Ingredients|
@@ -17,7 +17,7 @@
 |½ small red onion, sliced (about ½ cup)|
 |2 large carrots, peeled and shredded (about 1 cup)|
 
-###Instructions
+### Instructions
 
 * Whisk all dressing ingredients together and set aside.
 

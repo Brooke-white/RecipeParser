@@ -1,6 +1,6 @@
-#[Vegan Pad Thai](http://food52.com/recipes/30969-vegan-pad-thai)
+# [Vegan Pad Thai](http://food52.com/recipes/30969-vegan-pad-thai)
 ![alt text](https://images.food52.com/c1bEOerYWxs5oR4V8n470fEGd9c=/753x502/a29e8e08-9a75-4c29-adff-ce62c50055ec--vegan-pad-thai_food52_mark_weinberg_14-09-02_0255.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1/3|cup water|
@@ -23,7 +23,7 @@
 |1/2|cup cilantro, chopped|
 |1|14- to 16-ounce block of extra firm tofu, drained|
 
-###Instructions
+### Instructions
 
 * Cook the pad thai noodles according to package instructions (this may involve soaking them for a while, so make sure to allot the proper amount of time). Toss them with a teaspoon of sesame oil to prevent too much sticking, and then allow them to cool.
 

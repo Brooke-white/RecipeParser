@@ -1,6 +1,6 @@
-#[Heavenly Oatmeal-Molasses Rolls](http://food52.com/recipes/8298-heavenly-oatmeal-molasses-rolls)
+# [Heavenly Oatmeal-Molasses Rolls](http://food52.com/recipes/8298-heavenly-oatmeal-molasses-rolls)
 ![alt text](https://images.food52.com/nVEort7wX-MAO-6dZ6PA_n6KMhU=/753x502/e758a4de-c2c0-4045-868d-261ebeb00d7d--2014-1030_molasses-rolls-008.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |2|teaspoons active dry yeast|
@@ -15,7 +15,7 @@
 |1|egg|
 |3/4|cup rolled oats|
 
-###Instructions
+### Instructions
 
 * Dissolve yeast in 1/4 cup lukewarm water with a pinch of sugar. Let stand until bubbly. If it doesn’t get bubbly, throw it out and get some new yeast.
 

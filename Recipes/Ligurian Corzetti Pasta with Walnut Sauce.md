@@ -1,6 +1,6 @@
-#[Ligurian Corzetti Pasta with Walnut Sauce](http://food52.com/recipes/38257-ligurian-corzetti-pasta-with-walnut-sauce)
+# [Ligurian Corzetti Pasta with Walnut Sauce](http://food52.com/recipes/38257-ligurian-corzetti-pasta-with-walnut-sauce)
 ![alt text](https://images.food52.com/nm3hm0mtUqrwHjzLA5mnaCHAwCs=/753x502/d776fcf9-0b97-4c48-a4d0-18650618cfe9--corzetti-food52-IMG_0796.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1|garlic clove, peeled|
@@ -14,7 +14,7 @@
 |1/3|cup (80 milliliters) extra-virgin olive oil|
 |1|pinch salt|
 
-###Instructions
+### Instructions
 
 * For the pasta, sift the flour into a bowl and add the rest of the ingredients, combining to a firm dough, not crumbly or sticky in any way. If it's too crumbly, add a little more wine (or water) but only a bit at a time—just enough to bring it together. Keep kneading, about 10 minutes in total, until the dough is lusciously smooth. Let rest, covered in plastic wrap, for at least 30 minutes.
 

@@ -1,8 +1,8 @@
-#[Funfetti Macarons](http://www.sweetandsavorybyshinee.com/funfetti-macarons-with-full-video-tutorial/)
+# [Funfetti Macarons](http://www.sweetandsavorybyshinee.com/funfetti-macarons-with-full-video-tutorial/)
 ![alt text](http://www.sweetandsavorybyshinee.com/wp-content/uploads/2015/12/funfetti-macarons.jpg)
-###Ingredients
+### Ingredients
 
-####For White Chocolate Buttercream:
+#### For White Chocolate Buttercream:
 * 5 tablespoons (70gr) unsalted butter, softened
 * 1/3 cup (50gr) powdered sugar
 * ½ cup (70gr) white chocolate chips
@@ -10,7 +10,7 @@
 * 1-2 teaspoons sprinkles
 
 
-####For macaron shells:
+#### For macaron shells:
 * 1 cup (100gr) almond flour
 * ¾ cup (100gr) powdered sugar
 * 2 large egg whites (about 70gr)
@@ -20,7 +20,7 @@
 * 2-3 tablespoons sprinkles
 
 
-###Instructions
+### Instructions
 
 * In a medium bowl, sift together almond flour and powdered sugar twice. Set aside.
 

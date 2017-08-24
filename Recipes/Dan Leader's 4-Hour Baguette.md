@@ -1,6 +1,6 @@
-#[Dan Leader's 4-Hour Baguette](http://food52.com/recipes/27433-dan-leader-s-4-hour-baguette)
+# [Dan Leader's 4-Hour Baguette](http://food52.com/recipes/27433-dan-leader-s-4-hour-baguette)
 ![alt text](https://images.food52.com/fI64m-3aN33KtR34LVQGYpT5B0U=/753x502/3bae7f05-ba4c-4ede-8e1f-d3f112a46e76--2014-0218_genius_william-alexander-4-hour-baguette-745.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1|teaspoon (1/8 ounce) active dry yeast|
@@ -10,7 +10,7 @@
 ||Canola oil, for greasing bowl|
 |3|teaspoons (3/8 ounces) Diamond Crystal kosher salt (note: if using a fine-grained salt like table salt, fine sea salt or other brands of kosher salt, you will need to use a smaller volume)|
 
-###Instructions
+### Instructions
 
 * Whisk together water and yeast in a large bowl; let sit until yeast is foamy, about 10 minutes. Add flour, and stir with a fork until dough forms and all flour is absorbed; let dough sit to allow flour to hydrate, about 20 minutes. Add salt, then transfer dough to a lightly floured work surface, and knead until smooth and elastic, about 10 minutes. Transfer dough ball to a lightly greased bowl, cover bowl with plastic wrap, and place bowl in a cold oven or microwave. Let dough rest until doubled in size, about 45 minutes.
 

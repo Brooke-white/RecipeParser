@@ -1,6 +1,6 @@
-#[Baked Tofu and Vegetable Egg Rolls](http://food52.com/recipes/24793-baked-tofu-and-vegetable-egg-rolls)
+# [Baked Tofu and Vegetable Egg Rolls](http://food52.com/recipes/24793-baked-tofu-and-vegetable-egg-rolls)
 ![alt text](https://images.food52.com/RyLPh55V44W23CXMXQ4tZzNLkSs=/753x502/4613b142-5c5d-4379-9746-11d5a83e6634--2014-0114_CP_tofu-vegetable-egg-rolls-014.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1|tablespoon soy sauce|
@@ -22,7 +22,7 @@
 |1|medium carrot, shredded|
 |4|celery stalks, shredded or finely diced|
 
-###Instructions
+### Instructions
 
 * Place mushrooms in a small heatproof bowl. Pour over enough boiling water to cover, and let soak for 15 to 30 minutes. Remove the mushrooms from the water and squeeze dry, then thinly slice. Reserve 1/2 cup of the mushroom soaking liquid.
 

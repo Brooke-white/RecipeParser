@@ -1,6 +1,6 @@
-#[Vegetable Wonton Miso Soup](http://food52.com/recipes/40582-vegetable-wonton-miso-soup)
+# [Vegetable Wonton Miso Soup](http://food52.com/recipes/40582-vegetable-wonton-miso-soup)
 ![alt text](https://images.food52.com/YSPKi-3IIJsiXJx-XJmn3w3Kyz4=/753x502/c9048b82-d0be-4334-be0b-0946775b9755--wonton_dumpling_soup_vegetarian_recipe.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |4|cups vegetable and/or miso broth (I used a combination of both)|
@@ -19,7 +19,7 @@
 |2|bok choy|
 |1|cup baby spinach leaves, washed|
 
-###Instructions
+### Instructions
 
 * Start by defrosting the wonton or gyoza skins, if frozen.
 

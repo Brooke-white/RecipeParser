@@ -1,6 +1,6 @@
-#[Yankee Magazines Pumpkin Pie with Pecan Crunch](https://food52.com/recipes/65258-yankee-magazine-s-pumpkin-pie-with-pecan-crunch)
+# [Yankee Magazines Pumpkin Pie with Pecan Crunch](https://food52.com/recipes/65258-yankee-magazine-s-pumpkin-pie-with-pecan-crunch)
 ![alt text](https://images.food52.com/5daf8iZvKs4dSIvGs6r71MeiSr0=/753x502/6783f4a4-7b96-4616-9651-1d690576f46f--2016-1102_genius-yankee-magazine-pumpkin-pie-pecan-crunch_james-ransom-392.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 ||Whipped cream for serving (optional)|
@@ -18,7 +18,7 @@
 |1|cup chopped pecans|
 |2|cups pumpkin puree|
 
-###Instructions
+### Instructions
 
 * Combine filling ingredients and pour into pre-baked shell. Bake at 350 degrees for 10 minutes. Turn heat down to 325 degrees and continue to bake until set, about 40 minutes more. Pie is ready when a knife blade inserted 1-1/2 inches in from the edge emerges clean. The center of the pie may still quiver gently. Place on a rack and let cool completely.
 

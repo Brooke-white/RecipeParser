@@ -1,6 +1,6 @@
-#[Margaret Fox's Amazon Chocolate Cake](http://food52.com/recipes/24484-margaret-fox-s-amazon-chocolate-cake)
+# [Margaret Fox's Amazon Chocolate Cake](http://food52.com/recipes/24484-margaret-fox-s-amazon-chocolate-cake)
 ![alt text](https://images.food52.com/4vp47QNxAmWsvurBIYUHz6b8xEw=/753x502/ffcd4803-ce58-48bb-961c-ec16ecaa9b0c--2013-1001_genius_chocolate_cake-450.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 ||Confectioners' sugar (optional, for dusting)|
@@ -14,7 +14,7 @@
 |1/2|teaspoon salt|
 |1|cup sugar|
 
-###Instructions
+### Instructions
 
 * Heat the oven to 350° F.
 

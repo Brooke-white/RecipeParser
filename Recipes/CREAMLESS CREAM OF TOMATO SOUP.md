@@ -1,6 +1,6 @@
-#[CREAMLESS CREAM OF TOMATO SOUP](http://food52.com/recipes/381-creamless-cream-of-tomato-soup)
+# [CREAMLESS CREAM OF TOMATO SOUP](http://food52.com/recipes/381-creamless-cream-of-tomato-soup)
 ![alt text](https://images.food52.com/MUj_0Ucbk9HbMibWssv0rzmVIa8=/753x502/d42fbad6-3779-4c05-b22b-244fd9d60d3a--2852563102_279d2d6997.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |1|teaspoon Brown Sugar|
@@ -15,7 +15,7 @@
 ||Fresh Basil, chopped, optional for garnish|
 |1|Bay Leaf|
 
-###Instructions
+### Instructions
 
 * Heat the oil in a large pot.
 

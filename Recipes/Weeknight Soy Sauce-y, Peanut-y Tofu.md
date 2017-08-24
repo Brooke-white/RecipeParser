@@ -1,6 +1,6 @@
-#[Weeknight Soy Sauce-y, Peanut-y Tofu](http://food52.com/recipes/26968-weeknight-soy-sauce-y-peanut-y-tofu)
+# [Weeknight Soy Sauce-y, Peanut-y Tofu](http://food52.com/recipes/26968-weeknight-soy-sauce-y-peanut-y-tofu)
 ![alt text](https://images.food52.com/xiMmg_lwqSiL_CyBc9NqAIlA5b8=/753x502/5c7063bf-fd71-4729-aa91-9cc1b5d928b3--13113532005_2bdbcfb167_b.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |2|tablespoons Shaoxing wine|
@@ -15,7 +15,7 @@
 |1|tablespoon molasses|
 |2|blocks of tofu, extra firm or firm|
 
-###Instructions
+### Instructions
 
 * If you have time, press the tofu. (Place it under a weighted cutting board for a half-hour, letting the liquid run off or get absorbed by paper towels.) Dry it off. Then slice it into small cubes, in the 1/2-1-inch range.
 

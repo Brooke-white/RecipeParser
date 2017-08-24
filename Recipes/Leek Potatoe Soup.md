@@ -1,6 +1,6 @@
-#Leek Potato Soup
-###Ingredients
-#####Soup
+# Leek Potato Soup
+### Ingredients
+##### Soup
 |Quantity|Ingredient|
 ----------:|:-------
 |3|tablespoon unsalted butter|
@@ -12,7 +12,7 @@
 |2-3|tablespoon minced parsley or chives|
 
 
-###Instructions
+### Instructions
 
 * Sauté leeks and butter in stock pot. Cover and let simmer for 5 minutes.
 * Stir in flour and mix well, about 2 minutes. Do not let it brown. Let cool a few minutes, then add in 1 cup of the hot water and mix well.

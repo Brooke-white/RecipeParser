@@ -1,6 +1,6 @@
-#[Slow Cooker Ramen](http://food52.com/recipes/34004-slow-cooker-ramen)
+# [Slow Cooker Ramen](http://food52.com/recipes/34004-slow-cooker-ramen)
 ![alt text](https://images.food52.com/kswHDSj_WovWZawlPI82YK6yucM=/753x502/89987bec-8668-4bef-858a-51b53918ea40--ramen.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |2|cups Steamed veggies, like Bok Choy/ Mushrooms|
@@ -17,7 +17,7 @@
 |1|2-in piece ginger, peeled and chopped|
 ||Soy sauce, sesame oil to taste for serving|
 
-###Instructions
+### Instructions
 
 * Season pork with salt and sear in a hot pan with oil, about 3-4 minutes each side. Put in to slow cooker.
 

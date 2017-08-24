@@ -1,6 +1,6 @@
-#[Coconut Pie](https://food52.com/recipes/37404-coconut-pie)
+# [Coconut Pie](https://food52.com/recipes/37404-coconut-pie)
 ![alt text](https:https://images.food52.com/BVLo_XlaxZQqfkvVk9G-KGo56GA=/753x502/3f29a623-4495-46dd-9317-ff04ed302431--2015-0811_coconut-pie_alpha-smoot_527.jpg)
-###Ingredients
+### Ingredients
 |Quantity|Ingredient|
 ----------:|:-------
 |3|tablespoons sugar|
@@ -18,7 +18,7 @@
 |1|cup whipping cream|
 |1|tablespoon cold butter|
 
-###Instructions
+### Instructions
 
 * Start by making a graham cracker crust: Crush the graham crackers and pecans in a food processor (or by hand in a baggie with a rolling pin). Stir in melted butter, press into a pie tin, and bake at 350Â° F for 10 minutes. Then leave the crust to cool.
 
