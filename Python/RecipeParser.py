@@ -147,8 +147,8 @@ class Food52Parse(RecipeParse):
         Generates markdown styled string
         :return: None
         """
-        return "#[{}]({})\n![alt text]({})\n###Ingredients\n|Quantity|" \
-               "Ingredient|\n----------:|:-------\n{}\n###Instructions{}" \
+        return "# [{}]({})\n![alt text]({})\n### Ingredients\n|Quantity|" \
+               "Ingredient|\n----------:|:-------\n{}\n### Instructions{}" \
                "".format(self.title, self.url, self.img_url,
                          get_ingredient_table(self.ingredients),
                          get_instruction_list(self.instructions))
@@ -250,8 +250,8 @@ class AllRecipesParse(RecipeParse):
         Generates markdown styled string
         :return: None
         """
-        return "#[{}]({})\n![alt text]({})\n###Ingredients\n|Ingredient|" \
-               "\n|:-------|\n{}\n###Instructions{}".format(
+        return "# [{}]({})\n![alt text]({})\n### Ingredients\n|Ingredient|" \
+               "\n|:-------|\n{}\n### Instructions{}".format(
                 self.title, self.url, self.img_url,
                 get_ingredient_table_simple(self.ingredients),
                 get_instruction_list(self.instructions))
@@ -323,8 +323,8 @@ class FoodDotComParse(RecipeParse):
         Generates markdown styled string
         :return: None
         """
-        return "#[{}]({})\n![alt text]\n({})\n###Ingredients\n" \
-               "|Ingredient|\n|:-------|\n{}\n###Instructions{}".format(
+        return "# [{}]({})\n![alt text]\n({})\n### Ingredients\n" \
+               "|Ingredient|\n|:-------|\n{}\n### Instructions{}".format(
                 self.title, self.url, self.img_url,
                 get_ingredient_table_simple(self.ingredients),
                 get_instruction_list(self.instructions))
@@ -393,8 +393,8 @@ class CookingNYTimesParse(RecipeParse):
         Generates markdown styled string
         :return: None
         """
-        return "#[{}]({})\n![alt text]({})\n###Ingredients\n|Ingredient|\n" \
-               "|:-------\n{}\n###Instructions{}" \
+        return "# [{}]({})\n![alt text]({})\n### Ingredients\n|Ingredient|\n" \
+               "|:-------\n{}\n### Instructions{}" \
                "".format(self.title, self.url, self.img_url,
                          get_ingredient_table_simple(self.ingredients),
                          get_instruction_list(self.instructions))
@@ -467,8 +467,8 @@ class SweetAndSavoryParse(RecipeParse):
         Generates markdown styled string
         :return: None
         """
-        return "#[{}]({})\n![alt text]({})\n###Ingredients\n{}" \
-               "\n###Instructions{}".format(self.title, self.url, self.img_url,
+        return "# [{}]({})\n![alt text]({})\n### Ingredients\n{}" \
+               "\n### Instructions{}".format(self.title, self.url, self.img_url,
                                             get_ingredient_list_with_subtitles(
                                                 self.ingredients),
                                             get_instruction_list(
@@ -573,8 +573,8 @@ class FoodNetworkParse(RecipeParse):
         Generates markdown styled string
         :return: None
         """
-        return "#[{}]({})\n![alt text]({})\n###Ingredients\n{}" \
-               "\n###Instructions{}".format(self.title, self.url, self.img_url,
+        return "# [{}]({})\n![alt text]({})\n### Ingredients\n{}" \
+               "\n### Instructions{}".format(self.title, self.url, self.img_url,
                                             get_ingredient_list_with_subtitles(
                                                 self.ingredients),
                                             get_ingredient_list_with_subtitles(
@@ -679,15 +679,15 @@ class MarthaStewartParse(RecipeParse):
         :return: None
         """
         if self.recipe_yield:
-            return "#[{}]({})\n![alt text]({})\n######{}\n###Ingredients\n{}" \
-                   "\n###Instructions{}".format(
+            return "# [{}]({})\n![alt text]({})\n###### {}\n### Ingredients\n{}" \
+                   "\n### Instructions{}".format(
                     self.title, self.url, self.img_url, self.recipe_yield,
                     get_ingredient_list_with_subtitles(self.ingredients),
                     get_instruction_list(self.instructions)
                     )
         else:
-            return "#[{}]({})\n![alt text]({})\n###Ingredients\n{}" \
-                   "\n###Instructions{}".format(
+            return "# [{}]({})\n![alt text]({})\n### Ingredients\n{}" \
+                   "\n### Instructions{}".format(
                     self.title, self.url, self.img_url,
                     get_ingredient_list_with_subtitles(self.ingredients),
                     get_instruction_list(self.instructions)
@@ -779,8 +779,8 @@ class LiveEatLearnParse(RecipeParse):
         Generates markdown styled string
         :return: None
         """
-        return "#[{}]({})\n![alt text]({})\n\n|Ingredients|\n" \
-               "| ------------- |\n{}\n###Instructions{}".format(
+        return "# [{}]({})\n![alt text]({})\n\n|Ingredients|\n" \
+               "| ------------- |\n{}\n### Instructions{}".format(
                     self.title, self.url, self.img_url,
                     get_ingredient_table_simple(self.ingredients),
                     get_instruction_list(self.instructions)
