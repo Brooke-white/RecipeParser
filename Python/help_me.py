@@ -63,7 +63,7 @@ def get_ingredient_list_with_subtitles(ingredient_dict):
     ingredient_list = ''
 
     for title, ingredients in ingredient_dict.items():
-            ingredient_list += "\n######" + title + "\n" if title else ''
+            ingredient_list += "\n###### " + title + "\n" if title else ''
             for ingredient in ingredients:
                 ingredient_list += "* " + ingredient + "\n"
     return ingredient_list
@@ -91,7 +91,7 @@ def get_instruction_dict_with_subtitles(instruction_dict):
     instruction_list = ''
     for title, steps in instruction_dict.items():
             if title:
-                instruction_list += "\n####" + title + "\n"
+                instruction_list += "\n#### " + title + "\n"
             else:
                 instruction_list += "\n"
             for step in steps:
