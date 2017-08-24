@@ -40,6 +40,9 @@ def main(cur_file):
         if "liveeatlearn" in url:
             thisrecipe = LiveEatLearnParse(url)
 
+        if "epicurious" in url:
+            thisrecipe = EpicuriousParse(url)
+
         if thisrecipe:
             thisrecipe.set_recipe_contents()
             try:

@@ -29,12 +29,17 @@ BeautifulSoup4 (pip install bs4)
 
 + [LiveEatLearn.com](http://www.liveeatlearn.com/)
 
++ [Epicurious.com] (http://www.epicurious.com/recipes-menu)
+
 ## Usage
 file: A text file containing recipe urls from the supported websites
 
-    file = "/Users/you/anywhere/recipes.txt"
+    file = "/Users/brooke/Desktop/recipes.txt"
+
     if main(file):
-        print("All "
+        print("Success")
+    else:
+        print("Not all markdown files were generated")
 
 
 If generating the markdown files is a success you will see a success message, otherwise you'll see which markdown files weren't generated and the corresponding error messages.
@@ -48,3 +53,4 @@ If generating the markdown files is a success you will see a success message, ot
     http://www.foodnetwork.com/recipes/mock-garlic-mashed-potatoes-recipe.html
     http://www.marthastewart.com/1075067/stuffed-tomatoes-mozzarella
     http://www.liveeatlearn.com/honey-lime-grilled-pineapple/
+    http://www.epicurious.com/recipes/food/views/spiced-pumpkin-bread-840
