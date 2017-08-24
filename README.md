@@ -29,7 +29,7 @@ BeautifulSoup4 (pip install bs4)
 
 + [LiveEatLearn.com](http://www.liveeatlearn.com/)
 
-+ [Epicurious.com] (http://www.epicurious.com/recipes-menu)
++ [Epicurious.com](http://www.epicurious.com/recipes-menu)
 
 ## Usage
 file: A text file containing recipe urls from the supported websites
